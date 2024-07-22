@@ -185,10 +185,26 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: "TXN001",
-        dateTime: "July 24 2024, 1:03:06 pm",
+        dateTime: "July 24 2024, 8:03:06 am",
         description: "Transfer from G&C Mutual Bank",
         status: "Success",
-        amount_usd: 58000.0,
+        amount_usd: 1500000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "TXN001",
+        dateTime: "July 24 2024, 1:20:40 pm",
+        description: "Transfer from G&C Mutual Bank",
+        status: "Success",
+        amount_usd: 1000000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "TXN001",
+        dateTime: "July 24 2024, 6:14:18 pm",
+        description: "Transfer from G&C Mutual Bank",
+        status: "Success",
+        amount_usd: 700000.0,
         account_no: "****5009",
       },
       {
