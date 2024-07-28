@@ -369,7 +369,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: "TXN001",
         dateTime: "July 27 2024, 8:03:06 am",
-        description: "Transfer from Coin flip Machine",
+        description: "Deposit from Coin flip Machine",
         status: "Pending",
         amount_usd: 700.0,
         account_no: "****5009",
@@ -377,7 +377,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: "TXN002",
         dateTime: "July 26 2024, 1:20:40 pm",
-        description: "Transfer from Coin flip Machine",
+        description: "Deposit from Coin flip Machine",
         status: "Pending",
         amount_usd: 300.0,
         account_no: "****2637",
