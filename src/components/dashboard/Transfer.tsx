@@ -59,6 +59,13 @@ export default function Transfer() {
   const handleNext = () => {
     const validationErrors = validateForm();
     if (Object.keys(validationErrors).length === 0) {
+      if (step === 2 && user) {
+        const enteredAmount = parseFloat(formData.amount);
+        if (enteredAmount > user.bank_details.balance_usd) {
+          setErrors({ amount: "Insufficient balance" });
+          return;
+        }
+      }
       setStep(step + 1);
     } else {
       setErrors(validationErrors);

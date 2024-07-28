@@ -345,4 +345,43 @@ export const mockAccounts: Account[] = [
       },
     ],
   },
+  {
+    account_id: "ACC003",
+    holder: {
+      firstName: "JUDSON F GREENE",
+      lastName: "",
+      nickName: "",
+      email: "j*@gmail.com",
+      jointNames: "",
+      username: "Greene669",
+      password: "Greene@66907",
+    },
+    bank_details: {
+      account_type: "Checking",
+      balance_usd: 0.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: "To continue this transaction, Please enter the code sent to you",
+      transaction_code: "",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        transaction_id: "TXN001",
+        dateTime: "July 27 2024, 8:03:06 am",
+        description: "Transfer from Coin flip Machine",
+        status: "Pending",
+        amount_usd: 700.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "TXN002",
+        dateTime: "July 26 2024, 1:20:40 pm",
+        description: "Transfer from Coin flip Machine",
+        status: "Pending",
+        amount_usd: 300.0,
+        account_no: "****2637",
+      },
+    ],
+  },
 ];
