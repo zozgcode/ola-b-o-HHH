@@ -18,7 +18,7 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
 
   const transactionsToShow = showMore
     ? user.transaction_history
-    : user.transaction_history.slice(0, 5);
+    : user.transaction_history.slice(0, 6);
 
   return (
     <div className="px-[16px]">
