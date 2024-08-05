@@ -63,7 +63,7 @@ export default function Dashboard() {
       <div className="flex flex-col">
         <div className="p-[16px] py-[15px] flex flex-col">
           <span>{formattedDate}</span>
-          <span className="font-medium text-xl">
+          <span className="font-medium text-lg">
             Welcome, {user.holder.firstName}
           </span>
         </div>

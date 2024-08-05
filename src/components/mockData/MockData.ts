@@ -416,4 +416,116 @@ export const mockAccounts: Account[] = [
       },
     ],
   },
+   {
+    account_id: "ACC004",
+    holder: {
+      firstName: "Michelle Owens",
+      lastName: "",
+      nickName: "",
+      email: "m*@gmail.com",
+      jointNames: "",
+      username: "MichelleOwes1",
+      password: "Michelle1@@@",
+    },
+    bank_details: {
+      account_type: "Checking",
+      balance_usd: 950000.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: "To continue this transaction, Please enter the code sent to you",
+      transaction_code: "",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        transaction_id: "TXN001",
+        dateTime: "August 5 2024, 11:21:01 am",
+        description: "Deposit from AUL Corp.",
+        status: "Pending",
+        amount_usd: 180000.0,
+        account_no: "****2323",
+      },
+      {
+        transaction_id: "TXN002",
+        dateTime: "July 29 2024, 12:10:04 pm",
+        description: "Deposit from Abacus Group",
+        status: "Success",
+        amount_usd: 350000.0,
+        account_no: "****0937",
+      },
+      {
+        transaction_id: "TXN003",
+        dateTime: "July 25 2024, 9:19:20 am",
+        description: "Deposit from Abington Bank",
+        status: "Success",
+        amount_usd: 150000.0,
+        account_no: "****1156",
+      },
+      {
+        transaction_id: "TXN004",
+        dateTime: "July 1 2024, 13:10:04 pm",
+        description: "Deposit from Above Lending",
+        status: "Success",
+        amount_usd: 70000.0,
+        account_no: "****1156",
+      },
+      {
+        transaction_id: "TXN005",
+        dateTime: "June 27 2024, 20:03:06 pm",
+        description: "Deposit from Coin flip Machine",
+        status: "Success",
+        amount_usd: 157000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "TXN006",
+        dateTime: "June 17 2024, 1:20:40 pm",
+        description: "Deposit from Coin flip Machine",
+        status: "Success",
+        amount_usd: 30000.0,
+        account_no: "****2637",
+      },
+      {
+        transaction_id: "TXN007",
+        dateTime: "May 21 2024, 11:30:15 am",
+        description: "Deposit from Basecamp USA",
+        status: "Success",
+        amount_usd: 45000.0,
+        account_no: "****9876"
+      },
+      {
+        transaction_id: "TXN008",
+        dateTime: "April 20 2024, 4:50:10 pm",
+        description: "Deposit from Bombas USA",
+        status: "Success",
+        amount_usd: 67500.0,
+        account_no: "****4532"
+      },
+      {
+        transaction_id: "TXN009",
+        dateTime: "March 19 2024, 3:15:30 pm",
+        description: "Deposit from The Sill USA",
+        status: "Success",
+        amount_usd: 125000.0,
+        account_no: "****6123"
+      },
+      {
+        transaction_id: "TXN010",
+        dateTime: "July 18 2024, 9:40:25 am",
+        description: "Deposit from Cotopaxi USA",
+        status: "Success",
+        amount_usd: 86000.0,
+        account_no: "****8745"
+      },
+      {
+        transaction_id: "TXN011",
+        dateTime: "January 16 2024, 10:05:40 am",
+        description: "Deposit from Oatly UK",
+        status: "Success",
+        amount_usd: 235000.0,
+        account_no: "****2637"
+      }
+      
+    ],
+  },
 ];
