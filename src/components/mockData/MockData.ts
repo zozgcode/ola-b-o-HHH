@@ -19,7 +19,8 @@ export const mockAccounts: Account[] = [
       balance_usd: 115678.0,
     },
     transaction_mgs_code: {
-      transaction_text_msg: "To continue this transaction, Please enter the code sent to you",
+      transaction_text_msg:
+        "To continue this transaction, Please enter the code sent to you",
       transaction_code: "",
       wireDate: true,
     },
@@ -63,7 +64,7 @@ export const mockAccounts: Account[] = [
         status: "Success",
         amount_usd: -650.0,
         account_no: "****1403",
-      }, 
+      },
       {
         transaction_id: "TXN006",
         dateTime: "April 23 2020, 8:15:02 pm",
@@ -178,7 +179,8 @@ export const mockAccounts: Account[] = [
       balance_usd: 4800000.0,
     },
     transaction_mgs_code: {
-      transaction_text_msg: "To continue this transaction, Please enter the code sent to you",
+      transaction_text_msg:
+        "To continue this transaction, Please enter the code sent to you",
       transaction_code: "",
       wireDate: true,
     },
@@ -246,7 +248,7 @@ export const mockAccounts: Account[] = [
         status: "Success",
         amount_usd: -650.0,
         account_no: "****1403",
-      }, 
+      },
       {
         transaction_id: "TXN006",
         dateTime: "April 23 2020, 8:15:02 pm",
@@ -361,7 +363,8 @@ export const mockAccounts: Account[] = [
       balance_usd: 85002300.0,
     },
     transaction_mgs_code: {
-      transaction_text_msg: "To continue this transaction, Please enter the code sent to you",
+      transaction_text_msg:
+        "To continue this transaction, Please enter the code sent to you",
       transaction_code: "",
       wireDate: true,
     },
@@ -416,7 +419,7 @@ export const mockAccounts: Account[] = [
       },
     ],
   },
-   {
+  {
     account_id: "ACC004",
     holder: {
       firstName: "Michelle Owens",
@@ -432,7 +435,8 @@ export const mockAccounts: Account[] = [
       balance_usd: 950000.0,
     },
     transaction_mgs_code: {
-      transaction_text_msg: "To continue this transaction, Please enter the code sent to you",
+      transaction_text_msg:
+        "To continue this transaction, Please enter the code sent to you",
       transaction_code: "",
       wireDate: true,
     },
@@ -491,7 +495,7 @@ export const mockAccounts: Account[] = [
         description: "Deposit from Basecamp USA",
         status: "Success",
         amount_usd: 45000.0,
-        account_no: "****9876"
+        account_no: "****9876",
       },
       {
         transaction_id: "TXN008",
@@ -499,7 +503,7 @@ export const mockAccounts: Account[] = [
         description: "Deposit from Bombas USA",
         status: "Success",
         amount_usd: 67500.0,
-        account_no: "****4532"
+        account_no: "****4532",
       },
       {
         transaction_id: "TXN009",
@@ -507,7 +511,7 @@ export const mockAccounts: Account[] = [
         description: "Deposit from The Sill USA",
         status: "Success",
         amount_usd: 125000.0,
-        account_no: "****6123"
+        account_no: "****6123",
       },
       {
         transaction_id: "TXN010",
@@ -515,7 +519,7 @@ export const mockAccounts: Account[] = [
         description: "Deposit from Cotopaxi USA",
         status: "Success",
         amount_usd: 86000.0,
-        account_no: "****8745"
+        account_no: "****8745",
       },
       {
         transaction_id: "TXN011",
@@ -523,9 +527,96 @@ export const mockAccounts: Account[] = [
         description: "Deposit from Oatly UK",
         status: "Success",
         amount_usd: 235000.0,
-        account_no: "****2637"
-      }
-      
+        account_no: "****2637",
+      },
+    ],
+  },
+  {
+    account_id: "ACC005",
+    holder: {
+      firstName: "David Griffin",
+      lastName: "",
+      mobileNumber: "+1 424 373 9448",
+      email: "beautifullove1304@gmail.com",
+      jointNames: "",
+      username: "DavidG1304",
+      password: "Ola303060",
+    },
+    bank_details: {
+      account_type: "Checking",
+      balance_usd: 27747.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg:
+        "To continue this transaction, Please enter the code sent to you",
+      transaction_code: "",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        transaction_id: "TXN001",
+        dateTime: "August 20 2024",
+        description: "Credit from D&D Building",
+        status: "Success",
+        amount_usd: 11000.0,
+        account_no: "****2323",
+      },
+      {
+        transaction_id: "TXN002",
+        dateTime: "August 20 2024",
+        description: "Credit from D&D Building",
+        status: "Pending",
+        amount_usd: 400000.0,
+        account_no: "****0937",
+      },
+      {
+        transaction_id: "TXN003",
+        dateTime: "August 19 2024",
+        description: "Debit from Delta airlines",
+        status: "Success",
+        amount_usd: -2316.0,
+        account_no: "****1156",
+      },
+      {
+        transaction_id: "TXN004",
+        dateTime: "August 19 2024",
+        description: "Debit from booking.com",
+        status: "Success",
+        amount_usd: -3302.0,
+        account_no: "****1156",
+      },
+      {
+        transaction_id: "TXN005",
+        dateTime: "August 10 2024",
+        description: "Withdrawal",
+        status: "Success",
+        amount_usd: -4000.0,
+        account_no: "****1156",
+      },
+      {
+        transaction_id: "TXN006",
+        dateTime: "August 5 2024",
+        description: "Withdrawal",
+        status: "Success",
+        amount_usd: -5000.0,
+        account_no: "****1156",
+      },
+      {
+        transaction_id: "TXN007",
+        dateTime: "August 5 2024",
+        description: "Credit from Investment",
+        status: "Success",
+        amount_usd: 30000.0,
+        account_no: "****9876",
+      },
+      {
+        transaction_id: "TXN008",
+        dateTime: "August 1 2024",
+        description: "Account 0pen",
+        status: "Success",
+        amount_usd: -1000.0,
+        account_no: "****4532",
+      },
     ],
   },
 ];
