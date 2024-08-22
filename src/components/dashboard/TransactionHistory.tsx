@@ -25,7 +25,7 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
       <div className="w-full">
         <div className="text-[14px] w-full font-[500] flex items-center justify-between">
           <span>Recent Transactions</span>
-          <Link href="/dashboard/transactions" className="text-[13px] font-[500] underline underline-offset-4 text-[#d71e28]">See More</Link>
+          <Link href="/dashboard/transactions" className="text-[13px] font-[500] text-[#d71e28]">See More</Link>
         </div>
         <div className="mt-[10px]">
           {transactionsToShow.map((transaction: Transaction) => (
@@ -39,7 +39,7 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
               </div>
               <div className="flex flex-col gap-1 justify-between text-right">
                 <span className={`text-[14px] font-[600] ${transaction.amount_usd < 0 ? "text-gray-800" : ""}`}>{hideBalance ? "*****" : `${formatCurrency(transaction.amount_usd)}`}</span>
-                <span className={`text-[10px] font-medium ${transaction.status === "Pending" ? "text-red-600" : "text-green-600"}`}>{transaction.status}</span>
+                <span className={`text-[10px] font-medium ${transaction.status === "Pending" ? "text-yellow-600" : "text-green-600"}`}>{transaction.status}</span>
               </div>
             </div>
           ))}
