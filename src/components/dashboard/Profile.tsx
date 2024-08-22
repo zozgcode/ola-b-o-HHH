@@ -51,21 +51,26 @@ export default function Profile() {
               {user.holder.firstName}&nbsp;{user.holder.lastName}
             </span>
           </div>
-          <div className="flex w-full justify-between items-center">
-            <span className="text-[#3f3f3f] font-normal">Phone</span>
-            <span className="text-[#252525] font-medium flex items-center gap-1">
-              {user.holder.mobileNumber}
-            </span>
-          </div>
-          <div className="flex w-full justify-between items-center">
-            <span className="text-[#3f3f3f] font-normal">Email</span>
-            <span className="text-[#252525] font-medium flex items-center gap-1">
-              <span className="bg-[#d71e28]/30 text-black text-xs p-2 py-1 rounded-lg flex items-center gap-1">
-                Verified <GoCheckCircleFill />
+          {user.holder.mobileNumber && (
+            <div className="flex w-full justify-between items-center">
+              <span className="text-[#3f3f3f] font-normal">Phone</span>
+              <span className="text-[#252525] font-medium flex items-center gap-1">
+                {user.holder.mobileNumber}
               </span>
-              <span>{user.holder.email}</span>
-            </span>
-          </div>
+            </div>
+          )}
+          {user.holder.email && (
+            <div className="flex w-full justify-between items-center">
+              <span className="text-[#3f3f3f] font-normal">Email</span>
+              <span className="text-[#252525] font-medium flex items-center gap-1">
+                <span className="bg-[#d71e28]/30 text-black text-xs p-2 py-1 rounded-lg flex items-center gap-1">
+                  Verified <GoCheckCircleFill />
+                </span>
+                <span>{user.holder.email}</span>
+              </span>
+            </div>
+          )}
+
           <div className="w-full justify-between hidden items-center">
             <span className="text-[#3f3f3f] font-normal">Account Number</span>
             <span className="text-[#252525] font-medium flex items-center gap-1">
