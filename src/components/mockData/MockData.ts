@@ -936,7 +936,71 @@ export const mockAccounts: Account[] = [
         status: "Success",
         amount_usd: 150000.0,
         account_no: "****2849",
-      }
+      },
+    ],
+  },
+  {
+    account_id: "ACC009",
+    holder: {
+      firstName: "Carolina West",
+      lastName: "",
+      mobileNumber: "",
+      email: "c*@gmail.com",
+      jointNames: "",
+      username: "Carolina7790",
+      password: "Athlete2288",
+    },
+    bank_details: {
+      account_type: "Checking",
+      balance_usd: 5100000.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg:
+        "To continue this transaction, Please enter the code sent to you",
+      transaction_code: "",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        transaction_id: "001",
+        dateTime: "August 23 2024",
+        description: "Credit from BT Group",
+        status: "Success",
+        amount_usd: 1500000.0,
+        account_no: "****2323",
+      },
+      {
+        transaction_id: "002",
+        dateTime: "August 23 2024",
+        description: "Credit from Supermicro",
+        status: "Success",
+        amount_usd: 1200000.0,
+        account_no: "****4532",
+      },
+      {
+        transaction_id: "003",
+        dateTime: "August 23 2024",
+        description: "Credit from Zendesk",
+        status: "Success",
+        amount_usd: 1000000.0,
+        account_no: "****2319",
+      },
+      {
+        transaction_id: "004",
+        dateTime: "August 23 2024",
+        description: "Credit from Corsair",
+        status: "Success",
+        amount_usd: 800000.0,
+        account_no: "****8491",
+      },
+      {
+        transaction_id: "005",
+        dateTime: "August 23 2024",
+        description: "Credit from Atlassian",
+        status: "Success",
+        amount_usd: 600000.0,
+        account_no: "****7320",
+      },
     ],
   },
 ];
