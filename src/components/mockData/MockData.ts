@@ -793,7 +793,7 @@ export const mockAccounts: Account[] = [
       firstName: "Morgan Conrad",
       lastName: "",
       mobileNumber: "",
-      email: "morganconrad7790@gmail.com",
+      email: "morganconrad7790@hotmail.com",
       jointNames: "",
       username: "Morgan7790",
       password: "@Morgan12345$$!28",
