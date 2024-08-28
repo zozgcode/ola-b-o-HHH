@@ -828,7 +828,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '004',
         dateTime: 'June 30 2024',
-        description: 'Debit from Corsair',
+        description: 'Transfer to Corsair',
         status: 'Success',
         amount_usd: -150000.0,
         account_no: '****8491'
@@ -852,7 +852,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '007',
         dateTime: 'March 5 2024',
-        description: 'Debit from Qualtrics',
+        description: 'Transfer to Qualtrics',
         status: 'Success',
         amount_usd: -500000.0,
         account_no: '****6328'
@@ -884,7 +884,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '011',
         dateTime: 'November 22 2023',
-        description: 'Debit from HubSpot',
+        description: 'Transfer to HubSpot',
         status: 'Success',
         amount_usd: -400000.0,
         account_no: '****1682'
