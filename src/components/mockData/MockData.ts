@@ -788,8 +788,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '',
       email: 'morganconrad7790@hotmail.com',
       jointNames: '',
-      username: 'Morgan7790',
-      password: '@Morgan12345$$!28'
+      username: 'f',
+      password: 'ff'
     },
     bank_details: {
       account_type: 'Checking',
@@ -820,17 +820,17 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '003',
         dateTime: 'July 15 2024',
-        description: 'Credit from Zendesk',
+        description: 'transfer to Zendesk',
         status: 'Success',
-        amount_usd: 250000.0,
+        amount_usd: -250000.0,
         account_no: '****2319'
       },
       {
         transaction_id: '004',
         dateTime: 'June 30 2024',
-        description: 'Credit from Corsair',
+        description: 'transfer to Corsair',
         status: 'Success',
-        amount_usd: 150000.0,
+        amount_usd: -150000.0,
         account_no: '****8491'
       },
       {
@@ -844,25 +844,25 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '006',
         dateTime: 'April 10 2024',
-        description: 'Credit from Sonos',
+        description: 'transfer to Sonos',
         status: 'Success',
-        amount_usd: 200000.0,
+        amount_usd: -200000.0,
         account_no: '****9457'
       },
       {
         transaction_id: '007',
         dateTime: 'March 5 2024',
-        description: 'Credit from Qualtrics',
+        description: 'transfer to Qualtrics',
         status: 'Success',
-        amount_usd: 500000.0,
+        amount_usd: -500000.0,
         account_no: '****6328'
       },
       {
         transaction_id: '008',
         dateTime: 'February 20 2024',
-        description: 'Credit from Zebra Technologies',
+        description: 'transfer to Zebra Technologies',
         status: 'Success',
-        amount_usd: 100000.0,
+        amount_usd: -100000.0,
         account_no: '****2736'
       },
       {
@@ -876,17 +876,17 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '010',
         dateTime: 'December 5 2023',
-        description: 'Credit from Netgear',
+        description: 'transfer to Netgear',
         status: 'Success',
-        amount_usd: 200000.0,
+        amount_usd: -200000.0,
         account_no: '****4593'
       },
       {
         transaction_id: '011',
         dateTime: 'November 22 2023',
-        description: 'Credit from HubSpot',
+        description: 'transfer to HubSpot',
         status: 'Success',
-        amount_usd: 400000.0,
+        amount_usd: -400000.0,
         account_no: '****1682'
       },
       {
@@ -900,17 +900,17 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '013',
         dateTime: 'September 25 2023',
-        description: 'Credit from Datadog',
+        description: 'transfer to Datadog',
         status: 'Success',
-        amount_usd: 500000.0,
+        amount_usd: -500000.0,
         account_no: '****4527'
       },
       {
         transaction_id: '014',
         dateTime: 'August 15 2023',
-        description: 'Credit from Western Digital',
+        description: 'transfer to Western Digital',
         status: 'Success',
-        amount_usd: 300000.0,
+        amount_usd: -300000.0,
         account_no: '****6471'
       },
       {
