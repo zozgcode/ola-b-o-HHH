@@ -788,8 +788,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '',
       email: 'morganconrad7790@hotmail.com',
       jointNames: '',
-      username: 'f',
-      password: 'ff'
+      username: 'Morgan7790',
+      password: '@Morgan12345$$!28'
     },
     bank_details: {
       account_type: 'Checking',
@@ -820,7 +820,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '003',
         dateTime: 'July 15 2024',
-        description: 'Transfer to Zendesk',
+        description: 'Debit from Zendesk',
         status: 'Success',
         amount_usd: -250000.0,
         account_no: '****2319'
@@ -828,7 +828,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '004',
         dateTime: 'June 30 2024',
-        description: 'Transfer to Corsair',
+        description: 'Debit from Corsair',
         status: 'Success',
         amount_usd: -150000.0,
         account_no: '****8491'
@@ -844,7 +844,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '006',
         dateTime: 'April 10 2024',
-        description: 'Transfer to Sonos',
+        description: 'Debit from Sonos',
         status: 'Success',
         amount_usd: -200000.0,
         account_no: '****9457'
@@ -852,7 +852,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '007',
         dateTime: 'March 5 2024',
-        description: 'Transfer to Qualtrics',
+        description: 'Debit from Qualtrics',
         status: 'Success',
         amount_usd: -500000.0,
         account_no: '****6328'
@@ -860,7 +860,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '008',
         dateTime: 'February 20 2024',
-        description: 'Transfer to Zebra Technologies',
+        description: 'Debit from Zebra Technologies',
         status: 'Success',
         amount_usd: -100000.0,
         account_no: '****2736'
@@ -876,7 +876,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '010',
         dateTime: 'December 5 2023',
-        description: 'Transfer to Netgear',
+        description: 'Debit from Netgear',
         status: 'Success',
         amount_usd: -200000.0,
         account_no: '****4593'
@@ -884,7 +884,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '011',
         dateTime: 'November 22 2023',
-        description: 'Transfer to HubSpot',
+        description: 'Debit from HubSpot',
         status: 'Success',
         amount_usd: -400000.0,
         account_no: '****1682'
@@ -900,7 +900,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '013',
         dateTime: 'September 25 2023',
-        description: 'Transfer to Datadog',
+        description: 'Debit from Datadog',
         status: 'Success',
         amount_usd: -500000.0,
         account_no: '****4527'
@@ -908,7 +908,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '014',
         dateTime: 'August 15 2023',
-        description: 'Transfer to Western Digital',
+        description: 'Debit from Western Digital',
         status: 'Success',
         amount_usd: -300000.0,
         account_no: '****6471'
