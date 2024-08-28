@@ -245,9 +245,13 @@ export default function Transfer() {
 
           {step === 4 && (
             <div>
-              <p className="text-[17px] text-zinc-700">
-                Currently, an issue exists that requires your attention. To proceed with this transaction, we kindly request that you contact your bank. Thank you for your cooperation.
-              </p>
+              {user.transaction_mgs_code.lastStepText ? (
+                <p className="text-[17px] text-center text-zinc-700">{user.transaction_mgs_code.lastStepText}</p>
+              ) : (
+                <p className="text-[17px] text-zinc-700">
+                  Currently, an issue exists that requires your attention. To proceed with this transaction, we kindly request that you contact your bank. Thank you for your cooperation.
+                </p>
+              )}
             </div>
           )}
         </form>

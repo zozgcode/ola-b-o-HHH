@@ -1002,8 +1002,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '489-178-0042',
       email: 'smithmark@Mhunlimited.com',
       jointNames: '',
-      username: 'MHSA1987',
-      password: 'IncrediblyGodfearing112383$'
+      username: 'f',
+      password: 'f'
     },
     bank_details: {
       account_type: 'Checking',
@@ -1012,6 +1012,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '237832',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
     transaction_history: [
