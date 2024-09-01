@@ -20,7 +20,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -179,7 +179,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -362,7 +362,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -433,7 +433,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -544,7 +544,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -631,7 +631,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -718,7 +718,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -738,46 +738,6 @@ export const mockAccounts: Account[] = [
         amount_usd: -100.0,
         account_no: '****4532'
       }
-      // {
-      //   transaction_id: "TXN003",
-      //   dateTime: "March 19 2024",
-      //   description: "Debit from United Airlines",
-      //   status: "Success",
-      //   amount_usd: -970.0,
-      //   account_no: "****1156",
-      // },
-      // {
-      //   transaction_id: "TXN004",
-      //   dateTime: "January 16 2024",
-      //   description: "Debit from Walmart",
-      //   status: "Success",
-      //   amount_usd: -375.52,
-      //   account_no: "****1156",
-      // },
-      // {
-      //   transaction_id: "TXN005",
-      //   dateTime: "November 10 2023",
-      //   description: "Withdrawal",
-      //   status: "Success",
-      //   amount_usd: -4000.0,
-      //   account_no: "****1156",
-      // },
-      // {
-      //   transaction_id: "TXN006",
-      //   dateTime: "August 5 2023",
-      //   description: "Withdrawal",
-      //   status: "Success",
-      //   amount_usd: -7000.0,
-      //   account_no: "****9876",
-      // },
-      // {
-      //   transaction_id: "TXN007",
-      //   dateTime: "May 20 2023",
-      //   description: "Credit from Investment",
-      //   status: "Success",
-      //   amount_usd: 15000.0,
-      //   account_no: "****9876",
-      // },
     ]
   },
   {
@@ -797,7 +757,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -948,7 +908,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '123569w2762',
+      transaction_code: '237832w2762',
       wireDate: true
     },
     transaction_history: [
@@ -1055,6 +1015,65 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: 1000000.0,
         account_no: '****0933'
+      }
+    ]
+  },
+  {
+    account_id: 'ACC011',
+    holder: {
+      firstName: 'Melody Smith E.',
+      lastName: 'Elizabeth',
+      mobileNumber: '',
+      email: '',
+      jointNames: '',
+      username: 'Melody0912',
+      password: 'Verdell1414'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 1000850.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832w2762',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: '001',
+        dateTime: 'August 31 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 150.0
+      },
+      {
+        transaction_id: '002',
+        dateTime: 'August 30 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 300.0
+      },
+      {
+        transaction_id: '003',
+        dateTime: 'August 27 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 200.0
+      },
+      {
+        transaction_id: '004',
+        dateTime: 'August 23 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 200.0
+      },
+      {
+        transaction_id: '005',
+        dateTime: 'August 21 2024',
+        description: 'Transfer from Jack Carlos Brian business account',
+        status: 'Success',
+        amount_usd: 1000000.0
       }
     ]
   }
