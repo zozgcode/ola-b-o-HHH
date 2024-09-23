@@ -638,13 +638,21 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: 'TXN001',
         dateTime: 'September 24 2024',
-        description: 'Credit from MHunlimiteds',
+        description: 'Credit',
         status: 'Success',
         amount_usd: 30000.0,
         account_no: '****2323'
       },
       {
         transaction_id: 'TXN002',
+        dateTime: 'September 18 2024',
+        description: 'Debit',
+        status: 'Success',
+        amount_usd: -1000.0,
+        account_no: '****2323'
+      },
+      {
+        transaction_id: 'TXN003',
         dateTime: 'August 27 2024',
         description: 'Credit from D&D Building',
         status: 'Pending',
@@ -652,7 +660,7 @@ export const mockAccounts: Account[] = [
         account_no: '****2323'
       },
       {
-        transaction_id: 'TXN003',
+        transaction_id: 'TXN004',
         dateTime: 'August 21 2024',
         description: 'Debit from booking.com',
         status: 'Success',
@@ -660,7 +668,7 @@ export const mockAccounts: Account[] = [
         account_no: '****1156'
       },
       {
-        transaction_id: 'TXN004',
+        transaction_id: 'TXN005',
         dateTime: 'August 19 2024',
         description: 'Debit from United Airlines',
         status: 'Success',
@@ -668,7 +676,7 @@ export const mockAccounts: Account[] = [
         account_no: '****1156'
       },
       {
-        transaction_id: 'TXN005',
+        transaction_id: 'TXN006',
         dateTime: 'August 16 2024',
         description: 'Debit from Walmart',
         status: 'Success',
@@ -676,7 +684,7 @@ export const mockAccounts: Account[] = [
         account_no: '****1156'
       },
       {
-        transaction_id: 'TXN006',
+        transaction_id: 'TXN007',
         dateTime: 'August 10 2024',
         description: 'Withdrawal',
         status: 'Success',
@@ -684,7 +692,7 @@ export const mockAccounts: Account[] = [
         account_no: '****1156'
       },
       {
-        transaction_id: 'TXN007',
+        transaction_id: 'TXN008',
         dateTime: 'August 5 2024',
         description: 'Withdrawal',
         status: 'Success',
@@ -692,7 +700,7 @@ export const mockAccounts: Account[] = [
         account_no: '****9876'
       },
       {
-        transaction_id: 'TXN008',
+        transaction_id: 'TXN009',
         dateTime: 'August 5 2024',
         description: 'Credit from Investment',
         status: 'Success',
@@ -700,7 +708,7 @@ export const mockAccounts: Account[] = [
         account_no: '****9876'
       },
       {
-        transaction_id: 'TXN009',
+        transaction_id: 'TXN010',
         dateTime: 'August 1 2024',
         description: 'Account 0pen',
         status: 'Success',
