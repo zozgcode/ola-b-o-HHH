@@ -664,7 +664,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'August 27 2024',
         description: 'Credit from D&D Building',
         status: 'Pending',
-        amount_usd: 450000.0,
+        amount_usd: 420000.0,
         account_no: '****2323'
       },
       {
@@ -1052,6 +1052,65 @@ export const mockAccounts: Account[] = [
       jointNames: '',
       username: 'Melody0912',
       password: 'Verdell1414'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 1000850.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832w2762',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: '001',
+        dateTime: 'August 31 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 150.0
+      },
+      {
+        transaction_id: '002',
+        dateTime: 'August 30 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 300.0
+      },
+      {
+        transaction_id: '003',
+        dateTime: 'August 27 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 200.0
+      },
+      {
+        transaction_id: '004',
+        dateTime: 'August 23 2024',
+        description: 'Apple Gift Cards',
+        status: 'Success',
+        amount_usd: 200.0
+      },
+      {
+        transaction_id: '005',
+        dateTime: 'August 21 2024',
+        description: 'Transfer from Jack Carlos Brian business account',
+        status: 'Success',
+        amount_usd: 1000000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC012',
+    holder: {
+      firstName: 'Robert',
+      lastName: 'Cartwright',
+      mobileNumber: '',
+      email: '',
+      jointNames: '',
+      username: 'CartwrightF24',
+      password: 'Rsassy2021'
     },
     bank_details: {
       account_type: 'Checking',
