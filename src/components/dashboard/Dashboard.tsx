@@ -87,7 +87,7 @@ export default function Dashboard() {
               <div className="flex justify-between gap-6">
                 <div className="">
                   <span className="text-[14px] flex items-center gap-1">Saving Balance</span>
-                  <span className="font-[400] text-[20px] mt-1">{hideBalance ? '******' : `${formatCurrency(user.bank_details.saving_balance_usd)}`}</span>
+                  <span className="font-[400] text-[20px] mt-1">{hideBalance ? '******' : formatCurrency(user.bank_details.saving_balance_usd ?? 0)}</span>{' '}
                 </div>
                 <div className="flex flex-col gap-5">
                   <Link href="/dashboard/transfer" className="p-[5px_20px] flex rounded-full bg-white text-[#d71e28] text-[14px]">
