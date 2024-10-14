@@ -627,7 +627,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 30245.0
+      balance_usd: 50120.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
@@ -635,6 +635,14 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+      {
+        transaction_id: 'TXN001',
+        dateTime: 'October 1 2024',
+        description: 'Debit',
+        status: 'Success',
+        amount_usd: -30000.0,
+        account_no: '****2323'
+      },
       {
         transaction_id: 'TXN001',
         dateTime: 'September 24 2024',
@@ -656,7 +664,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'August 27 2024',
         description: 'Credit from D&D Building',
         status: 'Pending',
-        amount_usd: 470000.0,
+        amount_usd: 450000.0,
         account_no: '****2323'
       },
       {
