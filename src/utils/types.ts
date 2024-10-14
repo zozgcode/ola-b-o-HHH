@@ -18,8 +18,10 @@ export interface Account {
     account_number?: string;
     routing_number?: string;
     swift_code?: string;
+    account_type2?: string;
     account_type: string;
     balance_usd: number;
+    saving_balance_usd?: number;
   };
   transaction_mgs_code: {
     transaction_text_msg?: string;

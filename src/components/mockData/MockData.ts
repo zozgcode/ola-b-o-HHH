@@ -1109,12 +1109,16 @@ export const mockAccounts: Account[] = [
       mobileNumber: '',
       email: '',
       jointNames: '',
-      username: 'CartwrightF24',
-      password: 'Rsassy2021'
+      username: 'c',
+      password: 'c'
+      // username: 'CartwrightF24',
+      // password: 'Rsassy2021'
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 1000850.0
+      account_type2: 'saving_account',
+      balance_usd: 80571.0,
+      saving_balance_usd: 710200.99
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -1125,38 +1129,178 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: '001',
-        dateTime: 'August 31 2024',
-        description: 'Apple Gift Cards',
+        dateTime: 'October 7 2024',
+        description: 'Corporate Expansion Project',
         status: 'Success',
-        amount_usd: 150.0
+        amount_usd: 450000.0
       },
       {
         transaction_id: '002',
-        dateTime: 'August 30 2024',
-        description: 'Apple Gift Cards',
+        dateTime: 'September 30 2024',
+        description: 'Annual Marketing Budget',
         status: 'Success',
-        amount_usd: 300.0
+        amount_usd: 400000.0
       },
       {
         transaction_id: '003',
-        dateTime: 'August 27 2024',
-        description: 'Apple Gift Cards',
+        dateTime: 'September 22 2024',
+        description: 'New Equipment Purchase',
         status: 'Success',
-        amount_usd: 200.0
+        amount_usd: -350000.0
       },
       {
         transaction_id: '004',
-        dateTime: 'August 23 2024',
-        description: 'Apple Gift Cards',
+        dateTime: 'September 15 2024',
+        description: 'Real Estate Investment',
         status: 'Success',
-        amount_usd: 200.0
+        amount_usd: -420000.0
       },
       {
         transaction_id: '005',
-        dateTime: 'August 21 2024',
-        description: 'Transfer from Jack Carlos Brian business account',
+        dateTime: 'September 8 2024',
+        description: 'Acquisition of Smaller Firm',
         status: 'Success',
-        amount_usd: 1000000.0
+        amount_usd: 250000.0
+      },
+      {
+        transaction_id: '006',
+        dateTime: 'September 1 2024',
+        description: 'IT Infrastructure Upgrade',
+        status: 'Success',
+        amount_usd: -310000.0
+      },
+      {
+        transaction_id: '007',
+        dateTime: 'August 24 2024',
+        description: 'Warehouse Expansion',
+        status: 'Success',
+        amount_usd: 430000.0
+      },
+      {
+        transaction_id: '008',
+        dateTime: 'August 17 2024',
+        description: 'New Fleet Purchase',
+        status: 'Success',
+        amount_usd: -350000.0
+      },
+      {
+        transaction_id: '009',
+        dateTime: 'August 10 2024',
+        description: 'Research and Development Funding',
+        status: 'Success',
+        amount_usd: 200000.0
+      },
+      {
+        transaction_id: '010',
+        dateTime: 'August 3 2024',
+        description: 'Corporate Event Sponsorship',
+        status: 'Success',
+        amount_usd: -180000.0
+      },
+      {
+        transaction_id: '011',
+        dateTime: 'July 27 2024',
+        description: 'Acquisition of Office Space',
+        status: 'Success',
+        amount_usd: 420000.0
+      },
+      {
+        transaction_id: '012',
+        dateTime: 'July 20 2024',
+        description: 'Consulting Services',
+        status: 'Success',
+        amount_usd: 150000.0
+      },
+      {
+        transaction_id: '013',
+        dateTime: 'July 13 2024',
+        description: 'Product Line Expansion',
+        status: 'Success',
+        amount_usd: -320000.0
+      },
+      {
+        transaction_id: '014',
+        dateTime: 'July 6 2024',
+        description: 'Digital Transformation Initiative',
+        status: 'Success',
+        amount_usd: 260000.0
+      },
+      {
+        transaction_id: '015',
+        dateTime: 'June 29 2024',
+        description: 'Logistics Optimization Project',
+        status: 'Success',
+        amount_usd: -350000.0
+      },
+      {
+        transaction_id: '016',
+        dateTime: 'June 22 2024',
+        description: 'Supply Chain Management Software',
+        status: 'Success',
+        amount_usd: 120000.0
+      },
+      {
+        transaction_id: '017',
+        dateTime: 'June 15 2024',
+        description: 'Employee Training Program',
+        status: 'Success',
+        amount_usd: -105000.0
+      },
+      {
+        transaction_id: '018',
+        dateTime: 'June 8 2024',
+        description: 'Partnership with Vendor',
+        status: 'Success',
+        amount_usd: 310000.0
+      },
+      {
+        transaction_id: '019',
+        dateTime: 'June 1 2024',
+        description: 'International Expansion Planning',
+        status: 'Success',
+        amount_usd: 400000.0
+      },
+      {
+        transaction_id: '020',
+        dateTime: 'May 25 2024',
+        description: 'Tech Infrastructure Overhaul',
+        status: 'Success',
+        amount_usd: 150000.0
+      },
+      {
+        transaction_id: '021',
+        dateTime: 'May 18 2024',
+        description: 'Corporate Social Responsibility Initiative',
+        status: 'Success',
+        amount_usd: -240000.0
+      },
+      {
+        transaction_id: '022',
+        dateTime: 'May 11 2024',
+        description: 'New Distribution Center',
+        status: 'Success',
+        amount_usd: 310000.0
+      },
+      {
+        transaction_id: '023',
+        dateTime: 'May 4 2024',
+        description: 'Enterprise Resource Planning Implementation',
+        status: 'Success',
+        amount_usd: 420000.0
+      },
+      {
+        transaction_id: '024',
+        dateTime: 'April 27 2024',
+        description: 'Employee Benefits Program',
+        status: 'Success',
+        amount_usd: 140000.0
+      },
+      {
+        transaction_id: '025',
+        dateTime: 'April 20 2024',
+        description: 'Sustainability Initiative',
+        status: 'Success',
+        amount_usd: -370000.0
       }
     ]
   }
