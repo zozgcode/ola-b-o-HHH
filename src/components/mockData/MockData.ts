@@ -1107,12 +1107,10 @@ export const mockAccounts: Account[] = [
       firstName: 'Robert',
       lastName: 'Cartwright',
       mobileNumber: '',
-      email: '',
+      email: 'r@gmail.com',
       jointNames: '',
-      username: 'c',
-      password: 'c'
-      // username: 'CartwrightF24',
-      // password: 'Rsassy2021'
+      username: 'CartwrightF24',
+      password: 'Rsassy2021'
     },
     bank_details: {
       account_type: 'Checking',
