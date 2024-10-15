@@ -636,6 +636,14 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        transaction_id: 'TXN00339',
+        dateTime: 'October 15 2024',
+        description: 'Credit',
+        status: 'Success',
+        amount_usd: 50000.0,
+        account_no: '****2323'
+      },
+      {
         transaction_id: 'TXN001',
         dateTime: 'October 1 2024',
         description: 'Debit',
