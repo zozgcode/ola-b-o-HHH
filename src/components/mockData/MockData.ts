@@ -1323,7 +1323,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 0.0
+      balance_usd: 10000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -1331,6 +1331,14 @@ export const mockAccounts: Account[] = [
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
-    transaction_history: []
+    transaction_history: [
+      {
+        transaction_id: '001',
+        dateTime: 'November 4 2024',
+        description: 'Corporate Expansion',
+        status: 'Success',
+        amount_usd: 10000.0
+      },
+    ]
   }
 ];
