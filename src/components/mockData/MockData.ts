@@ -1338,7 +1338,101 @@ export const mockAccounts: Account[] = [
         description: 'Corporate Expansion',
         status: 'Success',
         amount_usd: 10000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC014',
+    holder: {
+      firstName: 'Bernie',
+      lastName: 'Greenberg',
+      mobileNumber: '',
+      email: 'b@gmail.com',
+      jointNames: '',
+      username: 'BernieGreen24',
+      password: 'Green@2779'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 2000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832w2762',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: '001',
+        dateTime: 'November 7, 2024',
+        description: 'Strategic Partnerships',
+        status: 'Success',
+        amount_usd: 100000.0
       },
+      {
+        transaction_id: '002',
+        dateTime: 'November 7, 2024',
+        description: 'Quanta Services Inc.',
+        status: 'Success',
+        amount_usd: 250000.0
+      },
+      {
+        transaction_id: '003',
+        dateTime: 'November 7, 2024',
+        description: 'Customer Retention Program',
+        status: 'Success',
+        amount_usd: 150000.0
+      },
+      {
+        transaction_id: '004',
+        dateTime: 'November 7, 2024',
+        description: 'IT Infrastructure Enhancement',
+        status: 'Success',
+        amount_usd: 200000.0
+      },
+      {
+        transaction_id: '005',
+        dateTime: 'November 6, 2024',
+        description: 'Operational Expansion',
+        status: 'Success',
+        amount_usd: 200000.0
+      },
+      {
+        transaction_id: '006',
+        dateTime: 'November 6, 2024',
+        description: 'Corporate Event Sponsorship',
+        status: 'Success',
+        amount_usd: 300000.0
+      },
+      {
+        transaction_id: '007',
+        dateTime: 'November 6, 2024',
+        description: 'Infrastructure Development',
+        status: 'Success',
+        amount_usd: 100000.0
+      },
+      {
+        transaction_id: '008',
+        dateTime: 'November 5, 2024',
+        description: 'Market Research',
+        status: 'Success',
+        amount_usd: 250000.0
+      },
+      {
+        transaction_id: '009',
+        dateTime: 'November 5, 2024',
+        description: 'Employee Training Programs',
+        status: 'Success',
+        amount_usd: 150000.0
+      },
+      {
+        transaction_id: '010',
+        dateTime: 'November 5, 2024',
+        description: 'Research & Development Funding',
+        status: 'Success',
+        amount_usd: 300000.0
+      }
     ]
   }
 ];
