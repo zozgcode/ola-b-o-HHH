@@ -1323,7 +1323,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 2000000.0
+      balance_usd: 2010000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -1334,6 +1334,13 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: '001',
+        dateTime: 'November 8 2024',
+        description: 'Digital Transformation Initiative',
+        status: 'Success',
+        amount_usd: 2000000.0
+      },
+      {
+        transaction_id: '002',
         dateTime: 'November 4 2024',
         description: 'Corporate Expansion',
         status: 'Success',
