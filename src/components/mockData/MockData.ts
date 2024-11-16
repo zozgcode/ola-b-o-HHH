@@ -1492,7 +1492,7 @@ export const mockAccounts: Account[] = [
         transaction_id: '001',
         dateTime: 'November 15, 2024',
         description: 'Credit from Quanta Services Inc.',
-        status: 'Pending',
+        status: 'Success',
         amount_usd: 25000.0
       },
       {
