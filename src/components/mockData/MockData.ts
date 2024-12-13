@@ -1556,12 +1556,12 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC016',
     holder: {
-      firstName: 'Lambitch Craft',
+      firstName: 'Iambitch Craft',
       lastName: '',
       mobileNumber: '+1-***-***-***',
       email: 'saythetruth223@outlook.com',
       jointNames: '',
-      username: 'lambitch1313',
+      username: 'Iambitch1313',
       password: 'sample'
     },
     bank_details: {
