@@ -1562,7 +1562,7 @@ export const mockAccounts: Account[] = [
       email: 'saythetruth223@outlook.com',
       jointNames: '',
       username: 'lambitch1313',
-      password: 'saythetruth220'
+      password: 'sample'
     },
     bank_details: {
       account_type: 'Checking',
