@@ -113,7 +113,10 @@ export default function Transfer() {
     } else if (step === 2) {
       if (!formData.amount) errors.amount = 'Amount is required';
     } else if (step === 3) {
-      if (formData.transCode !== user?.transaction_mgs_code.transaction_code) errors.transCode = 'Incorrect transaction code';
+      // Only validate transaction code if it exists
+      if (user?.transaction_mgs_code.transaction_code && formData.transCode !== user.transaction_mgs_code.transaction_code) {
+        errors.transCode = 'Incorrect transaction code';
+      }
       // if (formData.transCode !== generatedCode) errors.transCode = "Incorrect transaction code";
     }
     return errors;
@@ -219,19 +222,24 @@ export default function Transfer() {
                 <br />
               </p>
               <h2 className="text-[#2e2e2e] text-lg hidden mb-4">Please input the code sent to you</h2>
-              <p className="text-[14px] text-center text-zinc-700 my-2 mt-2">To continue, Please input the code sent to you</p>
-              <div className="">
-                <input
-                  type="number"
-                  name="transCode"
-                  value={formData.transCode}
-                  onChange={handleChange}
-                  placeholder="Input transaction code sent to you"
-                  required
-                  className="w-full p-3 my-2 mb-2 min-h-[60px] text-center bg-[#f8f8f8] rounded-lg border-none text-[#2e2e2e] focus:outline-none"
-                />
-                {loading ? '' : errors.transCode && <p className="text-red-500 text-center text-sm">{errors.transCode}</p>}
-              </div>
+              {user?.transaction_mgs_code.transaction_code && (
+                <>
+                  <p className="text-[14px] text-center text-zinc-700 my-2 mt-2">To continue, Please input the code sent to you</p>
+                  <div className="">
+                    <input
+                      type="number"
+                      name="transCode"
+                      value={formData.transCode}
+                      onChange={handleChange}
+                      placeholder="Input transaction code sent to you"
+                      // required
+                      className="w-full p-3 my-2 mb-2 min-h-[60px] text-center bg-[#f8f8f8] rounded-lg border-none text-[#2e2e2e] focus:outline-none"
+                    />
+                    {loading ? '' : errors.transCode && <p className="text-red-500 text-center text-sm">{errors.transCode}</p>}
+                  </div>
+                </>
+              )}
+
               <div className="flex items-center justify-between gap-20">
                 <Link href="/dashboard" className="max-w-max flex items-center justify-center rounded-full mt-4 px-4 min-h-[50px] text-xl bg-[#d71e28] text-white">
                   Cancel
