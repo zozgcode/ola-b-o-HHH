@@ -1570,7 +1570,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '',
+      transaction_code: '252126',
       lastStepText: 'Transaction sent successfully.',
       wireDate: true
     },
