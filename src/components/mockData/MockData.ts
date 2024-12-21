@@ -1754,9 +1754,9 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '001',
         dateTime: 'December 15, 2024',
-        description: 'Debit to Stellar Networks Ltd.',
+        description: 'Credit from Stellar Networks Ltd.',
         status: 'Success',
-        amount_usd: -12000.0
+        amount_usd: 12000.0
       },
       {
         transaction_id: '002',
