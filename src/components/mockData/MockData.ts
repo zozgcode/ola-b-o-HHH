@@ -1653,7 +1653,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 920000.00
+      balance_usd: 920000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -1724,6 +1724,95 @@ export const mockAccounts: Account[] = [
         description: 'Account Open',
         status: 'Success',
         amount_usd: 100.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC018',
+    holder: {
+      firstName: 'Martin C Dumais',
+      lastName: '',
+      mobileNumber: '+1-***-***-***',
+      email: 'm@gmail.com',
+      jointNames: '',
+      username: 'd',
+      password: 'd'
+      // username: 'dmartin',
+      // password: '1977'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 2240000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: '001',
+        dateTime: 'December 15, 2024',
+        description: 'Credit from Apex Dynamics Co.',
+        status: 'Success',
+        amount_usd: 32000.0
+      },
+      {
+        transaction_id: '002',
+        dateTime: 'November 20, 2024',
+        description: 'Credit from Stellar Networks Ltd.',
+        status: 'Success',
+        amount_usd: 15000.0
+      },
+      {
+        transaction_id: '003',
+        dateTime: 'October 10, 2024',
+        description: 'Credit from Horizon Enterprises LLC.',
+        status: 'Success',
+        amount_usd: 22500.0
+      },
+      {
+        transaction_id: '004',
+        dateTime: 'September 5, 2024',
+        description: 'Credit from Nova Tech Solutions.',
+        status: 'Success',
+        amount_usd: 18000.0
+      },
+      {
+        transaction_id: '005',
+        dateTime: 'August 25, 2024',
+        description: 'Credit from Ascend Innovations Ltd.',
+        status: 'Success',
+        amount_usd: 20000.0
+      },
+      {
+        transaction_id: '006',
+        dateTime: 'July 30, 2024',
+        description: 'Credit from Prime Edge Systems.',
+        status: 'Success',
+        amount_usd: 17500.0
+      },
+      {
+        transaction_id: '007',
+        dateTime: 'June 18, 2024',
+        description: 'Credit from Zenith Ventures Inc.',
+        status: 'Success',
+        amount_usd: 29000.0
+      },
+      {
+        transaction_id: '008',
+        dateTime: 'May 12, 2024',
+        description: 'Credit from Polaris Tech Group.',
+        status: 'Success',
+        amount_usd: 24000.0
+      },
+      {
+        transaction_id: '009',
+        dateTime: 'April 5, 2024',
+        description: 'Credit from Quantum Edge Dynamics.',
+        status: 'Success',
+        amount_usd: 31000.0
       }
     ]
   }
