@@ -1754,65 +1754,142 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '001',
         dateTime: 'December 15, 2024',
+        description: 'Debit to Stellar Networks Ltd.',
+        status: 'Success',
+        amount_usd: -12000.0
+      },
+      {
+        transaction_id: '002',
+        dateTime: 'December 10, 2024',
         description: 'Credit from Apex Dynamics Co.',
         status: 'Success',
         amount_usd: 32000.0
       },
       {
-        transaction_id: '002',
-        dateTime: 'November 20, 2024',
-        description: 'Credit from Stellar Networks Ltd.',
+        transaction_id: '003',
+        dateTime: 'November 28, 2024',
+        description: 'Debit to Nova Tech Solutions.',
         status: 'Success',
-        amount_usd: 15000.0
+        amount_usd: -14000.0
       },
       {
-        transaction_id: '003',
-        dateTime: 'October 10, 2024',
+        transaction_id: '004',
+        dateTime: 'November 20, 2024',
         description: 'Credit from Horizon Enterprises LLC.',
         status: 'Success',
         amount_usd: 22500.0
       },
       {
-        transaction_id: '004',
-        dateTime: 'September 5, 2024',
-        description: 'Credit from Nova Tech Solutions.',
-        status: 'Success',
-        amount_usd: 18000.0
-      },
-      {
         transaction_id: '005',
-        dateTime: 'August 25, 2024',
+        dateTime: 'October 30, 2024',
         description: 'Credit from Ascend Innovations Ltd.',
         status: 'Success',
-        amount_usd: 20000.0
+        amount_usd: 19000.0
       },
       {
         transaction_id: '006',
-        dateTime: 'July 30, 2024',
-        description: 'Credit from Prime Edge Systems.',
+        dateTime: 'October 15, 2024',
+        description: 'Debit to Polaris Tech Group.',
         status: 'Success',
-        amount_usd: 17500.0
+        amount_usd: -11000.0
       },
       {
         transaction_id: '007',
-        dateTime: 'June 18, 2024',
+        dateTime: 'September 25, 2024',
         description: 'Credit from Zenith Ventures Inc.',
         status: 'Success',
-        amount_usd: 29000.0
+        amount_usd: 27000.0
       },
       {
         transaction_id: '008',
-        dateTime: 'May 12, 2024',
-        description: 'Credit from Polaris Tech Group.',
+        dateTime: 'September 10, 2024',
+        description: 'Debit to Orion Capital Holdings.',
         status: 'Success',
-        amount_usd: 24000.0
+        amount_usd: -21000.0
       },
       {
         transaction_id: '009',
-        dateTime: 'April 5, 2024',
+        dateTime: 'August 20, 2024',
         description: 'Credit from Quantum Edge Dynamics.',
         status: 'Success',
+        amount_usd: 30000.0
+      },
+      {
+        transaction_id: '010',
+        dateTime: 'August 10, 2024',
+        description: 'Debit to Cosmo Technologies.',
+        status: 'Success',
+        amount_usd: -18000.0
+      },
+      {
+        transaction_id: '011',
+        dateTime: 'July 25, 2024',
+        description: 'Credit from Stellar Innovations Co.',
+        status: 'Success',
+        amount_usd: 35000.0
+      },
+      {
+        transaction_id: '012',
+        dateTime: 'July 15, 2024',
+        description: 'Debit to Aurora Systems Ltd.',
+        status: 'Success',
+        amount_usd: -24000.0
+      },
+      {
+        transaction_id: '013',
+        dateTime: 'June 30, 2024',
+        description: 'Credit from Nexus Ventures.',
+        status: 'Success',
         amount_usd: 31000.0
+      },
+      {
+        transaction_id: '014',
+        dateTime: 'June 12, 2024',
+        description: 'Debit to Polaris Tech Group.',
+        status: 'Success',
+        amount_usd: -8000.0
+      },
+      {
+        transaction_id: '015',
+        dateTime: 'May 28, 2024',
+        description: 'Credit from Ascend Technologies.',
+        status: 'Success',
+        amount_usd: 22000.0
+      },
+      {
+        transaction_id: '016',
+        dateTime: 'May 10, 2024',
+        description: 'Debit to Stellar Networks Ltd.',
+        status: 'Success',
+        amount_usd: -9500.0
+      },
+      {
+        transaction_id: '017',
+        dateTime: 'April 22, 2024',
+        description: 'Credit from Apex Dynamics Co.',
+        status: 'Success',
+        amount_usd: 26000.0
+      },
+      {
+        transaction_id: '018',
+        dateTime: 'April 12, 2024',
+        description: 'Debit to Horizon Enterprises LLC.',
+        status: 'Success',
+        amount_usd: -14000.0
+      },
+      {
+        transaction_id: '019',
+        dateTime: 'April 5, 2024',
+        description: 'Credit from Quantum Dynamics Co.',
+        status: 'Success',
+        amount_usd: 21000.0
+      },
+      {
+        transaction_id: '020',
+        dateTime: 'April 1, 2024',
+        description: 'Debit to Nova Tech Solutions.',
+        status: 'Success',
+        amount_usd: -12500.0
       }
     ]
   }
