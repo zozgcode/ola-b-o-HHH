@@ -1735,8 +1735,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+1-***-***-***',
       email: 'm@gmail.com',
       jointNames: '',
-      username: 'd',
-      password: 'd'
+      username: 'dmartin',
+      password: '1977'
     },
     bank_details: {
       account_type: 'Checking',
@@ -1752,140 +1752,140 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '001',
         dateTime: 'December 18, 2024',
-        description: 'Credit from Royal Bank of Canada',
+        description: 'Credit from Royal Bank of Canada.',
         status: 'Success',
         amount_usd: 1000000.0
       },
       {
         transaction_id: '002',
         dateTime: 'November 22, 2024',
-        description: 'Credit from Barclays Bank UK',
+        description: 'Credit from Barclays Bank UK.',
         status: 'Success',
         amount_usd: 32000.0
       },
       {
         transaction_id: '003',
         dateTime: 'November 18, 2024',
-        description: 'Debit to Wells Fargo Bank',
+        description: 'Credit from Nova Tech Solutions.',
         status: 'Success',
-        amount_usd: -14000.0
+        amount_usd: 14000.0
       },
       {
         transaction_id: '004',
         dateTime: 'November 10, 2024',
-        description: 'Credit from Citibank US',
+        description: 'Credit from Citibank US.',
         status: 'Success',
         amount_usd: 22500.0
       },
       {
         transaction_id: '005',
         dateTime: 'October 30, 2024',
-        description: 'Credit from Lloyds Bank UK',
+        description: 'Credit from Ascend Innovations Ltd.',
         status: 'Success',
         amount_usd: 19000.0
       },
       {
         transaction_id: '006',
         dateTime: 'October 15, 2024',
-        description: 'Debit to Chase Bank US',
+        description: 'Debit to Chase Bank US.',
         status: 'Success',
         amount_usd: -11000.0
       },
       {
         transaction_id: '007',
         dateTime: 'September 25, 2024',
-        description: 'Credit from HSBC UK',
+        description: 'Credit from HSBC UK.',
         status: 'Success',
         amount_usd: 27000.0
       },
       {
         transaction_id: '008',
         dateTime: 'September 10, 2024',
-        description: 'Debit to Bank of America',
+        description: 'Debit to Orion Capital Holdings.',
         status: 'Success',
         amount_usd: -21000.0
       },
       {
         transaction_id: '009',
         dateTime: 'August 20, 2024',
-        description: 'Credit from NatWest Bank UK',
+        description: 'Credit from NatWest Bank UK.',
         status: 'Success',
         amount_usd: 30000.0
       },
       {
         transaction_id: '010',
         dateTime: 'August 10, 2024',
-        description: 'Debit to Capital One Bank',
+        description: 'Debit to Capital One Bank.',
         status: 'Success',
         amount_usd: -18000.0
       },
       {
         transaction_id: '011',
         dateTime: 'July 25, 2024',
-        description: 'Credit from Halifax Bank UK',
+        description: 'Credit from Stellar Innovations Co.',
         status: 'Success',
         amount_usd: 35000.0
       },
       {
         transaction_id: '012',
         dateTime: 'July 15, 2024',
-        description: 'Debit to Regions Bank US',
+        description: 'Debit to Aurora Systems Ltd.',
         status: 'Success',
         amount_usd: -24000.0
       },
       {
         transaction_id: '013',
         dateTime: 'June 30, 2024',
-        description: 'Credit from Santander UK',
+        description: 'Credit from Nexus Ventures.',
         status: 'Success',
         amount_usd: 31000.0
       },
       {
         transaction_id: '014',
         dateTime: 'June 12, 2024',
-        description: 'Debit to PNC Bank US',
+        description: 'Debit to PNC Bank US.',
         status: 'Success',
         amount_usd: -8000.0
       },
       {
         transaction_id: '015',
         dateTime: 'May 28, 2024',
-        description: 'Credit from RBS Bank UK',
+        description: 'Credit from RBS Bank UK.',
         status: 'Success',
         amount_usd: 22000.0
       },
       {
         transaction_id: '016',
         dateTime: 'May 10, 2024',
-        description: 'Debit to TD Bank US',
+        description: 'Debit to Stellar Networks Ltd.',
         status: 'Success',
         amount_usd: -9500.0
       },
       {
         transaction_id: '017',
         dateTime: 'April 22, 2024',
-        description: 'Credit from First Direct UK',
+        description: 'Credit from Apex Dynamics Co.',
         status: 'Success',
         amount_usd: 26000.0
       },
       {
         transaction_id: '018',
         dateTime: 'April 12, 2024',
-        description: 'Debit to Fifth Third Bank US',
+        description: 'Debit to Fifth Third Bank US.',
         status: 'Success',
         amount_usd: -14000.0
       },
       {
         transaction_id: '019',
         dateTime: 'April 5, 2024',
-        description: 'Credit from Nationwide Bank UK',
+        description: 'Credit from Quantum Dynamics Co.',
         status: 'Success',
         amount_usd: 21000.0
       },
       {
         transaction_id: '020',
         dateTime: 'April 1, 2024',
-        description: 'Debit to KeyBank US',
+        description: 'Debit to KeyBank US.',
         status: 'Success',
         amount_usd: -12500.0
       }
