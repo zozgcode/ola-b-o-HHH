@@ -440,7 +440,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: 'TXN001',
         dateTime: 'August 5 2024, 11:21:01 am',
-        description: 'Deposit from AUL Corp.',
+        description: 'Deposit from AUL Corp',
         status: 'Pending',
         amount_usd: 180000.0,
         account_no: '****2323'
@@ -1028,7 +1028,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '237832',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1077,7 +1077,7 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC011',
     holder: {
-      firstName: 'Melody Smith E.',
+      firstName: 'Melody Smith E',
       lastName: 'Elizabeth',
       mobileNumber: '',
       email: '',
@@ -1092,7 +1092,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '237832w2762',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1153,7 +1153,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '237832w2762',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1352,7 +1352,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '237832w2762',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1390,7 +1390,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '237832w2762',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1404,7 +1404,7 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '002',
         dateTime: 'November 7, 2024',
-        description: 'Quanta Services Inc.',
+        description: 'Quanta Services Inc',
         status: 'Success',
         amount_usd: 250000.0
       },
@@ -1484,14 +1484,14 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '2378322762',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
       {
         transaction_id: '001',
         dateTime: 'November 15, 2024',
-        description: 'Credit from Quanta Services Inc.',
+        description: 'Credit from Quanta Services Inc',
         status: 'Success',
         amount_usd: 25000.0
       },
@@ -1571,14 +1571,14 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252126',
-      lastStepText: 'Transaction sent successfully.',
+      lastStepText: 'Transaction sent successfully',
       wireDate: true
     },
     transaction_history: [
       {
         transaction_id: '001',
         dateTime: 'November 15, 2024',
-        description: 'Credit from Quanta Services Inc.',
+        description: 'Credit from Quanta Services Inc',
         status: 'Success',
         amount_usd: 25000.0
       },
@@ -1658,14 +1658,14 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252120',
-      lastStepText: 'Transaction Pending...',
+      lastStepText: 'Transaction Pending..',
       wireDate: true
     },
     transaction_history: [
       {
         transaction_id: '001',
         dateTime: 'December 2, 2024',
-        description: 'Credit from Quanta Services Inc.',
+        description: 'Credit from Quanta Services Inc',
         status: 'Success',
         amount_usd: 28000.0
       },
@@ -1735,8 +1735,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+1-***-***-***',
       email: 'm@gmail.com',
       jointNames: '',
-      username: 'dmartin',
-      password: '1977'
+      username: 'd',
+      password: 'd'
     },
     bank_details: {
       account_type: 'Checking',
@@ -1745,147 +1745,147 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
       {
         transaction_id: '001',
-        dateTime: 'December 15, 2024',
-        description: 'Credit from Stellar Networks Ltd.',
+        dateTime: 'December 18, 2024',
+        description: 'Credit from Royal Bank of Canada',
         status: 'Success',
-        amount_usd: 12000.0
+        amount_usd: 1000000.0
       },
       {
         transaction_id: '002',
-        dateTime: 'December 10, 2024',
-        description: 'Credit from Apex Dynamics Co.',
+        dateTime: 'November 22, 2024',
+        description: 'Credit from Barclays Bank UK',
         status: 'Success',
         amount_usd: 32000.0
       },
       {
         transaction_id: '003',
-        dateTime: 'November 28, 2024',
-        description: 'Debit to Nova Tech Solutions.',
+        dateTime: 'November 18, 2024',
+        description: 'Debit to Wells Fargo Bank',
         status: 'Success',
         amount_usd: -14000.0
       },
       {
         transaction_id: '004',
-        dateTime: 'November 20, 2024',
-        description: 'Credit from Horizon Enterprises LLC.',
+        dateTime: 'November 10, 2024',
+        description: 'Credit from Citibank US',
         status: 'Success',
         amount_usd: 22500.0
       },
       {
         transaction_id: '005',
         dateTime: 'October 30, 2024',
-        description: 'Credit from Ascend Innovations Ltd.',
+        description: 'Credit from Lloyds Bank UK',
         status: 'Success',
         amount_usd: 19000.0
       },
       {
         transaction_id: '006',
         dateTime: 'October 15, 2024',
-        description: 'Debit to Polaris Tech Group.',
+        description: 'Debit to Chase Bank US',
         status: 'Success',
         amount_usd: -11000.0
       },
       {
         transaction_id: '007',
         dateTime: 'September 25, 2024',
-        description: 'Credit from Zenith Ventures Inc.',
+        description: 'Credit from HSBC UK',
         status: 'Success',
         amount_usd: 27000.0
       },
       {
         transaction_id: '008',
         dateTime: 'September 10, 2024',
-        description: 'Debit to Orion Capital Holdings.',
+        description: 'Debit to Bank of America',
         status: 'Success',
         amount_usd: -21000.0
       },
       {
         transaction_id: '009',
         dateTime: 'August 20, 2024',
-        description: 'Credit from Quantum Edge Dynamics.',
+        description: 'Credit from NatWest Bank UK',
         status: 'Success',
         amount_usd: 30000.0
       },
       {
         transaction_id: '010',
         dateTime: 'August 10, 2024',
-        description: 'Debit to Cosmo Technologies.',
+        description: 'Debit to Capital One Bank',
         status: 'Success',
         amount_usd: -18000.0
       },
       {
         transaction_id: '011',
         dateTime: 'July 25, 2024',
-        description: 'Credit from Stellar Innovations Co.',
+        description: 'Credit from Halifax Bank UK',
         status: 'Success',
         amount_usd: 35000.0
       },
       {
         transaction_id: '012',
         dateTime: 'July 15, 2024',
-        description: 'Debit to Aurora Systems Ltd.',
+        description: 'Debit to Regions Bank US',
         status: 'Success',
         amount_usd: -24000.0
       },
       {
         transaction_id: '013',
         dateTime: 'June 30, 2024',
-        description: 'Credit from Nexus Ventures.',
+        description: 'Credit from Santander UK',
         status: 'Success',
         amount_usd: 31000.0
       },
       {
         transaction_id: '014',
         dateTime: 'June 12, 2024',
-        description: 'Debit to Polaris Tech Group.',
+        description: 'Debit to PNC Bank US',
         status: 'Success',
         amount_usd: -8000.0
       },
       {
         transaction_id: '015',
         dateTime: 'May 28, 2024',
-        description: 'Credit from Ascend Technologies.',
+        description: 'Credit from RBS Bank UK',
         status: 'Success',
         amount_usd: 22000.0
       },
       {
         transaction_id: '016',
         dateTime: 'May 10, 2024',
-        description: 'Debit to Stellar Networks Ltd.',
+        description: 'Debit to TD Bank US',
         status: 'Success',
         amount_usd: -9500.0
       },
       {
         transaction_id: '017',
         dateTime: 'April 22, 2024',
-        description: 'Credit from Apex Dynamics Co.',
+        description: 'Credit from First Direct UK',
         status: 'Success',
         amount_usd: 26000.0
       },
       {
         transaction_id: '018',
         dateTime: 'April 12, 2024',
-        description: 'Debit to Horizon Enterprises LLC.',
+        description: 'Debit to Fifth Third Bank US',
         status: 'Success',
         amount_usd: -14000.0
       },
       {
         transaction_id: '019',
         dateTime: 'April 5, 2024',
-        description: 'Credit from Quantum Dynamics Co.',
+        description: 'Credit from Nationwide Bank UK',
         status: 'Success',
         amount_usd: 21000.0
       },
       {
         transaction_id: '020',
         dateTime: 'April 1, 2024',
-        description: 'Debit to Nova Tech Solutions.',
+        description: 'Debit to KeyBank US',
         status: 'Success',
         amount_usd: -12500.0
       }
