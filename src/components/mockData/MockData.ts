@@ -1890,5 +1890,187 @@ export const mockAccounts: Account[] = [
         amount_usd: -12500.0
       }
     ]
+  },
+  {
+    account_id: 'ACC019',
+    holder: {
+      firstName: 'Ken Quang',
+      lastName: '',
+      mobileNumber: '+1-***-***-***',
+      email: 'k@gmail.com',
+      jointNames: '',
+      username: 'p',
+      password: 'p'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 1600000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: "001",
+        dateTime: "December 18 2024",
+        description: "Transfer from Glasgow Investment Corp.",
+        status: "Success",
+        amount_usd: 18500.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "002",
+        dateTime: "December 15 2024",
+        description: "Transfer from Glasgow Investment Corp.",
+        status: "Success",
+        amount_usd: 40000.0,
+        account_no: "****2930",
+      },
+      {
+        transaction_id: "003",
+        dateTime: "November 25 2024",
+        description: "Transfer from Aramco Pension",
+        status: "Success",
+        amount_usd: 15000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "004",
+        dateTime: "November 16 2024",
+        description: "Transfer from Lamco Mortgage",
+        status: "Success",
+        amount_usd: 35000.0,
+        account_no: "****2930",
+      },
+      {
+        transaction_id: '005',
+        dateTime: 'November 22, 2024',
+        description: 'Credit from Aramco Incentives',
+        status: 'Success',
+        amount_usd: 15000.0
+      },
+      {
+        transaction_id: '006',
+        dateTime: 'November 18, 2024',
+        description: 'Credit from Frisal Company ',
+        status: 'Success',
+        amount_usd: 18000.0
+      },
+      {
+        transaction_id: '007',
+        dateTime: 'November 10, 2024',
+        description: 'Credit from Devon Energy Corporation',
+        status: 'Success',
+        amount_usd: 23000.0
+      },
+      {
+        transaction_id: '008',
+        dateTime: 'October 30, 2024',
+        description: 'Credit from Ascend Innovations Ltd.',
+        status: 'Success',
+        amount_usd: 19000.0
+      },
+      {
+        transaction_id: '007',
+        dateTime: 'October 15, 2024',
+        description: 'Debit to Walmart',
+        status: 'Success',
+        amount_usd: -1100.0
+      },
+      {
+        transaction_id: '008',
+        dateTime: 'September 25, 2024',
+        description: 'Grocery Purchase at Supermarket.',
+        status: 'Success',
+        amount_usd: -350.0
+      },
+      {
+        transaction_id: '009',
+        dateTime: 'September 10, 2024',
+        description: 'Debit to Orion Capital Holdings.',
+        status: 'Success',
+        amount_usd: -21000.0
+      },
+      {
+        transaction_id: '010',
+        dateTime: 'August 20, 2024',
+        description: 'Credit from Valero Energy Corporation',
+        status: 'Success',
+        amount_usd: 30000.0
+      },
+      {
+        transaction_id: '011',
+        dateTime: 'August 10, 2024',
+        description: 'Grocery Shopping at Local Market',
+        status: 'Success',
+        amount_usd: -1200.0
+      },
+      {
+        transaction_id: '012',
+        dateTime: 'July 25, 2024',
+        description: 'Credit from Stellar Innovations Co.',
+        status: 'Success',
+        amount_usd: 35000.0
+      },
+      {
+        transaction_id: '013',
+        dateTime: 'July 15, 2024',
+        description: 'Debit to Aurora Systems Ltd.',
+        status: 'Success',
+        amount_usd: -24000.0
+      },
+      {
+        transaction_id: '014',
+        dateTime: 'June 30, 2024',
+        description: 'Credit from Nexus Ventures.',
+        status: 'Success',
+        amount_usd: 31000.0
+      },
+      {
+        transaction_id: '015',
+        dateTime: 'June 12, 2024',
+        description: 'Debit to Exxon Mobil',
+        status: 'Success',
+        amount_usd: 12500.0
+      },
+      {
+        transaction_id: '016',
+        dateTime: 'May 28, 2024',
+        description: 'Credit from Murphy Oil',
+        status: 'Success',
+        amount_usd: 22000.0
+      },
+      {
+        transaction_id: '017',
+        dateTime: 'May 10, 2024',
+        description: 'Debit to Stellar Networks Ltd.',
+        status: 'Success',
+        amount_usd: -9500.0
+      },
+      {
+        transaction_id: '018',
+        dateTime: 'April 22, 2024',
+        description: 'Credit from Apex Dynamics Co.',
+        status: 'Success',
+        amount_usd: 26000.0
+      },
+      {
+        transaction_id: '019',
+        dateTime: 'April 12, 2024',
+        description: 'Debit to Coterra Energy',
+        status: 'Success',
+        amount_usd: 14000.0
+      },
+      {
+        transaction_id: '020',
+        dateTime: 'April 5, 2024',
+        description: 'Walmart',
+        status: 'Success',
+        amount_usd: -240.0
+      },
+    ]
   }
 ];
