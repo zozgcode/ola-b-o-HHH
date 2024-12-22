@@ -1939,7 +1939,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: "004",
-        dateTime: "November 16 2024",
+        dateTime: "November 22 2024",
         description: "Transfer from Lamco Mortgage",
         status: "Success",
         amount_usd: 35000.0,
@@ -1947,80 +1947,73 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: '005',
-        dateTime: 'November 22, 2024',
+        dateTime: 'November 16, 2024',
         description: 'Credit from Aramco Incentives',
         status: 'Success',
         amount_usd: 15000.0
       },
       {
         transaction_id: '006',
-        dateTime: 'November 18, 2024',
+        dateTime: 'October 18, 2024',
         description: 'Credit from Frisal Company ',
         status: 'Success',
         amount_usd: 18000.0
       },
       {
         transaction_id: '007',
-        dateTime: 'November 10, 2024',
+        dateTime: 'October 10, 2024',
         description: 'Credit from Devon Energy Corporation',
         status: 'Success',
         amount_usd: 23000.0
       },
       {
         transaction_id: '008',
-        dateTime: 'October 30, 2024',
+        dateTime: 'September 25, 2024',
         description: 'Credit from Ascend Innovations Ltd.',
         status: 'Success',
         amount_usd: 19000.0
       },
       {
         transaction_id: '007',
-        dateTime: 'October 15, 2024',
+        dateTime: 'September 15, 2024',
         description: 'Debit to Walmart',
         status: 'Success',
         amount_usd: -1100.0
       },
       {
         transaction_id: '008',
-        dateTime: 'September 25, 2024',
+        dateTime: 'August 18, 2024',
         description: 'Grocery Purchase at Supermarket.',
         status: 'Success',
         amount_usd: -350.0
       },
       {
         transaction_id: '009',
-        dateTime: 'September 10, 2024',
+        dateTime: 'August 10, 2024',
         description: 'Debit to Orion Capital Holdings.',
         status: 'Success',
         amount_usd: -21000.0
       },
       {
         transaction_id: '010',
-        dateTime: 'August 20, 2024',
+        dateTime: 'August 5, 2024',
         description: 'Credit from Valero Energy Corporation',
         status: 'Success',
         amount_usd: 30000.0
       },
       {
         transaction_id: '011',
-        dateTime: 'August 10, 2024',
+        dateTime: 'July 21, 2024',
         description: 'Grocery Shopping at Local Market',
         status: 'Success',
         amount_usd: -1200.0
       },
       {
         transaction_id: '012',
-        dateTime: 'July 25, 2024',
+        dateTime: 'July 18, 2024',
         description: 'Credit from Stellar Innovations Co.',
         status: 'Success',
         amount_usd: 35000.0
-      },
-      {
-        transaction_id: '013',
-        dateTime: 'July 15, 2024',
-        description: 'Debit to Aurora Systems Ltd.',
-        status: 'Success',
-        amount_usd: -24000.0
       },
       {
         transaction_id: '014',
