@@ -5,10 +5,11 @@ export interface Account {
     firstName?: string;
     lastName?: string;
     mobileNumber?: string;
+    createdOn?: string;
     nickName?: string;
     gender?: string;
     email?: string;
-    jointNames: string;
+    jointNames?: string;
     username: string;
     password: string;
   };

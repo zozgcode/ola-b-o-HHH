@@ -2224,5 +2224,87 @@ export const mockAccounts: Account[] = [
         amount_usd: -240.0
       },
     ]
-  }
+  },
+  {
+    account_id: 'ACC021',
+    holder: {
+      firstName: 'Michael',
+      lastName: 'Ackerson',
+      mobileNumber: '+1-424-373-9448',
+      email: 'beautifullove1304@outlook.com',
+      createdOn: '1/04/2025', // m/d/y
+      username: 'm',
+      password: 'm'
+      // username: 'Mich1304@',
+      // password: 'saythetruth220'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 221.07
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: "001",
+        dateTime: "January 3, 2025",
+        description: "Credit from D&D Building",
+        status: "Pending",
+        amount_usd: 850000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "002",
+        dateTime: "January 2, 2025",
+        description: "Withdrawal",
+        status: "Success",
+        amount_usd: -2000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "003",
+        dateTime: "January 2, 2025",
+        description: "Debit from United airlines",
+        status: "Success",
+        amount_usd: -1800.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "004",
+        dateTime: "December 29, 2024",
+        description: "Walmart",
+        status: "Success",
+        amount_usd: -975.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "005",
+        dateTime: "December 17, 2024",
+        description: "Withdrawal",
+        status: "Success",
+        amount_usd: -5000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "006",
+        dateTime: "December 15, 2024",
+        description: "Credit from Investment",
+        status: "Success",
+        amount_usd: 10000.0,
+        account_no: "****5009",
+      },
+      {
+        transaction_id: "007",
+        dateTime: "December 13, 2024",
+        description: "Account Open",
+        status: "Success",
+        amount_usd: -100.0,
+        account_no: "****5009",
+      },
+    ]
+  },
 ];
