@@ -2331,7 +2331,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'December 27, 2024',
         description: 'Credit from International Business Development',
         status: 'Success',
-        amount_usd: 255.0
+        amount_usd: 255000.0
       },
       {
         dateTime: 'November 20, 2024',
