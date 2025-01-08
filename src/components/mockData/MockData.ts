@@ -2347,7 +2347,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'August 10, 2023',
-        description: 'Credit from Credit from Ascend Innovations Ltd.',
+        description: 'Credit from Ascend Innovations Ltd.',
         status: 'Success',
         amount_usd: 9000.0
       },
