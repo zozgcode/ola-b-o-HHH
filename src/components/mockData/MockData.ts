@@ -2308,8 +2308,8 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC022',
     holder: {
-      firstName: 'Reyes',
-      lastName: 'Ackerson',
+      firstName: 'Reyes Becky',
+      lastName: '',
       mobileNumber: '+1-***-***-****',
       email: 'r***@gmail.com',
       createdOn: '1/08/2025', // m/d/y
