@@ -1914,36 +1914,36 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        transaction_id: "001",
-        dateTime: "December 18 2024",
-        description: "Transfer from Glasgow Investment Corp.",
-        status: "Success",
+        transaction_id: '001',
+        dateTime: 'December 18 2024',
+        description: 'Transfer from Glasgow Investment Corp.',
+        status: 'Success',
         amount_usd: 18500.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "002",
-        dateTime: "December 15 2024",
-        description: "Transfer from Glasgow Investment Corp.",
-        status: "Success",
+        transaction_id: '002',
+        dateTime: 'December 15 2024',
+        description: 'Transfer from Glasgow Investment Corp.',
+        status: 'Success',
         amount_usd: 40000.0,
-        account_no: "****2930",
+        account_no: '****2930'
       },
       {
-        transaction_id: "003",
-        dateTime: "November 25 2024",
-        description: "Transfer from Aramco Pension",
-        status: "Success",
+        transaction_id: '003',
+        dateTime: 'November 25 2024',
+        description: 'Transfer from Aramco Pension',
+        status: 'Success',
         amount_usd: 15000.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "004",
-        dateTime: "November 22 2024",
-        description: "Transfer from Lamco Mortgage",
-        status: "Success",
+        transaction_id: '004',
+        dateTime: 'November 22 2024',
+        description: 'Transfer from Lamco Mortgage',
+        status: 'Success',
         amount_usd: 35000.0,
-        account_no: "****2930",
+        account_no: '****2930'
       },
       {
         transaction_id: '005',
@@ -2063,7 +2063,7 @@ export const mockAccounts: Account[] = [
         description: 'Walmart',
         status: 'Success',
         amount_usd: -240.0
-      },
+      }
     ]
   },
   {
@@ -2089,20 +2089,20 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        transaction_id: "003",
-        dateTime: "November 25 2024",
-        description: "Transfer from Aramco Pension",
-        status: "Success",
+        transaction_id: '003',
+        dateTime: 'November 25 2024',
+        description: 'Transfer from Aramco Pension',
+        status: 'Success',
         amount_usd: 1000000.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "004",
-        dateTime: "November 22 2024",
-        description: "Transfer from Lamco Mortgage",
-        status: "Success",
+        transaction_id: '004',
+        dateTime: 'November 22 2024',
+        description: 'Transfer from Lamco Mortgage',
+        status: 'Success',
         amount_usd: 35000.0,
-        account_no: "****2930",
+        account_no: '****2930'
       },
       {
         transaction_id: '005',
@@ -2222,7 +2222,7 @@ export const mockAccounts: Account[] = [
         description: 'Walmart',
         status: 'Success',
         amount_usd: -240.0
-      },
+      }
     ]
   },
   {
@@ -2248,61 +2248,163 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        transaction_id: "001",
-        dateTime: "January 3, 2025",
-        description: "Credit from D&D Building",
-        status: "Pending",
+        transaction_id: '001',
+        dateTime: 'January 3, 2025',
+        description: 'Credit from D&D Building',
+        status: 'Pending',
         amount_usd: 850000.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "002",
-        dateTime: "January 2, 2025",
-        description: "Withdrawal",
-        status: "Success",
+        transaction_id: '002',
+        dateTime: 'January 2, 2025',
+        description: 'Withdrawal',
+        status: 'Success',
         amount_usd: -2000.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "003",
-        dateTime: "January 2, 2025",
-        description: "Debit from United airlines",
-        status: "Success",
+        transaction_id: '003',
+        dateTime: 'January 2, 2025',
+        description: 'Debit from United airlines',
+        status: 'Success',
         amount_usd: -1800.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "004",
-        dateTime: "December 29, 2024",
-        description: "Walmart",
-        status: "Success",
+        transaction_id: '004',
+        dateTime: 'December 29, 2024',
+        description: 'Walmart',
+        status: 'Success',
         amount_usd: -975.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "005",
-        dateTime: "December 17, 2024",
-        description: "Withdrawal",
-        status: "Success",
+        transaction_id: '005',
+        dateTime: 'December 17, 2024',
+        description: 'Withdrawal',
+        status: 'Success',
         amount_usd: -5000.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "006",
-        dateTime: "December 15, 2024",
-        description: "Credit from Investment",
-        status: "Success",
+        transaction_id: '006',
+        dateTime: 'December 15, 2024',
+        description: 'Credit from Investment',
+        status: 'Success',
         amount_usd: 10000.0,
-        account_no: "****5009",
+        account_no: '****5009'
       },
       {
-        transaction_id: "007",
-        dateTime: "December 13, 2024",
-        description: "Account Open",
-        status: "Success",
+        transaction_id: '007',
+        dateTime: 'December 13, 2024',
+        description: 'Account Open',
+        status: 'Success',
         amount_usd: -100.0,
-        account_no: "****5009",
-      },
+        account_no: '****5009'
+      }
     ]
   },
+  {
+    account_id: 'ACC022',
+    holder: {
+      firstName: 'Reyes',
+      lastName: 'Ackerson',
+      mobileNumber: '+1-***-***-****',
+      email: 'r***@gmail.com',
+      createdOn: '1/08/2025', // m/d/y
+      username: 'Reyes11',
+      password: 'Becky001'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 758000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'December 27, 2024',
+        description: 'Credit from International Business Development',
+        status: 'Success',
+        amount_usd: 255.0
+      },
+      {
+        dateTime: 'November 20, 2024',
+        description: 'Credit from Investment Management',
+        status: 'Success',
+        amount_usd: 212000.0
+      },
+      {
+        dateTime: 'October 15, 2024',
+        description: 'Credit from Aurora Systems Ltd.',
+        status: 'Success',
+        amount_usd: 3750.0
+      },
+      {
+        dateTime: 'August 10, 2023',
+        description: 'Credit from Credit from Ascend Innovations Ltd.',
+        status: 'Success',
+        amount_usd: 9000.0
+      },
+      {
+        dateTime: 'February 18, 2023',
+        description: 'Credit from Nexus Ventures.',
+        status: 'Success',
+        amount_usd: 4200.0
+      },
+      {
+        dateTime: 'September 12, 2022',
+        description: 'Debit to Marketing Campaign',
+        status: 'Success',
+        amount_usd: -7000.0
+      },
+      {
+        dateTime: 'February 7, 2022',
+        description: 'Credit from Devon Energy Corporation',
+        status: 'Success',
+        amount_usd: 32750.0
+      },
+      {
+        dateTime: 'December 12, 2021',
+        description: 'Debit to Devon Energy Corporation',
+        status: 'Success',
+        amount_usd: -15300.0
+      },
+      {
+        dateTime: 'August 22, 2021',
+        description: 'Credit from Aramco Pension',
+        status: 'Success',
+        amount_usd: 8000.0
+      },
+      {
+        dateTime: 'November 15, 2019',
+        description: 'Credit from Orion Capital Holdings.',
+        status: 'Success',
+        amount_usd: 10200.0
+      },
+      {
+        dateTime: 'September 18, 2019',
+        description: 'Grocery Shopping at Local Market',
+        status: 'Success',
+        amount_usd: -1500.0
+      },
+      {
+        dateTime: 'July 19, 2018',
+        description: 'Credit from Coterra Energy',
+        status: 'Success',
+        amount_usd: 5000.0
+      },
+      {
+        dateTime: 'June 5, 2018',
+        description: 'Account Opened',
+        status: 'Success',
+        amount_usd: -100.0
+      },
+    ]
+  }
 ];
