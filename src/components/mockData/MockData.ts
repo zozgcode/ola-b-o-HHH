@@ -2361,7 +2361,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'September 12, 2022',
         description: 'Debit to Marketing Campaign',
         status: 'Success',
-        amount_usd: -7000.0
+        amount_usd: -7085.0
       },
       {
         dateTime: 'February 7, 2022',
