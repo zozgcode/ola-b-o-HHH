@@ -2318,7 +2318,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 758000.0
+      balance_usd: 758658.25
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -2331,13 +2331,13 @@ export const mockAccounts: Account[] = [
         dateTime: 'December 27, 2024',
         description: 'Credit from International Business Development',
         status: 'Success',
-        amount_usd: 255000.0
+        amount_usd: 255653.94
       },
       {
         dateTime: 'November 20, 2024',
         description: 'Credit from Investment Management',
         status: 'Success',
-        amount_usd: 212000.0
+        amount_usd: 212362.23
       },
       {
         dateTime: 'October 15, 2024',
@@ -2349,7 +2349,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'August 10, 2023',
         description: 'Credit from Ascend Innovations Ltd.',
         status: 'Success',
-        amount_usd: 9000.0
+        amount_usd: 9752.10
       },
       {
         dateTime: 'February 18, 2023',
@@ -2373,19 +2373,19 @@ export const mockAccounts: Account[] = [
         dateTime: 'December 12, 2021',
         description: 'Debit to Devon Energy Corporation',
         status: 'Success',
-        amount_usd: -15300.0
+        amount_usd: -15330.0
       },
       {
         dateTime: 'August 22, 2021',
         description: 'Credit from Aramco Pension',
         status: 'Success',
-        amount_usd: 8000.0
+        amount_usd: 850.0
       },
       {
         dateTime: 'November 15, 2019',
         description: 'Credit from Orion Capital Holdings.',
         status: 'Success',
-        amount_usd: 10200.0
+        amount_usd: 10280.0
       },
       {
         dateTime: 'September 18, 2019',
@@ -2397,7 +2397,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'July 19, 2018',
         description: 'Credit from Coterra Energy',
         status: 'Success',
-        amount_usd: 5000.0
+        amount_usd: 5170.45
       },
       {
         dateTime: 'June 5, 2018',
