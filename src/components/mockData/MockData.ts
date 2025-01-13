@@ -2410,7 +2410,7 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC023',
     holder: {
-      firstName: 'Lynn Becky',
+      firstName: 'Lynn Slaughter',
       lastName: '',
       mobileNumber: '+1-806-640-4206',
       email: 'lrs3385@gmail.com',
