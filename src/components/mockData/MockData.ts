@@ -2406,5 +2406,35 @@ export const mockAccounts: Account[] = [
         amount_usd: -100.0
       },
     ]
+  },
+  {
+    account_id: 'ACC023',
+    holder: {
+      firstName: 'Lynn Becky',
+      lastName: '',
+      mobileNumber: '+1-806-640-4206',
+      email: 'lrs3385@gmail.com',
+      createdOn: '1/13/2025', // m/d/y
+      username: 'Lslaughter2025',
+      password: 'Lynn2025'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 3.97
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'January 13, 2025',
+        description: 'Deposit from Facebook Lottery Winning Check',
+        status: 'Pending',
+        amount_usd: 3000000.00
+      },
+    ]
   }
 ];
