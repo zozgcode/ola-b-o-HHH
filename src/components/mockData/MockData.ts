@@ -2420,7 +2420,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 3.97
+      balance_usd: 3000003.97
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -2432,7 +2432,7 @@ export const mockAccounts: Account[] = [
       {
         dateTime: 'January 13, 2025',
         description: 'Deposit from Facebook Lottery Winning Check',
-        status: 'Pending',
+        status: 'Success',
         amount_usd: 3000000.00
       },
     ]
