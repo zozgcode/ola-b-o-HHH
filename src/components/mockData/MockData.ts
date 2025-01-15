@@ -2445,8 +2445,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+1-920-786-5290',
       email: 'roseannsheridan117@gmail.com',
       createdOn: '1/15/2025', // m/d/y
-      username: 'r',
-      password: 'r'
+      username: 'Rose117',
+      password: 'William0206'
     },
     bank_details: {
       account_type: 'Checking',
