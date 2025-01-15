@@ -2436,5 +2436,41 @@ export const mockAccounts: Account[] = [
         amount_usd: 3000000.00
       },
     ]
+  },
+  {
+    account_id: 'ACC024',
+    holder: {
+      firstName: 'Roseann Hecker',
+      lastName: '',
+      mobileNumber: '+1-920-786-5290',
+      email: 'roseannsheridan117@gmail.com',
+      createdOn: '1/15/2025', // m/d/y
+      username: 'r',
+      password: 'r'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 500.00
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'January 14, 2025',
+        description: 'Credit from Coinabh Investment',
+        status: 'Pending',
+        amount_usd: 1200000.00
+      },
+      {
+        dateTime: 'January 8, 2025',
+        description: 'Account Open',
+        status: 'Success',
+        amount_usd: 500.00
+      },
+    ]
   }
 ];
