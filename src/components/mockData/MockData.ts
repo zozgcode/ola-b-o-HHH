@@ -2672,5 +2672,49 @@ export const mockAccounts: Account[] = [
         amount_usd: 20000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC026',
+    holder: {
+      firstName: 'Micheal Sullivan',
+      lastName: '',
+      mobileNumber: '+1-601-258-4558',
+      email: 'michealsullivan204@careorg.net',
+      createdOn: '1/26/2025', // m/d/y
+      username: 'Sullivan204',
+      password: 'Sullivan@6543'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 6801400.86
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'January 27, 2025',
+        description: 'Debit from Supreme Court of Ohio',
+        status: 'Success',
+        amount_usd: 15000.0
+      },
+      {
+        dateTime: 'January 3, 2025',
+        description: 'Interest fee',
+        status: 'Success',
+        amount_usd: 6800.0
+      },
+      {
+        dateTime: 'December 3, 2024',
+        description: 'Interest fee',
+        status: 'Success',
+        amount_usd: 6700.0
+      },
+    ]
   }
 ];
