@@ -2716,5 +2716,85 @@ export const mockAccounts: Account[] = [
         amount_usd: 6700.0
       },
     ]
+  },
+  {
+    account_id: 'ACC027',
+    holder: {
+      firstName: 'Flora Richard',
+      lastName: '',
+      mobileNumber: '+1-***-***-****',
+      email: 'f*@gmail.com',
+      createdOn: '2/9/2025', // m/d/y
+      username: 'florarichard08',
+      password: 'Haryomidey08'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 500000000.00
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'February 10, 2025',
+        description: 'Transfer from ice box jewelry’s company XXXXXX8324',
+        status: 'Success',
+        amount_usd: 500000000.0
+      },
+      {
+        dateTime: 'August 6, 2023',
+        description: 'electronic charges XXXXXX0763',
+        status: 'Success',
+        amount_usd: -30.0
+      },
+      {
+        dateTime: 'July 9, 2023',
+        description: 'duties charges XXXXXX8324',
+        status: 'Success',
+        amount_usd: -47.0
+      },
+      {
+        dateTime: 'June 19, 2023',
+        description: 'Transfer from monthly sales allowance XXXXXX62537',
+        status: 'Success',
+        amount_usd: 45.0
+      },
+      {
+        dateTime: 'May 13, 2023',
+        description: 'foodstuff XXXXXX8732',
+        status: 'Success',
+        amount_usd: -100.0
+      },
+      {
+        dateTime: 'May 3, 2023',
+        description: 'Transfer to water supply company XXXXXX5323 Funds Transfer',
+        status: 'Success',
+        amount_usd: -75.0
+      },
+      {
+        dateTime: 'April 1, 2023',
+        description: 'Monthly allowance',
+        status: 'Success',
+        amount_usd: 150.0
+      },
+      {
+        dateTime: 'March 30, 2023 ',
+        description: 'Transfer to Lincoln Electrics XXXXXX2819',
+        status: 'Success',
+        amount_usd: -75.0
+      },
+      {
+        dateTime: 'March 30, 2023',
+        description: 'Salary payments from bammy wears store',
+        status: 'Success',
+        amount_usd: 250.0
+      },
+    ]
   }
 ];

@@ -30,17 +30,18 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
         <div className="mt-[10px]">
           {transactionsToShow.length == 0 && <div className="text-sm text-center p-4">No Recent Transaction</div>}
           {transactionsToShow.map((transaction: Transaction) => (
-            <div key={transaction.transaction_id} className="flex justify-between py-3">
+            <div key={transaction.transaction_id} className="flex justify-between gap-1 py-3">
               <div className="flex gap-2 text-gray-800">
                 <button className="border-none flex items-center justify-center outline-none rounded-full w-[35px] h-[35px] bg-[#d71e28]/10">
                   <HiArrowDown className={`${transaction.amount_usd < 0 ? 'rotate-180' : ''}`} />
                 </button>
                 <div className="flex flex-col gap-1 justify-between">
-                  <span className="text-[14px] font-[600] truncate max-w-[200px] sm:max-w-full overflow-hidden">{transaction.description}</span>
+                  <span className="text-[14px] font-[600] w-[200px] sm:max-w-full">{transaction.description}</span>
+                  {/* <span className="text-[14px] font-[600] truncate max-w-[200px] sm:max-w-full overflow-hidden">{transaction.description}</span> */}
                   <span className="text-[10px] font-medium">{transaction.dateTime}</span>
                 </div>
               </div>
-              <div className="flex flex-col gap-1 justify-between text-right">
+              <div className="flex flex-col gap-1 text-right">
                 <span className={`text-[14px] font-[600] ${transaction.amount_usd < 0 ? 'text-red-800' : ''}`}>{hideBalance ? '*****' : `${formatCurrency(transaction.amount_usd)}`}</span>
                 <span className={`text-[10px] font-medium ${transaction.status === 'Pending' ? 'text-yellow-600' : 'text-green-600'}`}>{transaction.status}</span>
               </div>
