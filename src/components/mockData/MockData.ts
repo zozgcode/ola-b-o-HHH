@@ -2898,7 +2898,7 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       account_number: '',
       routing_number: '',
-      balance_usd: 50001250.00
+      balance_usd: 50000093.00
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
