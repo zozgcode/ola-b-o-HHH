@@ -2882,5 +2882,91 @@ export const mockAccounts: Account[] = [
         amount_usd: 250.0
       },
     ]
+  },
+  {
+    account_id: 'ACC029',
+    holder: {
+      firstName: 'Dr William Robert',
+      lastName: '',
+      mobileNumber: '+1-***-***-****',
+      email: 'ssntallman@gmail.com',
+      createdOn: '2/28/2025', // m/d/y
+      username: 'Ssntallman',
+      password: 'Locationdc1'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 50001250.00
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 10, 2025',
+        description: 'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
+        status: 'Success',
+        amount_usd: 50000000.0
+      },
+      {
+        dateTime: 'September 5, 2024',
+        description: 'Electronic charges XXXXXX1237',
+        status: 'Success',
+        amount_usd: -25.0
+      },
+      {
+        dateTime: 'August 6, 2023',
+        description: 'Duties charges XXXXXX6328',
+        status: 'Success',
+        amount_usd: -30.0
+      },
+      {
+        dateTime: 'June 9, 2023',
+        description: 'Transfer from monthly sales allowance XXXXXX7464',
+        status: 'Success',
+        amount_usd: 47.0
+      },
+      {
+        dateTime: 'June 19, 2022',
+        description: 'foodstuff XXXXXX2224',
+        status: 'Success',
+        amount_usd: 45.0
+      },
+      {
+        dateTime: 'May 13, 2022',
+        description: 'Transfer to water supply company XXXXXX1133 Funds Transfer',
+        status: 'Success',
+        amount_usd: -100.0
+      },
+      {
+        dateTime: 'May 3, 2022',
+        description: 'Monthly allowance',
+        status: 'Success',
+        amount_usd: -75.0
+      },
+      {
+        dateTime: 'April 1, 2021',
+        description: 'Transfer from Lincoln Electrics XXXXXX2819',
+        status: 'Success',
+        amount_usd: 150.0
+      },
+      {
+        dateTime: 'March 30, 2021',
+        description: 'Salary payments from bammy wears store',
+        status: 'Success',
+        amount_usd: 75.0
+      },
+      {
+        dateTime: 'March 3, 2021',
+        description: 'DEPOSIT XXXXXX6489',
+        status: 'Success',
+        amount_usd: 250.0
+      },
+    ]
   }
 ];
