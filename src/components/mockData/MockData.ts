@@ -2714,7 +2714,7 @@ export const mockAccounts: Account[] = [
         description: 'Interest fee',
         status: 'Success',
         amount_usd: 6700.0
-      },
+      }
     ]
   },
   {
@@ -2732,7 +2732,7 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       account_number: '',
       routing_number: '',
-      balance_usd: 500000000.00
+      balance_usd: 500000000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -2794,7 +2794,7 @@ export const mockAccounts: Account[] = [
         description: 'Salary payments from bammy wears store',
         status: 'Success',
         amount_usd: 250.0
-      },
+      }
     ]
   },
   {
@@ -2812,7 +2812,7 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       account_number: '',
       routing_number: '',
-      balance_usd: 15000000.00
+      balance_usd: 15000000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -2880,7 +2880,7 @@ export const mockAccounts: Account[] = [
         description: 'DEPOSIT XXXXXX6489',
         status: 'Success',
         amount_usd: 250.0
-      },
+      }
     ]
   },
   {
@@ -2898,7 +2898,7 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       account_number: '',
       routing_number: '',
-      balance_usd: 50000093.00
+      balance_usd: 50000093.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -2966,7 +2966,123 @@ export const mockAccounts: Account[] = [
         description: 'DEPOSIT XXXXXX6489',
         status: 'Success',
         amount_usd: 250.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC030',
+    holder: {
+      firstName: 'Santiago Tata Sally',
+      lastName: '',
+      mobileNumber: '+1-***-***-****',
+      email: 's*@gmail.com',
+      createdOn: '3/5/2025', // m/d/y
+      username: 'Sallytata',
+      password: 'Tata22'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 50000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 3, 2025',
+        description: 'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
+        status: 'Success',
+        amount_usd: 50000000.0
       },
+      {
+        dateTime: 'February 17, 2025',
+        description: 'Purchase: Tactical Gear Supply Depot XXXXXX0912',
+        status: 'Success',
+        amount_usd: -2500.0
+      },
+      {
+        dateTime: 'January 29, 2025',
+        description: 'Salary Payment: U.S. ARMY PAYROLL (DoD) XXXXXX7621',
+        status: 'Success',
+        amount_usd: 7000.0
+      },
+      {
+        dateTime: 'December 15, 2024',
+        description: 'Withdrawal: Military Base ATM FORT BRAGG XXXXXX2034',
+        status: 'Success',
+        amount_usd: -1000.0
+      },
+      {
+        dateTime: 'November 8, 2024',
+        description: 'Transfer to DEPLOYMENT FUNDS (Overseas Ops) XXXXXX6742',
+        status: 'Success',
+        amount_usd: -5000.0
+      },
+      {
+        dateTime: 'October 3, 2024',
+        description: 'Direct Deposit: Military Hazard Pay (DoD) XXXXXX1289',
+        status: 'Success',
+        amount_usd: 2500.0
+      },
+      {
+        dateTime: 'September 12, 2024',
+        description: 'Purchase: Military Exchange Store XXXXXX8123',
+        status: 'Success',
+        amount_usd: -320.0
+      },
+      {
+        dateTime: 'August 27, 2024',
+        description: 'Transfer from MILITARY RETIREMENT FUND (DoD) XXXXXX0091',
+        status: 'Success',
+        amount_usd: 10000.0
+      },
+      {
+        dateTime: 'July 4, 2024',
+        description: 'Purchase: Army Commemorative Store XXXXXX5576',
+        status: 'Success',
+        amount_usd: -150.0
+      },
+      {
+        dateTime: 'June 18, 2024',
+        description: 'Deposit: Combat Zone Tax Exclusion (CZTE) XXXXXX4812',
+        status: 'Success',
+        amount_usd: 3000.0
+      },
+      {
+        dateTime: 'May 20, 2024',
+        description: 'Withdrawal: Military Base ATM CAMP PENDLETON XXXXXX9041',
+        status: 'Success',
+        amount_usd: -1200.0
+      },
+      {
+        dateTime: 'April 9, 2024',
+        description: 'Transfer to FAMILY SUPPORT ALLOWANCE XXXXXX6104',
+        status: 'Success',
+        amount_usd: -4000.0
+      },
+      {
+        dateTime: 'March 2, 2024',
+        description: 'Salary Payment: U.S. ARMY PAYROLL (DoD) XXXXXX5023',
+        status: 'Success',
+        amount_usd: 6800.0
+      },
+      {
+        dateTime: 'February 14, 2024',
+        description: 'Purchase: Tactical Equipment Store XXXXXX3298',
+        status: 'Success',
+        amount_usd: -250.0
+      },
+      {
+        dateTime: 'January 10, 2023',
+        description: 'Deposit: Military Bonus Pay (DoD) XXXXXX1105',
+        status: 'Success',
+        amount_usd: 15000.0
+      }
     ]
   }
 ];
