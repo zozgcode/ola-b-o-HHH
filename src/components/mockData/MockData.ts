@@ -3084,5 +3084,277 @@ export const mockAccounts: Account[] = [
         amount_usd: 15000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC031',
+    holder: {
+      firstName: 'Owen Henry',
+      lastName: '',
+      mobileNumber: '+1-***-***-****',
+      email: 'o*@gmail.com',
+      createdOn: '3/6/2025', // m/d/y
+      username: 'Owenhenry1463',
+      password: 'OWENhenry141263'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 2600000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 3 2025',
+        description: 'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
+        status: 'Success',
+        amount_usd: 50560.0
+      },
+      {
+        dateTime: 'February 17 2025',
+        description: 'Transfer from Tactical Gear Supply Depot XXXXXX0912',
+        status: 'Success',
+        amount_usd: 2500.0
+      },
+      {
+        dateTime: 'January 23 2025',
+        description: 'Transfer from Paris Event XXXXXX3749',
+        status: 'Success',
+        amount_usd: 75000.0
+      },
+      {
+        dateTime: 'January 20 2025',
+        description: 'PetroQuest Energy Payment XXXXXX6218',
+        status: 'Success',
+        amount_usd: 11000.0
+      },
+      {
+        dateTime: 'January 18 2025',
+        description: 'W&T Offshore Invoice XXXXXX9473',
+        status: 'Success',
+        amount_usd: 8500.0
+      },
+      {
+        dateTime: 'January 17 2025',
+        description: 'Comstock Resources Contract XXXXXX1852',
+        status: 'Success',
+        amount_usd: 7500.0
+      },
+      {
+        dateTime: 'January 15 2025',
+        description: 'Abraxas Petroleum Settlement XXXXXX7394',
+        status: 'Success',
+        amount_usd: 6000.0
+      },
+      {
+        dateTime: 'January 13 2025',
+        description: 'Northern Oil and Gas Royalty XXXXXX0561',
+        status: 'Success',
+        amount_usd: 4500.0
+      },
+      {
+        dateTime: 'January 12 2025',
+        description: 'Earthstone Energy Licensing XXXXXX4279',
+        status: 'Success',
+        amount_usd: 2500.0
+      },
+      {
+        dateTime: 'October 1 2024',
+        description: "Grimms supply holding's XXXXXX8506",
+        status: 'Success',
+        amount_usd: 15000.0
+      },
+      {
+        dateTime: 'September 23 2024',
+        description: 'Transfer from TABITHA MARTEL XXXXXX3142',
+        status: 'Success',
+        amount_usd: 25000.0
+      },
+      {
+        dateTime: 'September 10 2024',
+        description: 'Transfer from Cory Mack XXXXXX7035',
+        status: 'Success',
+        amount_usd: 120000.0
+      },
+      {
+        dateTime: 'August 18 2024',
+        description: 'Land Payment XXXXXX9684',
+        status: 'Success',
+        amount_usd: 78000.0
+      },
+      {
+        dateTime: 'November 15 2023',
+        description: 'Office Supplies Purchase XXXXXX2317',
+        status: 'Success',
+        amount_usd: -2300.0
+      },
+      {
+        dateTime: 'July 6 2023',
+        description: 'Celeb City Farms XXXXXX5840',
+        status: 'Success',
+        amount_usd: 4000.0
+      },
+      {
+        dateTime: 'January 10 2023',
+        description: 'Company Officials XXXXXX1463',
+        status: 'Success',
+        amount_usd: -15750.0
+      },
+      {
+        dateTime: 'December 5 2022',
+        description: 'Transfer from Tee~Energy services XXXXXX9725',
+        status: 'Success',
+        amount_usd: 3100.0
+      },
+      {
+        dateTime: 'October 19 2022',
+        description: 'Company Van Maintenance XXXXXX4058',
+        status: 'Success',
+        amount_usd: -1500.0
+      },
+      {
+        dateTime: 'April 9 2022',
+        description: 'Refund from Vendor XXXXXX6291',
+        status: 'Success',
+        amount_usd: 1200.0
+      },
+      {
+        dateTime: 'September 13 2021',
+        description: 'Transfer from Nikky&co enterprises XXXXXX7836',
+        status: 'Success',
+        amount_usd: 4500.0
+      },
+      {
+        dateTime: 'June 24 2021',
+        description: 'Appointment Form Payment XXXXXX2509',
+        status: 'Success',
+        amount_usd: 650.0
+      },
+      {
+        dateTime: 'February 18 2021',
+        description: 'IT Equipment Maintenance XXXXXX3974',
+        status: 'Success',
+        amount_usd: -7800.0
+      },
+      {
+        dateTime: 'December 29 2020',
+        description: 'Transfer to Company Savings XXXXXX8152',
+        status: 'Success',
+        amount_usd: 5000.0
+      },
+      {
+        dateTime: 'February 3 2020',
+        description: 'Department Workers XXXXXX0693',
+        status: 'Success',
+        amount_usd: -10000.0
+      },
+      {
+        dateTime: 'January 8 2020',
+        description: 'Transfer from Chad Estate Management XXXXXX4281',
+        status: 'Success',
+        amount_usd: 7500.0
+      },
+      {
+        dateTime: 'July 4 2019',
+        description: 'Employee Travel Reimbursement XXXXXX7546',
+        status: 'Success',
+        amount_usd: -4200.0
+      },
+      {
+        dateTime: 'May 20 2019',
+        description: 'Bammy Work Wear and Maintenance XXXXXX2937',
+        status: 'Success',
+        amount_usd: -4500.0
+      },
+      {
+        dateTime: 'March 23 2019',
+        description: 'Transfer from JayJay Group XXXXXX5018',
+        status: 'Success',
+        amount_usd: 12000.0
+      },
+      {
+        dateTime: 'October 10 2018',
+        description: 'Transfer from Parent Organization XXXXXX3624',
+        status: 'Success',
+        amount_usd: 20000.0
+      },
+      {
+        dateTime: 'August 23 2018',
+        description: 'Transfer to Nikky&co enterprises XXXXXX9157',
+        status: 'Success',
+        amount_usd: -66500.0
+      },
+      {
+        dateTime: 'March 23 2018',
+        description: 'Transfer from Tee~Energy services XXXXXX4083',
+        status: 'Success',
+        amount_usd: 33200.0
+      },
+      {
+        dateTime: 'June 15 2017',
+        description: 'Transfer from Local Partnership XXXXXX4012',
+        status: 'Success',
+        amount_usd: 17500.0
+      },
+      {
+        dateTime: 'April 2 2016',
+        description: 'Office Renovation Payment XXXXXX5378',
+        status: 'Success',
+        amount_usd: -8500.0
+      },
+      {
+        dateTime: 'September 20 2015',
+        description: 'Transfer from Westward Logistics XXXXXX2197',
+        status: 'Success',
+        amount_usd: 12000.0
+      },
+      {
+        dateTime: 'July 8 2014',
+        description: 'Purchase of Industrial Equipment XXXXXX9315',
+        status: 'Success',
+        amount_usd: -9700.0
+      },
+      {
+        dateTime: 'March 11 2013',
+        description: 'Transfer from Investment Portfolio XXXXXX5210',
+        status: 'Success',
+        amount_usd: 22500.0
+      },
+      {
+        dateTime: 'December 5 2012',
+        description: 'Legal Settlement Fee XXXXXX8492',
+        status: 'Success',
+        amount_usd: -10500.0
+      },
+      {
+        dateTime: 'June 25 2011',
+        description: 'Transfer from Business Partner XXXXXX3205',
+        status: 'Success',
+        amount_usd: 14500.0
+      },
+      {
+        dateTime: 'April 18 2010',
+        description: 'Company Event Sponsorship XXXXXX4283',
+        status: 'Success',
+        amount_usd: -3500.0
+      },
+      {
+        dateTime: 'November 22 2009',
+        description: 'Transfer from Regional Office XXXXXX2048',
+        status: 'Success',
+        amount_usd: 18000.0
+      },
+      {
+        dateTime: 'May 12 2008',
+        description: 'Business Expense Reimbursement XXXXXX1347',
+        status: 'Success',
+        amount_usd: -4600.0
+      }
+    ]
   }
 ];
