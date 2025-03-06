@@ -20,7 +20,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -179,7 +179,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -362,7 +362,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -433,7 +433,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -544,7 +544,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -631,7 +631,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -774,7 +774,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -813,7 +813,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -964,7 +964,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       wireDate: true
     },
     transaction_history: [
@@ -1091,7 +1091,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
@@ -1152,7 +1152,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
@@ -1351,7 +1351,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
@@ -1389,7 +1389,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '237832w2762',
+      transaction_code: '252118',
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
@@ -1570,7 +1570,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '252126',
+      transaction_code: '252118',
       lastStepText: 'Transaction sent successfully',
       wireDate: true
     },
@@ -1657,7 +1657,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '252120',
+      transaction_code: '252118',
       lastStepText: 'Transaction Pending..',
       wireDate: true
     },
