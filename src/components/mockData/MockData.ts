@@ -3356,5 +3356,121 @@ export const mockAccounts: Account[] = [
         amount_usd: -4600.0
       }
     ]
+  },
+  {
+    account_id: 'ACC032',
+    holder: {
+      firstName: 'Melinda Smith Velma',
+      lastName: '',
+      mobileNumber: '+1-***-***-****',
+      email: 'm*@gmail.com',
+      createdOn: '3/16/2025', // m/d/y
+      username: 'MelindaSmith16',
+      password: 'msv_linda289'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 1085000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 11 2025',
+        description: 'Transfer from Citizen Bank XXXXXX4127',
+        status: 'Success',
+        amount_usd: 32640.0
+      },
+      {
+        dateTime: 'March 9 2025',
+        description: 'Transfer from Citizen Bank XXXXXX1234',
+        status: 'Success',
+        amount_usd: 50560.0
+      },
+      {
+        dateTime: 'March 7 2025',
+        description: 'Transfer from Citizen Bank XXXXXX5678',
+        status: 'Success',
+        amount_usd: 21480.0
+      },
+      {
+        dateTime: 'March 5 2025',
+        description: 'Bank Charges XXXXXX3344',
+        status: 'Success',
+        amount_usd: -120.0
+      },
+      {
+        dateTime: 'March 3 2025',
+        description: 'Transfer from Citizen Bank XXXXXX1122',
+        status: 'Success',
+        amount_usd: 39250.0
+      },
+      {
+        dateTime: 'March 1 2025',
+        description: 'Bank Charges XXXXXX3344',
+        status: 'Success',
+        amount_usd: -120.0
+      },
+      {
+        dateTime: 'February 27 2025',
+        description: 'Transfer from Citizen Bank XXXXXX5566',
+        status: 'Success',
+        amount_usd: 58920.0
+      },
+      {
+        dateTime: 'February 25 2025',
+        description: 'Transfer from Citizen Bank XXXXXX7788',
+        status: 'Success',
+        amount_usd: 27830.0
+      },
+      {
+        dateTime: 'February 23 2025',
+        description: 'Utility Payment - Electricity Bill XXXXXX9900',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'February 21 2025',
+        description: 'Transfer from Citizen Bank XXXXXX2233',
+        status: 'Success',
+        amount_usd: 67500.0
+      },
+      {
+        dateTime: 'February 19 2025',
+        description: 'Transfer from Citizen Bank XXXXXX4455',
+        status: 'Success',
+        amount_usd: 31980.0
+      },
+      {
+        dateTime: 'February 17 2025',
+        description: 'Transfer from Citizen Bank XXXXXX6677',
+        status: 'Success',
+        amount_usd: 48200.0
+      },
+      {
+        dateTime: 'February 15 2025',
+        description: 'ATM Withdrawal XXXXXX8899',
+        status: 'Success',
+        amount_usd: -75.0
+      },
+      {
+        dateTime: 'February 13 2025',
+        description: 'Transfer from Citizen Bank XXXXXX3344',
+        status: 'Success',
+        amount_usd: 21540.0
+      },
+      {
+        dateTime: 'February 11 2025',
+        description: 'Transfer from Citizen Bank XXXXXX5566',
+        status: 'Success',
+        amount_usd: 42900.0
+      }
+    ]
   }
 ];
