@@ -18,8 +18,8 @@ export default function Header({ handleLogout, user }: any) {
         <RiLogoutCircleLine className="text-2xl text-black" onClick={toggleNav}/>
 
         {open && (
-          <div className="absolute mt-1 z-50 shadow bg-white border py-2 rounded-md right-0 flex flex-col justify-center gap-[5px]">
-            <p className="text-[14px] px-[15px] py-[5px] whitespace-nowrap font-medium text-[#d71e28]">
+          <div className="absolute max-w-[200px] whitespace-nowrap mt-1 z-50 shadow bg-white border py-2 rounded-md right-0 flex flex-col justify-center gap-[5px]">
+            <p className="text-[14px] px-[15px] py-[5px] whitespace-nowrap truncate font-medium text-[#d71e28]">
               {user.holder.firstName}&nbsp;{user.holder.lastName}
             </p>
             <p
