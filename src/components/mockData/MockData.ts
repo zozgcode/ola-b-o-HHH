@@ -3567,14 +3567,14 @@ export const mockAccounts: Account[] = [
       mobileNumber: '***-***-****',
       email: 'l*@gmail.com',
       createdOn: '3/29/2025', // m/d/y
-      username: 'Leonard1440',
-      password: 'Bunnie1440'
+      username: 'l',
+      password: 'l'
     },
     bank_details: {
       account_type: 'Checking',
       account_number: '',
       routing_number: '',
-      balance_usd: 1031200.0
+      balance_usd: 10031200.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
