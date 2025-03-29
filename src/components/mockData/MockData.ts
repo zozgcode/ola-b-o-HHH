@@ -3556,7 +3556,153 @@ export const mockAccounts: Account[] = [
         description: 'DEPOSIT XXXXXX8324',
         status: 'Success',
         amount_usd: 250.0
-      },
+      }
     ]
   },
+  {
+    account_id: 'ACC034',
+    holder: {
+      firstName: 'Leonard Richard Spencer',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 'l*@gmail.com',
+      createdOn: '3/29/2025', // m/d/y
+      username: 'Leonard1440',
+      password: 'Bunnie1440'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 1031200.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 25, 2025',
+        description: 'Inheritance transfer from Estate of William Anderson XXXXXX8324',
+        status: 'Success',
+        amount_usd: 750000.0
+      },
+      {
+        dateTime: 'March 20, 2025',
+        description: 'Payment to Oakridge Luxury Motors for vehicle purchase',
+        status: 'Success',
+        amount_usd: -450000.0
+      },
+      {
+        dateTime: 'March 15, 2025',
+        description: 'Inheritance transfer from Estate of Elizabeth Carter XXXXXX5678',
+        status: 'Success',
+        amount_usd: 1250000.0
+      },
+      {
+        dateTime: 'March 1, 2025',
+        description: 'Property tax payment to Riverside Accounting Solutions',
+        status: 'Success',
+        amount_usd: -25000.0
+      },
+      {
+        dateTime: 'January 28, 2025',
+        description: 'Inheritance transfer from Estate of Jonathan Williams XXXXXX4321',
+        status: 'Success',
+        amount_usd: 210000.0
+      },
+      {
+        dateTime: 'January 15, 2025',
+        description: 'Private jet rental payment to Skyhigh Aviation Services',
+        status: 'Success',
+        amount_usd: -90000.0
+      },
+      {
+        dateTime: 'October 22, 2024',
+        description: 'Inheritance transfer from Estate of Robert Mitchell XXXXXX5432',
+        status: 'Success',
+        amount_usd: 180000.0
+      },
+      {
+        dateTime: 'October 10, 2024',
+        description: 'Luxury hotel stay payment to Greenpine Resorts',
+        status: 'Success',
+        amount_usd: -15000.0
+      },
+      {
+        dateTime: 'July 10, 2023',
+        description: 'Inheritance transfer from Estate of James Rodriguez XXXXXX5673',
+        status: 'Success',
+        amount_usd: 350000.0
+      },
+      {
+        dateTime: 'July 1, 2023',
+        description: 'Yacht maintenance payment to Blue Wave Marine Services',
+        status: 'Success',
+        amount_usd: -20000.0
+      },
+      {
+        dateTime: 'May 15, 2023',
+        description: 'Inheritance transfer from Estate of Richard Thompson XXXXXX8745',
+        status: 'Success',
+        amount_usd: 275000.0
+      },
+      {
+        dateTime: 'March 3, 2022',
+        description: 'Inheritance transfer from Estate of Henry Clark XXXXXX2345',
+        status: 'Success',
+        amount_usd: 400000.0
+      },
+      {
+        dateTime: 'March 1, 2022',
+        description: 'Donation to Bright Hope Charitable Trust',
+        status: 'Success',
+        amount_usd: -5000.0
+      },
+      {
+        dateTime: 'January 20, 2021',
+        description: 'Inheritance transfer from Estate of Robert Johnson XXXXXX6574',
+        status: 'Success',
+        amount_usd: 295000.0
+      },
+      {
+        dateTime: 'January 5, 2021',
+        description: 'Payment to Everglow Jewelers for diamond necklace',
+        status: 'Success',
+        amount_usd: -22000.0
+      },
+      {
+        dateTime: 'October 30, 2020',
+        description: 'Inheritance transfer from Estate of Anthony White XXXXXX3421',
+        status: 'Success',
+        amount_usd: 150000.0
+      },
+      {
+        dateTime: 'October 1, 2020',
+        description: 'First-class flight booking with Horizon Travel Agency',
+        status: 'Success',
+        amount_usd: -8000.0
+      },
+      {
+        dateTime: 'July 8, 2020',
+        description: 'Inheritance transfer from Estate of Michael Williams XXXXXX8764',
+        status: 'Success',
+        amount_usd: 320000.0
+      },
+      {
+        dateTime: 'April 12, 2019',
+        description: 'Inheritance transfer from Estate of Richard Thompson XXXXXX4853',
+        status: 'Success',
+        amount_usd: 210000.0
+      },
+      {
+        dateTime: 'April 1, 2019',
+        description: 'Real estate investment payment to Skyline Property Developers',
+        status: 'Success',
+        amount_usd: -150000.0
+      }
+    ]
+  }
 ];
