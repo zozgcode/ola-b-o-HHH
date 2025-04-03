@@ -3704,5 +3704,121 @@ export const mockAccounts: Account[] = [
         amount_usd: -150000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC035',
+    holder: {
+      firstName: 'Henry Stanley Hatcher',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 'h*@gmail.com',
+      createdOn: '4/3/2025', // m/d/y
+      username: 'Kinghenry@022--39',
+      password: 'Myking4life04--39'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 35000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      { 
+        dateTime: "February 14, 2025", 
+        description: "Transfer from Orion Capital XXXXXX5678", 
+        status: "Success", 
+        amount_usd: 125000.0,
+      },
+      { 
+        dateTime: "February 8, 2025", 
+        description: "Payment to Northwest Contractors XXXXXX3421", 
+        status: "Success", 
+        amount_usd: -47500.0,
+      },
+      { 
+        dateTime: "February 1, 2025", 
+        description: "Transfer from Angel White XXXXXX9821", 
+        status: "Success", 
+        amount_usd: 300000.0,
+      },
+      { 
+        dateTime: "January 25, 2025", 
+        description: "Withdrawal Branch #103", 
+        status: "Success", 
+        amount_usd: -8500.0,
+      },
+      { 
+        dateTime: "January 21, 2025", 
+        description: "Transfer from PERRY JOHNSON REGISTERARS INC XXXXXX7632", 
+        status: "Success", 
+        amount_usd: 100000.0,
+      },
+      { 
+        dateTime: "January 12, 2025", 
+        description: "Payment to Global Logistics XXXXXX2376", 
+        status: "Success", 
+        amount_usd: -35200.0,
+      },
+      { 
+        dateTime: "January 5, 2025", 
+        description: "Transfer from Crossroads Investments XXXXXX8734", 
+        status: "Success", 
+        amount_usd: 82500.0,
+      },
+      { 
+        dateTime: "December 28, 2024", 
+        description: "Payment to Dynasty Insurance XXXXXX6543", 
+        status: "Success", 
+        amount_usd: -14800.0,
+      },
+      { 
+        dateTime: "December 18, 2024", 
+        description: "Transfer from Brock McNown XXXXXX0368", 
+        status: "Success", 
+        amount_usd: 77000.0,
+      },
+      { 
+        dateTime: "December 12, 2024", 
+        description: "Withdrawal ATM #5290", 
+        status: "Success", 
+        amount_usd: -3000.0,
+      },
+      { 
+        dateTime: "December 8, 2024", 
+        description: "Transfer from Transoceanic Company XXXXXX1125", 
+        status: "Success", 
+        amount_usd: 53000.0,
+      },
+      { 
+        dateTime: "November 30, 2024", 
+        description: "Payment to Pinnacle Advisors XXXXXX7890", 
+        status: "Success", 
+        amount_usd: -28600.0,
+      },
+      { 
+        dateTime: "November 22, 2024", 
+        description: "Transfer from Sterling Enterprises XXXXXX4321", 
+        status: "Success", 
+        amount_usd: 64500.0,
+      },
+      { 
+        dateTime: "November 15, 2024", 
+        description: "Payment to Frontier Media XXXXXX1098", 
+        status: "Success", 
+        amount_usd: -19700.0,
+      },
+      { 
+        dateTime: "November 2, 2024", 
+        description: "Transfer from Eclipse Partners XXXXXX7654", 
+        status: "Success", 
+        amount_usd: 95800.0,
+      }
+    ]
   }
 ];
