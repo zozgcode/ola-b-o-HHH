@@ -3906,5 +3906,43 @@ export const mockAccounts: Account[] = [
         amount_usd: 250.0,
       },
     ]
+  },
+  {
+    account_id: 'ACC037',
+    holder: {
+      firstName: 'Spencer Lee',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 's*@gmail.com',
+      createdOn: '4/17/2025', // m/d/y
+      username: 'Gerald23',
+      password: 'Avery23'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 129821497.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      { 
+        dateTime: "April 15, 2025", 
+        description: "Transfer from Orion Capital Holdings. XXXXXX8324", 
+        status: "Success", 
+        amount_usd: 20821497.00,
+      },
+      { 
+        dateTime: "May 10, 2019", 
+        description: "Transfer from Valero Energy Corporation XXXXXX8324", 
+        status: "Success", 
+        amount_usd: 109000000.00,
+      },
+    ]
   }
 ];
