@@ -3944,5 +3944,91 @@ export const mockAccounts: Account[] = [
         amount_usd: 109000000.00,
       },
     ]
+  },
+   {
+    account_id: 'ACC038',
+    holder: {
+      firstName: 'MR. Michael Raymond Williams',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 'michaelraymond@gmail.com',
+      createdOn: '4/20/2025', // m/d/y
+      username: 'MichaelRaymond810',
+      password: 'Melissa1986'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 8100000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      { 
+        dateTime: " April 20, 2025", 
+        description: "Transfer from Williams Oil and Gas, Inc. - XXXXXX8324", 
+        status: "Success", 
+        amount_usd: 1499898.00,
+      },
+      { 
+        dateTime: "January 2, 2025", 
+        description: "Electronic charges - XXXXXX1228", 
+        status: "Success", 
+        amount_usd: -25.00,
+      },
+      { 
+        dateTime: "September 6, 2024", 
+        description: "Duties charges - XXXXXX3684", 
+        status: "Success", 
+        amount_usd: -30.00,
+      },
+      { 
+        dateTime: "July 9, 2024", 
+        description: "Transfer from monthly sales allowance - XXXXXX4393", 
+        status: "Success", 
+        amount_usd: -47.00,
+      },
+      { 
+        dateTime: "June 19, 2023", 
+        description: "Outfit - XXXXXX6457", 
+        status: "Success", 
+        amount_usd: 99825.00,
+      },
+      { 
+        dateTime: "May 13, 2023", 
+        description: "Transfer to water supply company - XXXXXX4488", 
+        status: "Success", 
+        amount_usd: -100.00,
+      },
+      { 
+        dateTime: "May 3, 2022", 
+        description: "monthly allowance - XXXXXX9746", 
+        status: "Success", 
+        amount_usd: -75.00,
+      },
+      { 
+        dateTime: "April 15, 2021", 
+        description: "Transfer from Lincoln Electrics - XXXXXX2740", 
+        status: "Success", 
+        amount_usd: 1499925.00,
+      },
+      { 
+        dateTime: "May 15, 2020", 
+        description: "salary payments from bammy wears store - XXXXXX9865", 
+        status: "Success", 
+        amount_usd: -75.00,
+      },
+      { 
+        dateTime: "March 30, 2020", 
+        description: "Transfer from mark Donald LLC company - XXXXXX7688", 
+        status: "Success", 
+        amount_usd: 5000000.0,
+      },
+    ]
   }
 ];
