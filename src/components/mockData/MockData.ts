@@ -3729,95 +3729,95 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-      { 
-        dateTime: "February 14, 2025", 
-        description: "Transfer from Orion Capital XXXXXX5678", 
-        status: "Success", 
-        amount_usd: 125000.0,
+      {
+        dateTime: 'February 14, 2025',
+        description: 'Transfer from Orion Capital XXXXXX5678',
+        status: 'Success',
+        amount_usd: 125000.0
       },
-      { 
-        dateTime: "February 8, 2025", 
-        description: "Payment to Northwest Contractors XXXXXX3421", 
-        status: "Success", 
-        amount_usd: -47500.0,
+      {
+        dateTime: 'February 8, 2025',
+        description: 'Payment to Northwest Contractors XXXXXX3421',
+        status: 'Success',
+        amount_usd: -47500.0
       },
-      { 
-        dateTime: "February 1, 2025", 
-        description: "Transfer from Angel White XXXXXX9821", 
-        status: "Success", 
-        amount_usd: 300000.0,
+      {
+        dateTime: 'February 1, 2025',
+        description: 'Transfer from Angel White XXXXXX9821',
+        status: 'Success',
+        amount_usd: 300000.0
       },
-      { 
-        dateTime: "January 25, 2025", 
-        description: "Withdrawal Branch #103", 
-        status: "Success", 
-        amount_usd: -8500.0,
+      {
+        dateTime: 'January 25, 2025',
+        description: 'Withdrawal Branch #103',
+        status: 'Success',
+        amount_usd: -8500.0
       },
-      { 
-        dateTime: "January 21, 2025", 
-        description: "Transfer from PERRY JOHNSON REGISTERARS INC XXXXXX7632", 
-        status: "Success", 
-        amount_usd: 100000.0,
+      {
+        dateTime: 'January 21, 2025',
+        description: 'Transfer from PERRY JOHNSON REGISTERARS INC XXXXXX7632',
+        status: 'Success',
+        amount_usd: 100000.0
       },
-      { 
-        dateTime: "January 12, 2025", 
-        description: "Payment to Global Logistics XXXXXX2376", 
-        status: "Success", 
-        amount_usd: -35200.0,
+      {
+        dateTime: 'January 12, 2025',
+        description: 'Payment to Global Logistics XXXXXX2376',
+        status: 'Success',
+        amount_usd: -35200.0
       },
-      { 
-        dateTime: "January 5, 2025", 
-        description: "Transfer from Crossroads Investments XXXXXX8734", 
-        status: "Success", 
-        amount_usd: 82500.0,
+      {
+        dateTime: 'January 5, 2025',
+        description: 'Transfer from Crossroads Investments XXXXXX8734',
+        status: 'Success',
+        amount_usd: 82500.0
       },
-      { 
-        dateTime: "December 28, 2024", 
-        description: "Payment to Dynasty Insurance XXXXXX6543", 
-        status: "Success", 
-        amount_usd: -14800.0,
+      {
+        dateTime: 'December 28, 2024',
+        description: 'Payment to Dynasty Insurance XXXXXX6543',
+        status: 'Success',
+        amount_usd: -14800.0
       },
-      { 
-        dateTime: "December 18, 2024", 
-        description: "Transfer from Brock McNown XXXXXX0368", 
-        status: "Success", 
-        amount_usd: 77000.0,
+      {
+        dateTime: 'December 18, 2024',
+        description: 'Transfer from Brock McNown XXXXXX0368',
+        status: 'Success',
+        amount_usd: 77000.0
       },
-      { 
-        dateTime: "December 12, 2024", 
-        description: "Withdrawal ATM #5290", 
-        status: "Success", 
-        amount_usd: -3000.0,
+      {
+        dateTime: 'December 12, 2024',
+        description: 'Withdrawal ATM #5290',
+        status: 'Success',
+        amount_usd: -3000.0
       },
-      { 
-        dateTime: "December 8, 2024", 
-        description: "Transfer from Transoceanic Company XXXXXX1125", 
-        status: "Success", 
-        amount_usd: 53000.0,
+      {
+        dateTime: 'December 8, 2024',
+        description: 'Transfer from Transoceanic Company XXXXXX1125',
+        status: 'Success',
+        amount_usd: 53000.0
       },
-      { 
-        dateTime: "November 30, 2024", 
-        description: "Payment to Pinnacle Advisors XXXXXX7890", 
-        status: "Success", 
-        amount_usd: -28600.0,
+      {
+        dateTime: 'November 30, 2024',
+        description: 'Payment to Pinnacle Advisors XXXXXX7890',
+        status: 'Success',
+        amount_usd: -28600.0
       },
-      { 
-        dateTime: "November 22, 2024", 
-        description: "Transfer from Sterling Enterprises XXXXXX4321", 
-        status: "Success", 
-        amount_usd: 64500.0,
+      {
+        dateTime: 'November 22, 2024',
+        description: 'Transfer from Sterling Enterprises XXXXXX4321',
+        status: 'Success',
+        amount_usd: 64500.0
       },
-      { 
-        dateTime: "November 15, 2024", 
-        description: "Payment to Frontier Media XXXXXX1098", 
-        status: "Success", 
-        amount_usd: -19700.0,
+      {
+        dateTime: 'November 15, 2024',
+        description: 'Payment to Frontier Media XXXXXX1098',
+        status: 'Success',
+        amount_usd: -19700.0
       },
-      { 
-        dateTime: "November 2, 2024", 
-        description: "Transfer from Eclipse Partners XXXXXX7654", 
-        status: "Success", 
-        amount_usd: 95800.0,
+      {
+        dateTime: 'November 2, 2024',
+        description: 'Transfer from Eclipse Partners XXXXXX7654',
+        status: 'Success',
+        amount_usd: 95800.0
       }
     ]
   },
@@ -3845,66 +3845,66 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-      { 
-        dateTime: "April 11, 2025", 
-        description: "Transfer from West Texas Oil and Gas, Inc. XXXXXX8324", 
-        status: "Success", 
-        amount_usd: 2500000.0,
+      {
+        dateTime: 'April 11, 2025',
+        description: 'Transfer from West Texas Oil and Gas, Inc. XXXXXX8324',
+        status: 'Success',
+        amount_usd: 2500000.0
       },
-      { 
-        dateTime: "January 2, 2025", 
-        description: "Electronic charges XXXXXX8324", 
-        status: "Success", 
-        amount_usd: -25.0,
+      {
+        dateTime: 'January 2, 2025',
+        description: 'Electronic charges XXXXXX8324',
+        status: 'Success',
+        amount_usd: -25.0
       },
-      { 
-        dateTime: "September 6, 2024", 
-        description: "Duties charges XXXXXX8324", 
-        status: "Success", 
-        amount_usd: -30.0,
+      {
+        dateTime: 'September 6, 2024',
+        description: 'Duties charges XXXXXX8324',
+        status: 'Success',
+        amount_usd: -30.0
       },
-      { 
-        dateTime: "July 9, 2024", 
-        description: "Transfer from monthly sales allowance XXXXXX8324", 
-        status: "Success", 
-        amount_usd: -47.0,
+      {
+        dateTime: 'July 9, 2024',
+        description: 'Transfer from monthly sales allowance XXXXXX8324',
+        status: 'Success',
+        amount_usd: -47.0
       },
-      { 
-        dateTime: "June 19, 2023", 
-        description: "foodstuff XXXXXX8324", 
-        status: "Success", 
-        amount_usd: 45.0,
+      {
+        dateTime: 'June 19, 2023',
+        description: 'foodstuff XXXXXX8324',
+        status: 'Success',
+        amount_usd: 45.0
       },
-      { 
-        dateTime: "May 13, 2023", 
-        description: "Transfer from water supply company XXXXXX8324 Funds Transfer", 
-        status: "Success", 
-        amount_usd: -100.0,
+      {
+        dateTime: 'May 13, 2023',
+        description: 'Transfer from water supply company XXXXXX8324 Funds Transfer',
+        status: 'Success',
+        amount_usd: -100.0
       },
-      { 
-        dateTime: "May 3, 2022", 
-        description: "monthly allowance", 
-        status: "Success",
-        amount_usd: -75.0,
+      {
+        dateTime: 'May 3, 2022',
+        description: 'monthly allowance',
+        status: 'Success',
+        amount_usd: -75.0
       },
-      { 
-        dateTime: "April 15, 2021", 
-        description: "Transfer from Lincoln Electrics XXXXXX2819", 
-        status: "Success", 
-        amount_usd: 150.0,
+      {
+        dateTime: 'April 15, 2021',
+        description: 'Transfer from Lincoln Electrics XXXXXX2819',
+        status: 'Success',
+        amount_usd: 150.0
       },
-      { 
-        dateTime: "May 15, 2020", 
-        description: "salary payments from bammy wears store", 
-        status: "Success", 
-        amount_usd: -75.0,
+      {
+        dateTime: 'May 15, 2020',
+        description: 'salary payments from bammy wears store',
+        status: 'Success',
+        amount_usd: -75.0
       },
-      { 
-        dateTime: "March 30, 2020", 
-        description: "DEPOSIT XXXXXX8324", 
-        status: "Success", 
-        amount_usd: 250.0,
-      },
+      {
+        dateTime: 'March 30, 2020',
+        description: 'DEPOSIT XXXXXX8324',
+        status: 'Success',
+        amount_usd: 250.0
+      }
     ]
   },
   {
@@ -3931,21 +3931,21 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-      { 
-        dateTime: "April 15, 2025", 
-        description: "Transfer from Orion Capital Holdings. XXXXXX8324", 
-        status: "Success", 
-        amount_usd: 20821497.00,
+      {
+        dateTime: 'April 15, 2025',
+        description: 'Transfer from Orion Capital Holdings. XXXXXX8324',
+        status: 'Success',
+        amount_usd: 20821497.0
       },
-      { 
-        dateTime: "May 10, 2019", 
-        description: "Transfer from Valero Energy Corporation XXXXXX8324", 
-        status: "Success", 
-        amount_usd: 109000000.00,
-      },
+      {
+        dateTime: 'May 10, 2019',
+        description: 'Transfer from Valero Energy Corporation XXXXXX8324',
+        status: 'Success',
+        amount_usd: 109000000.0
+      }
     ]
   },
-   {
+  {
     account_id: 'ACC038',
     holder: {
       firstName: 'MR. Michael Raymond Williams',
@@ -3969,65 +3969,147 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-      { 
-        dateTime: " April 20, 2025", 
-        description: "Transfer from Williams Oil and Gas, Inc. - XXXXXX8324", 
-        status: "Success", 
-        amount_usd: 1499898.00,
+      {
+        dateTime: ' April 20, 2025',
+        description: 'Transfer from Williams Oil and Gas, Inc. - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 1499898.0
       },
-      { 
-        dateTime: "January 2, 2025", 
-        description: "Electronic charges - XXXXXX1228", 
-        status: "Success", 
-        amount_usd: -25.00,
+      {
+        dateTime: 'January 2, 2025',
+        description: 'Electronic charges - XXXXXX1228',
+        status: 'Success',
+        amount_usd: -25.0
       },
-      { 
-        dateTime: "September 6, 2024", 
-        description: "Duties charges - XXXXXX3684", 
-        status: "Success", 
-        amount_usd: -30.00,
+      {
+        dateTime: 'September 6, 2024',
+        description: 'Duties charges - XXXXXX3684',
+        status: 'Success',
+        amount_usd: -30.0
       },
-      { 
-        dateTime: "July 9, 2024", 
-        description: "Transfer from monthly sales allowance - XXXXXX4393", 
-        status: "Success", 
-        amount_usd: -47.00,
+      {
+        dateTime: 'July 9, 2024',
+        description: 'Transfer from monthly sales allowance - XXXXXX4393',
+        status: 'Success',
+        amount_usd: -47.0
       },
-      { 
-        dateTime: "June 19, 2023", 
-        description: "Outfit - XXXXXX6457", 
-        status: "Success", 
-        amount_usd: 99825.00,
+      {
+        dateTime: 'June 19, 2023',
+        description: 'Outfit - XXXXXX6457',
+        status: 'Success',
+        amount_usd: 99825.0
       },
-      { 
-        dateTime: "May 13, 2023", 
-        description: "Transfer to water supply company - XXXXXX4488", 
-        status: "Success", 
-        amount_usd: -100.00,
+      {
+        dateTime: 'May 13, 2023',
+        description: 'Transfer to water supply company - XXXXXX4488',
+        status: 'Success',
+        amount_usd: -100.0
       },
-      { 
-        dateTime: "May 3, 2022", 
-        description: "monthly allowance - XXXXXX9746", 
-        status: "Success", 
-        amount_usd: -75.00,
+      {
+        dateTime: 'May 3, 2022',
+        description: 'monthly allowance - XXXXXX9746',
+        status: 'Success',
+        amount_usd: -75.0
       },
-      { 
-        dateTime: "April 15, 2021", 
-        description: "Transfer from Lincoln Electrics - XXXXXX2740", 
-        status: "Success", 
-        amount_usd: 1499925.00,
+      {
+        dateTime: 'April 15, 2021',
+        description: 'Transfer from Lincoln Electrics - XXXXXX2740',
+        status: 'Success',
+        amount_usd: 1499925.0
       },
-      { 
-        dateTime: "May 15, 2020", 
-        description: "salary payments from bammy wears store - XXXXXX9865", 
-        status: "Success", 
-        amount_usd: -75.00,
+      {
+        dateTime: 'May 15, 2020',
+        description: 'salary payments from bammy wears store - XXXXXX9865',
+        status: 'Success',
+        amount_usd: -75.0
       },
-      { 
-        dateTime: "March 30, 2020", 
-        description: "Transfer from mark Donald LLC company - XXXXXX7688", 
-        status: "Success", 
-        amount_usd: 5000000.0,
+      {
+        dateTime: 'March 30, 2020',
+        description: 'Transfer from mark Donald LLC company - XXXXXX7688',
+        status: 'Success',
+        amount_usd: 5000000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC039',
+    holder: {
+      firstName: 'JOAN JOHNSON',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 'j*@gmail.com',
+      createdOn: '4/28/2025', // m/d/y
+      username: 'JOAN2025',
+      password: 'Winners2025'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 1500000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: ' April 27, 2025',
+        description: 'Transfer from Becky bells donations - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 500000.0
+      },
+      {
+        dateTime: ' April 23, 2025',
+        description: 'Transfer from Becky bells donations - XXXXXX9474',
+        status: 'Success',
+        amount_usd: 500000.0
+      },
+      {
+        dateTime: ' April 18, 2025',
+        description: 'Transfer from Becky bells donations - XXXXXX3484',
+        status: 'Success',
+        amount_usd: 500000.0
+      },
+    ]
+  },
+  {
+    account_id: 'ACC040',
+    holder: {
+      firstName: 'Jayden Cole',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 'angiemicheal552@gmail.com',
+      createdOn: '5/26/2025', // m/d/y
+      username: 'jay2025',
+      password: 'Jcole1304'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 800.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'May 18, 2025',
+        description: 'Transfer from pornhub dot xxx - XXXXXX8324',
+        status: 'Pending',
+        amount_usd: 1300000.0
+      },
+      {
+        dateTime: 'May 15, 2025',
+        description: 'Account Open - XXXXXX9474',
+        status: 'Success',
+        amount_usd: 100.0
       },
     ]
   }
