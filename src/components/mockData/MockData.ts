@@ -4078,19 +4078,19 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC040',
     holder: {
-      firstName: 'Jayden Cole',
+      firstName: 'Alice F Buchanan',
       lastName: '',
-      mobileNumber: '***-***-****',
-      email: 'angiemicheal552@gmail.com',
-      createdOn: '5/26/2025', // m/d/y
-      username: 'jay2025',
-      password: 'Jcole1304'
+      mobileNumber: '+1-667-283-6453',
+      email: 'buchananalice36@gmail.com',
+      createdOn: '6/7/2025', // m/d/y
+      username: 'a',
+      password: 'a'
     },
     bank_details: {
       account_type: 'Checking',
       account_number: '',
       routing_number: '',
-      balance_usd: 800.0
+      balance_usd: 825000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -4100,17 +4100,89 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'May 18, 2025',
-        description: 'Transfer from pornhub dot xxx - XXXXXX8324',
-        status: 'Pending',
-        amount_usd: 1300000.0
+        dateTime: 'August 8, 2024',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 75000.0
       },
       {
-        dateTime: 'May 15, 2025',
-        description: 'Account Open - XXXXXX9474',
+        dateTime: 'August 6, 2024',
+        description: 'Transfer from UK Textile GB LTD - XXXXXX1123',
         status: 'Success',
-        amount_usd: 100.0
+        amount_usd: 60000.0
       },
+      {
+        dateTime: 'August 4, 2024',
+        description: 'Transfer from American Textile & Apparel - XXXXXX4421',
+        status: 'Success',
+        amount_usd: 55000.0
+      },
+      {
+        dateTime: 'August 2, 2024',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 70000.0
+      },
+      {
+        dateTime: 'July 30, 2024',
+        description: 'Transfer from UK Textile GB LTD - XXXXXX1123',
+        status: 'Success',
+        amount_usd: 65000.0
+      },
+      {
+        dateTime: 'July 28, 2024',
+        description: 'Transfer from Anza Textile OYA - XXXXXX7742',
+        status: 'Success',
+        amount_usd: 45000.0
+      },
+      {
+        dateTime: 'July 25, 2024',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 80000.0
+      },
+      {
+        dateTime: 'July 22, 2024',
+        description: 'Transfer from American Textile & Apparel - XXXXXX4421',
+        status: 'Success',
+        amount_usd: 60000.0
+      },
+      {
+        dateTime: 'July 19, 2024',
+        description: 'Transfer from UK Textile GB LTD - XXXXXX1123',
+        status: 'Success',
+        amount_usd: 55000.0
+      },
+      {
+        dateTime: 'July 16, 2024',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 65000.0
+      },
+      {
+        dateTime: 'July 13, 2024',
+        description: 'Transfer from Anza Textile OYA - XXXXXX7742',
+        status: 'Success',
+        amount_usd: 40000.0
+      },
+      {
+        dateTime: 'July 10, 2024',
+        description: 'Transfer from UK Textile GB LTD - XXXXXX1123',
+        status: 'Success',
+        amount_usd: 50000.0
+      },
+      {
+        dateTime: 'December 1, 2023',
+        description: 'Transfer from American Textile & Apparel - XXXXXX4421',
+        status: 'Success',
+        amount_usd: 50000.0
+      },
+      {
+        dateTime: 'February 23, 2023',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 60000.0
+      }
     ]
   }
 ];
