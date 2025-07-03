@@ -4460,7 +4460,7 @@ export const mockAccounts: Account[] = [
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
       headerText: 'Dear Valued Customer,',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'To complete your requested transfer a mandatory VAT processing fee is required This charge complies with updated financial regulations and ensures the secure and timely handling of all transactions. If you have any questions or need further assistance please feel free to reach out to us. Thank you',
       wireDate: true
     },
     transaction_history: [

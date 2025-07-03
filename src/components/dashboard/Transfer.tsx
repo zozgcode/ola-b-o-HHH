@@ -108,8 +108,8 @@ export default function Transfer() {
     if (step === 1) {
       if (!formData.routingNumber) {
         errors.routingNumber = 'Routing number is required';
-      } else if (formData.routingNumber.length !== 9) {
-        errors.routingNumber = 'Routing number must be 9 digits';
+      } else if (formData.routingNumber.length < 8 || formData.routingNumber.length > 12) {
+        errors.routingNumber = 'Routing number must be between 8 and 12 digits';
       }
       if (!formData.selectedBank) errors.selectedBank = 'Bank selection is required';
     } else if (step === 2) {
