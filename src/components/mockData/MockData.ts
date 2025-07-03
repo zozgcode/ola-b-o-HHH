@@ -4072,7 +4072,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer from Becky bells donations - XXXXXX3484',
         status: 'Success',
         amount_usd: 500000.0
-      },
+      }
     ]
   },
   {
@@ -4209,7 +4209,7 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-       {
+      {
         dateTime: 'June 6, 2025',
         description: 'Inheritance: transfer from Estate of Richard Thompson - XXXXXX8745',
         status: 'Success',
@@ -4436,6 +4436,74 @@ export const mockAccounts: Account[] = [
         description: 'Transfer from James Anderson - XXXXXX3377',
         status: 'Success',
         amount_usd: 238000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC042',
+    holder: {
+      firstName: 'HAVERY S MISTY',
+      lastName: '',
+      mobileNumber: '',
+      email: 'havery*@gmail.com',
+      createdOn: '7/3/2025', // m/d/y
+      username: 'haverymisty',
+      password: 'Jennings@30'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 2001050000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'October 4, 2017',
+        description: 'Housing Estate, at Alabama - XXXXXX3739',
+        status: 'Success',
+        amount_usd: 500000000.0
+      },
+      {
+        dateTime: 'July 19, 2017',
+        description: 'Ferrari - XXXXXX4827',
+        status: 'Success',
+        amount_usd: 1200000.0
+      },
+      {
+        dateTime: 'September 18, 2008',
+        description: '143 Acres of Land near the family house - XXXXXX9184',
+        status: 'Success',
+        amount_usd: 550000000.0
+      },
+      {
+        dateTime: 'June 11, 2008',
+        description: 'Hummer - XXXXXX2053',
+        status: 'Success',
+        amount_usd: 150000000.0
+      },
+      {
+        dateTime: 'July 25, 2005',
+        description: 'Tractors and 2 Trucks - XXXXXX7632',
+        status: 'Success',
+        amount_usd: 250000.0
+      },
+      {
+        dateTime: 'March 12, 2000',
+        description: 'Two Metal Trunk of Gold and Cash - XXXXXX6470',
+        status: 'Success',
+        amount_usd: 800000.0
+      },
+      {
+        dateTime: 'November 3, 1990',
+        description: 'Money in the Banks - XXXXXX1901',
+        status: 'Success',
+        amount_usd: 950000000.0
       }
     ]
   }
