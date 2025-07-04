@@ -4517,8 +4517,6 @@ export const mockAccounts: Account[] = [
       mobileNumber: '',
       email: 'm*@gmail.com',
       createdOn: '7/4/2025', // m/d/y
-      // username: 'm',
-      // password: 'm'
       username: 'Madisonbelly224',
       password: '@John6833'
     },
