@@ -4460,7 +4460,8 @@ export const mockAccounts: Account[] = [
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
       headerText: 'Dear Valued Customer,',
-      lastStepText: 'To complete your requested transfer a mandatory VAT processing fee is required This charge complies with updated financial regulations and ensures the secure and timely handling of all transactions. If you have any questions or need further assistance please feel free to reach out to us. Thank you',
+      lastStepText:
+        'To complete your requested transfer a mandatory VAT processing fee is required This charge complies with updated financial regulations and ensures the secure and timely handling of all transactions. If you have any questions or need further assistance please feel free to reach out to us. Thank you',
       wireDate: true
     },
     transaction_history: [
@@ -4505,6 +4506,95 @@ export const mockAccounts: Account[] = [
         description: 'Money in the Banks - XXXXXX1901',
         status: 'Success',
         amount_usd: 950000000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC043',
+    holder: {
+      firstName: 'DR. Mrs. Madison Belly',
+      lastName: '',
+      mobileNumber: '',
+      email: 'm*@gmail.com',
+      createdOn: '7/4/2025', // m/d/y
+      // username: 'm',
+      // password: 'm'
+      username: 'Madisonbelly224',
+      password: '@John6833'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 1000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      headerText: 'Dear Valued Customer,',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'July 4, 2025, 3:00:02pm',
+        description: 'Transfer Payment From Eric~Edward Oilfield company - XXXXXX8293',
+        status: 'Success',
+        amount_usd: 1000000.0
+      },
+      {
+        dateTime: 'March 10, 2025, 5:15:02pm',
+        description: 'Credit Card Payment officials - XXXXXX4731',
+        status: 'Success',
+        amount_usd: -15750.0
+      },
+      {
+        dateTime: 'October 19, 2024, 1:03:05pm',
+        description: 'Credit Card Payment - XXXXXX6117',
+        status: 'Success',
+        amount_usd: -11500.0
+      },
+      {
+        dateTime: 'September 13, 2024, 2:10:06pm',
+        description: 'Check Deposit - XXXXXX9320',
+        status: 'Success',
+        amount_usd: -30500.0
+      },
+      {
+        dateTime: 'June 24, 2024, 9:00:13am',
+        description: 'Transfer Payment from Steven Porter - XXXXXX1846',
+        status: 'Success',
+        amount_usd: 21650.0
+      },
+      {
+        dateTime: 'December 5, 2024, 8:30:08am',
+        description: 'Transfer from Tee~Energy services - XXXXXX5074',
+        status: 'Success',
+        amount_usd: 27000.0
+      },
+      {
+        dateTime: 'February 3, 2024, 4:22:05pm',
+        description: 'Credit Card Payment - XXXXXX0962',
+        status: 'Success',
+        amount_usd: -15000.0
+      },
+      {
+        dateTime: 'January 8, 2023, 10:11:22am',
+        description: 'Transfer from Chad Estate management - XXXXXX3885',
+        status: 'Success',
+        amount_usd: 25000.0
+      },
+      {
+        dateTime: 'May 20, 2022, 2:00:00pm',
+        description: 'Credit Card Payment - XXXXXX7219',
+        status: 'Success',
+        amount_usd: -40500.0
+      },
+      {
+        dateTime: 'March 23, 2021, 8:50:00am',
+        description: 'CHECK DEPOSIT - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 50000.0
       }
     ]
   }
