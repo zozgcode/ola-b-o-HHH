@@ -4595,5 +4595,62 @@ export const mockAccounts: Account[] = [
         amount_usd: 50000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC044',
+    holder: {
+      firstName: 'Donald Benson',
+      lastName: '',
+      mobileNumber: '',
+      email: 'd*@gmail.com',
+      createdOn: '7/6/2025', // m/d/y
+      username: 'DonaldBenson6',
+      password: 'Bodmas123$'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 500000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      headerText: 'Dear Valued Customer,',
+      transaction_code: '252118',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'June 2, 2025',
+        description: 'Transfer from Folah Homes and property - XXXXXX8293',
+        status: 'Success',
+        amount_usd: 500000000.0
+      },
+      {
+        dateTime: 'June 1, 2025',
+        description: 'Electronic charge - XXXXXX4731',
+        status: 'Success',
+        amount_usd: -30.0
+      },
+      {
+        dateTime: 'July 9, 2023',
+        description: 'Duties charge - XXXXXX6117',
+        status: 'Success',
+        amount_usd: -47.0
+      },
+      {
+        dateTime: 'June 19, 2023',
+        description: 'Transfer from monthly sales allowance - XXXXXX9320',
+        status: 'Success',
+        amount_usd: 45.0
+      },
+      {
+        dateTime: 'May 13, 2023',
+        description: 'Foodstuff - XXXXXX1846',
+        status: 'Success',
+        amount_usd: -100.0
+      },
+    ]
   }
 ];
