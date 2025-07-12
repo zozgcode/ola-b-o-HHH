@@ -1028,7 +1028,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '237832',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1092,7 +1093,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1153,7 +1155,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1352,7 +1355,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1390,7 +1394,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1484,7 +1489,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '2378322762',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1745,7 +1751,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -1909,7 +1916,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2084,7 +2092,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2243,7 +2252,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2323,7 +2333,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2425,7 +2436,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2455,7 +2467,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2493,7 +2506,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2693,7 +2707,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2737,7 +2752,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2817,7 +2833,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -2903,13 +2920,15 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
       {
         dateTime: 'March 10, 2025',
-        description: 'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
+        description:
+          'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
         status: 'Success',
         amount_usd: 50000000.0
       },
@@ -2989,13 +3008,15 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
       {
         dateTime: 'March 3, 2025',
-        description: 'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
+        description:
+          'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
         status: 'Success',
         amount_usd: 50000000.0
       },
@@ -3105,13 +3126,15 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
       {
         dateTime: 'March 3 2025',
-        description: 'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
+        description:
+          'Transfer from ANGLO AMERICAN PLATINUM MAIN MINERAL: PLATINUM (CBN) XXXXXX8324',
         status: 'Success',
         amount_usd: 50560.0
       },
@@ -3377,7 +3400,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -3493,7 +3517,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -3579,7 +3604,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -3725,7 +3751,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -3841,7 +3868,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -3927,7 +3955,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -3965,7 +3994,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -4051,7 +4081,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -4095,7 +4126,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance',
       wireDate: true
     },
     transaction_history: [
@@ -4205,7 +4237,8 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
     transaction_history: [
@@ -4530,7 +4563,8 @@ export const mockAccounts: Account[] = [
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       headerText: 'Dear Valued Customer,',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
     transaction_history: [
@@ -4617,7 +4651,8 @@ export const mockAccounts: Account[] = [
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       headerText: 'Dear Valued Customer,',
       transaction_code: '252118',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
     transaction_history: [
@@ -4650,7 +4685,167 @@ export const mockAccounts: Account[] = [
         description: 'Foodstuff - XXXXXX1846',
         status: 'Success',
         amount_usd: -100.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC045',
+    holder: {
+      firstName: 'Laura Baker Sarah',
+      lastName: '',
+      mobileNumber: '',
+      email: 'l*@gmail.com',
+      createdOn: '7/12/2025', // m/d/y
+      username: 'l',
+      password: 'l'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 310000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      headerText: 'Dear Valued Customer,',
+      transaction_code: '252118',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'July 11, 2025',
+        description: 'Transfer from Marcus Bailey - XXXXXX2366',
+        status: 'Success',
+        amount_usd: 9500
       },
+      {
+        dateTime: 'July 9, 2025',
+        description: 'Transfer from Emily Foster - XXXXXX5094',
+        status: 'Success',
+        amount_usd: 9900
+      },
+      {
+        dateTime: 'July 8, 2025',
+        description: 'Transfer from SilverRock Energy - XXXXXX1883',
+        status: 'Success',
+        amount_usd: 7800
+      },
+      {
+        dateTime: 'July 7, 2025',
+        description: 'Transfer from Harold Simmons - XXXXXX6482',
+        status: 'Success',
+        amount_usd: 7300
+      },
+      {
+        dateTime: 'July 6, 2025',
+        description: 'Transfer from NorthGate Partners LLC - XXXXXX5729',
+        status: 'Success',
+        amount_usd: 8400
+      },
+      {
+        dateTime: 'July 5, 2025',
+        description: 'Transfer from Olivia Turner - XXXXXX1137',
+        status: 'Success',
+        amount_usd: 8900
+      },
+      {
+        dateTime: 'July 4, 2025',
+        description: 'Transfer from VistaPoint Solutions - XXXXXX4012',
+        status: 'Success',
+        amount_usd: 9400
+      },
+      {
+        dateTime: 'July 3, 2025',
+        description: 'Transfer from Jonathan Perez - XXXXXX2746',
+        status: 'Success',
+        amount_usd: 8600
+      },
+      {
+        dateTime: 'July 2, 2025',
+        description: 'Transfer from ApexCore Systems - XXXXXX7803',
+        status: 'Success',
+        amount_usd: 9100
+      },
+      {
+        dateTime: 'June 28, 2025',
+        description: 'Transfer from Sarah Clark - XXXXXX1105',
+        status: 'Success',
+        amount_usd: 8000
+      },
+      {
+        dateTime: 'June 18, 2025',
+        description: 'Transfer from Titan Construction Group - XXXXXX3847',
+        status: 'Success',
+        amount_usd: 9500
+      },
+      {
+        dateTime: 'June 6, 2025',
+        description: 'Transfer from Michael Rivera - XXXXXX2229',
+        status: 'Success',
+        amount_usd: 8700
+      },
+      {
+        dateTime: 'May 30, 2025',
+        description: 'Transfer from FusionTech Solutions - XXXXXX9674',
+        status: 'Success',
+        amount_usd: 9100
+      },
+      {
+        dateTime: 'May 10, 2025',
+        description: 'Transfer from Amanda Johnson - XXXXXX3198',
+        status: 'Success',
+        amount_usd: 7400
+      },
+      {
+        dateTime: 'April 22, 2025',
+        description: 'Transfer from Atlantic Freight Co. - XXXXXX0045',
+        status: 'Success',
+        amount_usd: 8200
+      },
+      {
+        dateTime: 'April 1, 2025',
+        description: 'Transfer from Robert Mitchell - XXXXXX9801',
+        status: 'Success',
+        amount_usd: 9900
+      },
+      {
+        dateTime: 'March 12, 2025',
+        description: 'Transfer from Clearwater & Co. - XXXXXX2270',
+        status: 'Success',
+        amount_usd: 8700
+      },
+      {
+        dateTime: 'February 24, 2025',
+        description: 'Transfer from Isabella Adams - XXXXXX5362',
+        status: 'Success',
+        amount_usd: 8500
+      },
+      {
+        dateTime: 'February 7, 2025',
+        description: 'Transfer from Dakota Valley Services - XXXXXX1990',
+        status: 'Success',
+        amount_usd: 9400
+      },
+      {
+        dateTime: 'January 28, 2025',
+        description: 'Transfer from Logan Brooks - XXXXXX3174',
+        status: 'Success',
+        amount_usd: 9200
+      },
+      {
+        dateTime: 'January 17, 2025',
+        description: 'Transfer from Horizon Midwest Group - XXXXXX6690',
+        status: 'Success',
+        amount_usd: 9000
+      },
+      {
+        dateTime: 'January 6, 2025',
+        description: 'Transfer from Charlotte Reed - XXXXXX7752',
+        status: 'Success',
+        amount_usd: 9800
+      }
     ]
   }
 ];
