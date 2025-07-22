@@ -4847,5 +4847,39 @@ export const mockAccounts: Account[] = [
         amount_usd: 9800
       }
     ]
+  },
+  {
+    account_id: 'ACC046',
+    holder: {
+      firstName: 'Lupe Ramos & Jim Denson',
+      lastName: '',
+      mobileNumber: '',
+      email: 'l*@gmail.com',
+      createdOn: '7/22/2025', // m/d/y
+      username: 'JimLupe2468',
+      password: 'lupelovesjim2025'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_number: '',
+      routing_number: '',
+      balance_usd: 3000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      headerText: 'Dear Valued Customer,',
+      transaction_code: '252118',
+      lastStepText:
+        'This account is not currently enabled for external transfers. A one‑time activation fee of $1,895  is required to activate this service. Once the fee is successfully paid, transfers will be enabled because activation charge is required to proceed.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'June 2, 2025',
+        description: 'Deposit - XXXXXX2366',
+        status: 'Success',
+        amount_usd: 3000000.0
+      },
+    ]
   }
 ];
