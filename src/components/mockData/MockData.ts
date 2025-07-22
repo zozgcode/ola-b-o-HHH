@@ -4854,7 +4854,7 @@ export const mockAccounts: Account[] = [
       firstName: 'Lupe Ramos & Jim Denson',
       lastName: '',
       mobileNumber: '',
-      email: 'l*@gmail.com',
+      email: 'lj*@gmail.com',
       createdOn: '7/22/2025', // m/d/y
       username: 'JimLupe2468',
       password: 'lupelovesjim2025'
@@ -4876,7 +4876,7 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         dateTime: 'June 2, 2025',
-        description: 'Deposit - XXXXXX2366',
+        description: 'Inheritance Funds Transfer - XXXXXX2366',
         status: 'Success',
         amount_usd: 3000000.0
       },
