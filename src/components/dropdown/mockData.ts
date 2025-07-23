@@ -25,6 +25,16 @@ export const listBks = [
     logo: "https://i.imgur.com/5wlAr6T.jpeg",
   },
   {
+    id: 336438,
+    name: "EFCU Financial",
+    logo: "https://i.imgur.com/2qsmDnr.png",
+  },
+  {
+    id: 336439,
+    name: "Discover",
+    logo: "https://i.imgur.com/mzwzbXZ.png",
+  },
+  {
     id: 338473868,
     name: "Tremont First National Bank",
     logo: "https://i.imgur.com/0WJqHtK.jpeg",
