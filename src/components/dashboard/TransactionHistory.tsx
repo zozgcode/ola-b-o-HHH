@@ -16,16 +16,23 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
     setShowMore(!showMore);
   };
 
+  const hasTransactions =
+    user.transaction_history && user.transaction_history.length > 0;
   const transactionsToShow = showMore ? user.transaction_history : user.transaction_history.slice(0, 6);
 
   return (
     <div className="px-[16px]">
       <div className="w-full">
-        <div className="text-[14px] w-full font-[500] flex items-center justify-between">
+        <div className="text-[14px] rounded bg-[#d71e28]/10 p-2 w-full font-[500] flex items-center justify-between">
           <span>Recent Transactions</span>
-          <Link href="/dashboard/transactions" className="text-[13px] font-[500] text-[#d71e28]">
-            See All
-          </Link>
+          {hasTransactions && (
+            <Link
+              href="/dashboard/transactions"
+              className="text-[13px] font-[500] text-[#d71e28]"
+            >
+              See More
+            </Link>
+          )}
         </div>
         <div className="mt-[10px]">
           {transactionsToShow.length == 0 && <div className="text-sm text-center p-4">No Recent Transaction</div>}
@@ -36,7 +43,7 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
                   <HiArrowDown className={`${transaction.amount_usd < 0 ? 'rotate-180' : ''}`} />
                 </button>
                 <div className="flex flex-col gap-1 justify-between">
-                  <span className="text-[14px] uppercase font-[600] w-[200px] sm:max-w-full">{transaction.description}</span>
+                  <span className="text-[14px] uppercase font-[600] w-[210px] sm:max-w-full">{transaction.description}</span>
                   {/* <span className="text-[14px] font-[600] truncate max-w-[200px] sm:max-w-full overflow-hidden">{transaction.description}</span> */}
                   <span className="text-[10px] font-medium">{transaction.dateTime}</span>
                 </div>

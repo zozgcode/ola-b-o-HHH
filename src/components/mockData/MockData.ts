@@ -4881,5 +4881,61 @@ export const mockAccounts: Account[] = [
         amount_usd: 3000000.0
       },
     ]
-  }
+  },
+  {
+    account_id: 'ACC047',
+    holder: {
+      firstName: 'Vladimir jokic',
+      email: 'vladimirkatep@gmail.com',
+      createdOn: '7/23/2025', // m/d/y
+      username: 'VladimirkateP',
+      password: 'Vladimirkate'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_type2: 'saving_account',
+      balance_usd: 436342000.0,
+      saving_balance_usd: 60565000.00
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact bank manager for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'November 3, 2011',
+        description: 'Elite MedEquip International Equipment sales and shipment clearance - XXXXXX2366',
+        status: 'Success',
+        amount_usd: 125000.0
+      },
+      {
+        dateTime: 'July 14, 2010',
+        description: 'Victor Huang Real estate partial settlement - XXXXXX6567',
+        status: 'Success',
+        amount_usd: 65200.0
+      },
+      {
+        dateTime: 'January 25, 2009',
+        description: 'Greenway Construction Corp. Subcontractor project payout - XXXXXX2567',
+        status: 'Success',
+        amount_usd: 134000.0
+      },
+      {
+        dateTime: 'September 2, 2007',
+        description: 'Maria Lopez Personal transfer (Family support) - XXXXXX7655',
+        status: 'Success',
+        amount_usd: 22300.0
+      },
+      {
+        dateTime: 'March 18, 2006',
+        description: 'GlobalTech Solutions LLC Payment for IT consulting services - XXXXXX2355',
+        status: 'Success',
+        amount_usd: 89500.0
+      }
+    ]
+  },
 ];
