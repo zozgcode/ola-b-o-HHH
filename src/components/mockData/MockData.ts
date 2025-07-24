@@ -4861,6 +4861,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
+      isAccountNumber: true,
       account_number: '',
       routing_number: '',
       balance_usd: 3000000.0
@@ -4870,7 +4871,7 @@ export const mockAccounts: Account[] = [
       headerText: 'Dear Valued Customer,',
       transaction_code: '252118',
       lastStepText:
-        'This account is not currently enabled for external transfers. A one‑time activation fee of $1,895  is required to activate this service. Once the fee is successfully paid, transfers will be enabled because activation charge is required to proceed.',
+        'You need to balance up the activation fee of $1,050 which is required to activate this service. Once the balance is successfully paid, transfers will be enabled instantly because activation charge is required to proceed.',
       wireDate: true
     },
     transaction_history: [
