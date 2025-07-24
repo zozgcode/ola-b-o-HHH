@@ -4885,7 +4885,7 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC047',
     holder: {
-      firstName: 'Vladimir jokic',
+      firstName: 'Mr. Lawson Philip',
       email: 'vladimirkatep@gmail.com',
       createdOn: '7/23/2025', // m/d/y
       username: 'VladimirkateP',
@@ -4907,10 +4907,28 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        dateTime: 'October 9, 2012',
+        description: 'Royal Investment Holdings S.A. Capital investment deposit (cleared funds) - XXXXXX8473',
+        status: 'Success',
+        amount_usd: 60585000.0
+      },
+      {
+        dateTime: 'October 8, 2012',
+        description: 'VAT Fee - XXXXXX3478',
+        status: 'Success',
+        amount_usd: -380.0
+      },
+      {
         dateTime: 'November 3, 2011',
         description: 'Elite MedEquip International Equipment sales and shipment clearance - XXXXXX2366',
         status: 'Success',
         amount_usd: 125000.0
+      },
+      {
+        dateTime: 'November 2, 2011',
+        description: 'VAT Fee - XXXXXX4536',
+        status: 'Success',
+        amount_usd: -128.0
       },
       {
         dateTime: 'July 14, 2010',
@@ -4919,10 +4937,22 @@ export const mockAccounts: Account[] = [
         amount_usd: 65200.0
       },
       {
+        dateTime: 'July 10, 2010',
+        description: 'VAT Fee - XXXXXX4536',
+        status: 'Success',
+        amount_usd: -235.0
+      },
+      {
         dateTime: 'January 25, 2009',
         description: 'Greenway Construction Corp. Subcontractor project payout - XXXXXX2567',
         status: 'Success',
         amount_usd: 134000.0
+      },
+      {
+        dateTime: 'January 12, 2009',
+        description: 'VAT Fee - XXXXXX2437',
+        status: 'Success',
+        amount_usd: -128.0
       },
       {
         dateTime: 'September 2, 2007',

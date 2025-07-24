@@ -48,7 +48,7 @@ const SelectBks: React.FC<SelectBksProps> = ({ selectedBank, setSelectedBank }) 
                 width={0} // allow CSS to control size
                 height={0}
                 sizes="(max-width: 768px) 50px, 100px"
-                className={`h-auto object-contain ${selectedBank.resize ? 'w-11 h-5' : 'w-10 h-4'}`}
+                className={`h-5 object-contain ${selectedBank.resize ? 'w-11 h-5' : 'w-10 h-4'}`}
               />
             </div>
           )}
@@ -100,7 +100,7 @@ const SelectBks: React.FC<SelectBksProps> = ({ selectedBank, setSelectedBank }) 
                       width={100}
                       height={100}
                       alt={`${bks.name} logo`}
-                      className="w-[30px] h-4"
+                      className="w-[30px] object-contain h-4"
                     />
                   </div>
                   <div className="text-left w-full">{bks.name}</div>
