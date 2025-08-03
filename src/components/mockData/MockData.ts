@@ -4880,7 +4880,7 @@ export const mockAccounts: Account[] = [
         description: 'Inheritance Funds Transfer - XXXXXX2366',
         status: 'Success',
         amount_usd: 3000000.0
-      },
+      }
     ]
   },
   {
@@ -4896,7 +4896,7 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       account_type2: 'saving_account',
       balance_usd: 436342000.0,
-      saving_balance_usd: 60565000.00
+      saving_balance_usd: 60565000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -4909,7 +4909,8 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         dateTime: 'October 9, 2012',
-        description: 'Royal Investment Holdings S.A. Capital investment deposit (cleared funds) - XXXXXX8473',
+        description:
+          'Royal Investment Holdings S.A. Capital investment deposit (cleared funds) - XXXXXX8473',
         status: 'Success',
         amount_usd: 60585000.0
       },
@@ -4921,7 +4922,8 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'November 3, 2011',
-        description: 'Elite MedEquip International Equipment sales and shipment clearance - XXXXXX2366',
+        description:
+          'Elite MedEquip International Equipment sales and shipment clearance - XXXXXX2366',
         status: 'Success',
         amount_usd: 125000.0
       },
@@ -4969,4 +4971,175 @@ export const mockAccounts: Account[] = [
       }
     ]
   },
+  {
+    account_id: 'ACC048',
+    holder: {
+      firstName: 'Diana Berg',
+      email: 'd**@gmail.com',
+      createdOn: '8/3/2025', // m/d/y
+      username: 'Diana4122',
+      password: 'Dianalovegary'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      account_number: '',
+      routing_number: '',
+      balance_usd: 14012600.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact bank manager for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: "August 7, 2025",
+        description: "Transfer from Estate of Richard Thompson - XXXXXX8745",
+        status: "Success",
+        amount_usd: 275000.0
+      },
+      {
+        dateTime: "August 4, 2025",
+        description: "Transfer from Becky bells donations - XXXXXX8324",
+        status: "Success",
+        amount_usd: 500000.0
+      },
+      {
+        dateTime: "July 8, 2025",
+        description: "Transfer to Emily Wagner - XXXXXX3467",
+        status: "Success",
+        amount_usd: -80000.0
+      },
+      {
+        dateTime: "July 6, 2025",
+        description: "Transfer from Sofia Müller - XXXXXX9124",
+        status: "Success",
+        amount_usd: 185000.0
+      },
+      {
+        dateTime: "July 2, 2025",
+        description: "Transfer from Ethan Johnson - XXXXXX3491",
+        status: "Success",
+        amount_usd: 422000.0
+      },
+      {
+        dateTime: "June 29, 2025",
+        description: "Transfer fee - XXXXXX4893",
+        status: "Success",
+        amount_usd: -75.5
+      },
+      {
+        dateTime: "June 21, 2025",
+        description: "Transfer to Lucas Dubois - XXXXXX7119",
+        status: "Success",
+        amount_usd: -98000.0
+      },
+      {
+        dateTime: "June 15, 2025",
+        description: "VAT Fee - XXXXXX3478",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "June 2, 2025",
+        description: "Transfer from Olivia Smith - XXXXXX6390",
+        status: "Success",
+        amount_usd: 194500.0
+      },
+      {
+        dateTime: "May 16, 2025",
+        description: "Transfer to Matteo Rossi - XXXXXX5321",
+        status: "Success",
+        amount_usd: -472350.0
+      },
+      {
+        dateTime: "May 10, 2025",
+        description: "Transfer from Lucas Bianchi - XXXXXX1234",
+        status: "Success",
+        amount_usd: 120000.0
+      },
+      {
+        dateTime: "May 5, 2025",
+        description: "Service Fee - XXXXXX5678",
+        status: "Success",
+        amount_usd: -150.0
+      },
+      {
+        dateTime: "April 21, 2025",
+        description: "Transfer from Emma Brown - XXXXXX2019",
+        status: "Success",
+        amount_usd: 102800.0
+      },
+      {
+        dateTime: "April 15, 2025",
+        description: "Transfer to William Green - XXXXXX8765",
+        status: "Success",
+        amount_usd: -45000.0
+      },
+      {
+        dateTime: "April 2, 2025",
+        description: "Transfer to Noah Taylor - XXXXXX8647",
+        status: "Success",
+        amount_usd: -38000.0
+      },
+      {
+        dateTime: "March 18, 2025",
+        description: "VAT Fee - XXXXXX3563",
+        status: "Success",
+        amount_usd: -100.2
+      },
+      {
+        dateTime: "March 10, 2025",
+        description: "Transfer from Hannah Lee - XXXXXX4321",
+        status: "Success",
+        amount_usd: 95000.0
+      },
+      {
+        dateTime: "March 1, 2025",
+        description: "Transfer from Isabella Dubois - XXXXXX3155",
+        status: "Success",
+        amount_usd: 310000.0
+      },
+      {
+        dateTime: "February 28, 2025",
+        description: "Transfer to David Clark - XXXXXX2910",
+        status: "Success",
+        amount_usd: -35000.0
+      },
+      {
+        dateTime: "February 15, 2025",
+        description: "Service Fee - XXXXXX6543",
+        status: "Success",
+        amount_usd: -75.0
+      },
+      {
+        dateTime: "February 9, 2025",
+        description: "Transfer to Jack Thompson - XXXXXX7298",
+        status: "Success",
+        amount_usd: -120500.0
+      },
+      {
+        dateTime: "January 25, 2025",
+        description: "Transfer from Olivia Brown - XXXXXX9987",
+        status: "Success",
+        amount_usd: 45000.0
+      },
+      {
+        dateTime: "January 10, 2025",
+        description: "Service Fee - XXXXXX2234",
+        status: "Success",
+        amount_usd: -100.0
+      },
+      {
+        dateTime: "January 1, 2025",
+        description: "Transfer from Amelia Müller - XXXXXX4730",
+        status: "Success",
+        amount_usd: 21000.0
+      }
+    ]
+  }
 ];
