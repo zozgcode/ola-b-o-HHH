@@ -5141,5 +5141,50 @@ export const mockAccounts: Account[] = [
         amount_usd: 21000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC049',
+    holder: {
+      firstName: 'Philip Johnson ',
+      email: 'johnsonph**@gmail.com',
+      createdOn: '8/6/2025', // m/d/y
+      username: 'johnsonphilip5071',
+      password: 'Janet001'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      account_number: '',
+      routing_number: '',
+      balance_usd: 3000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '252118',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact bank manager for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: "August 7, 2019",
+        description: "Transfer from Matthew Miller  - XXXXXX8745",
+        status: "Success",
+        amount_usd: 1000000.0
+      },
+      {
+        dateTime: "October 18, 2017",
+        description: "Transfer from Becky bells donations - XXXXXX8324",
+        status: "Success",
+        amount_usd: 1000000.0
+      },
+      {
+        dateTime: "July 8, 2016",
+        description: "Transfer from Emily Wagner - XXXXXX3467",
+        status: "Success",
+        amount_usd: 1000000.0
+      },
+    ]
   }
 ];
