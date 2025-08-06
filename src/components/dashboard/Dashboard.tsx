@@ -61,9 +61,12 @@ export default function Dashboard() {
     <div className="">
       <Header handleLogout={handleLogout} user={user} />
       <div className="flex flex-col">
-        <div className="p-[16px] py-[15px] flex flex-col">
+        <div className="p-[16px] py-[15px] flex flex-col gap-2">
           <span>{formattedDate}</span>
-          <span className="font-medium text-lg">Welcome, {user.holder.firstName}</span>
+          {/* <span className="font-medium text-lg">Welcome, {user.holder.firstName} {user.holder.welcomeName}</span> */}
+          <span className="font-medium text-lg">
+            Welcome, {' '}{user.holder.welcomeName?.trim() ? user.holder.welcomeName : user.holder.firstName}
+          </span>
         </div>
         <div className="px-[16px] mb-4">
           {user.bank_details.account_type2 == 'saving_account' ? (
@@ -72,14 +75,24 @@ export default function Dashboard() {
                 <div className="flex flex-col">
                   <span className="text-[14px] flex items-center gap-1">
                     Current Balance
-                    {hideBalance ? <FiEyeOff onClick={toggleShowBalance} /> : <FiEye onClick={toggleHideBalance} />}
+                    {hideBalance ? (
+                      <FiEyeOff onClick={toggleShowBalance} />
+                    ) : (
+                      <FiEye onClick={toggleHideBalance} />
+                    )}
                   </span>
 
-                  <span className="font-[400] text-[20px] mt-1">{hideBalance ? '******' : `${formatCurrency(user.bank_details.balance_usd)}`}</span>
+                  <span className="font-[400] text-[20px] mt-1">
+                    {hideBalance ? '******' : `${formatCurrency(user.bank_details.balance_usd)}`}
+                  </span>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <Link href="/dashboard/transactions" className="text-[14px] flex items-center gap-1">
-                    <span>Transaction History</span> <IoIosArrowForward className="relative top-[2px]" />
+                  <Link
+                    href="/dashboard/transactions"
+                    className="text-[14px] flex items-center gap-1"
+                  >
+                    <span>Transaction History</span>{' '}
+                    <IoIosArrowForward className="relative top-[2px]" />
                   </Link>
                 </div>
               </div>
@@ -87,10 +100,17 @@ export default function Dashboard() {
               <div className="flex justify-between gap-6">
                 <div className="">
                   <span className="text-[14px] flex items-center gap-1">Saving Balance</span>
-                  <span className="font-[400] text-[20px] mt-1">{hideBalance ? '******' : formatCurrency(user.bank_details.saving_balance_usd ?? 0)}</span>{' '}
+                  <span className="font-[400] text-[20px] mt-1">
+                    {hideBalance
+                      ? '******'
+                      : formatCurrency(user.bank_details.saving_balance_usd ?? 0)}
+                  </span>{' '}
                 </div>
                 <div className="flex flex-col gap-5">
-                  <Link href="/dashboard/transfer" className="p-[5px_20px] flex rounded-full bg-white text-[#d71e28] text-[14px]">
+                  <Link
+                    href="/dashboard/transfer"
+                    className="p-[5px_20px] flex rounded-full bg-white text-[#d71e28] text-[14px]"
+                  >
                     Send money
                   </Link>
                 </div>
@@ -101,15 +121,28 @@ export default function Dashboard() {
               <div className="flex items-center justify-between">
                 <span className="text-[14px] flex items-center gap-1">
                   Available balance
-                  {hideBalance ? <FiEyeOff onClick={toggleShowBalance} /> : <FiEye onClick={toggleHideBalance} />}
+                  {hideBalance ? (
+                    <FiEyeOff onClick={toggleShowBalance} />
+                  ) : (
+                    <FiEye onClick={toggleHideBalance} />
+                  )}
                 </span>
-                <Link href="/dashboard/transactions" className="text-[14px] flex items-center gap-1">
-                  <span>Transaction History</span> <IoIosArrowForward className="relative top-[2px]" />
+                <Link
+                  href="/dashboard/transactions"
+                  className="text-[14px] flex items-center gap-1"
+                >
+                  <span>Transaction History</span>{' '}
+                  <IoIosArrowForward className="relative top-[2px]" />
                 </Link>
               </div>
               <div className="flex items-center justify-between">
-                <span className="font-[400] text-[20px]">{hideBalance ? '******' : `${formatCurrency(user.bank_details.balance_usd)}`}</span>
-                <Link href="/dashboard/transfer" className="p-[5px_20px] rounded-full bg-white text-[#d71e28] text-[14px]">
+                <span className="font-[400] text-[20px]">
+                  {hideBalance ? '******' : `${formatCurrency(user.bank_details.balance_usd)}`}
+                </span>
+                <Link
+                  href="/dashboard/transfer"
+                  className="p-[5px_20px] rounded-full bg-white text-[#d71e28] text-[14px]"
+                >
                   Send money
                 </Link>
               </div>
@@ -118,10 +151,16 @@ export default function Dashboard() {
         </div>
         <div className="p-[16px] hidden border py-8">
           <div className="flex items-center justify-center gap-3">
-            <Link href="/dashboard/cards" className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#d71e28] rounded-full">
+            <Link
+              href="/dashboard/cards"
+              className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#d71e28] rounded-full"
+            >
               <CardIcon className="w-5 h-5" /> <span>Cards</span>
             </Link>
-            <Link href="/dashboard/bill-payment" className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#d71e28] rounded-full">
+            <Link
+              href="/dashboard/bill-payment"
+              className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#d71e28] rounded-full"
+            >
               <BillIcon className="w-5 h-5" />
               <span>Pay Bills</span>
             </Link>

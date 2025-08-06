@@ -5146,6 +5146,7 @@ export const mockAccounts: Account[] = [
     account_id: 'ACC049',
     holder: {
       firstName: 'Philip Johnson ',
+      welcomeName: 'Johnson',
       email: 'johnsonph**@gmail.com',
       createdOn: '8/6/2025', // m/d/y
       username: 'johnsonphilip5071',
@@ -5168,22 +5169,130 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: "August 7, 2019",
-        description: "Transfer from Matthew Miller  - XXXXXX8745",
+        dateTime: "August 15, 2019",
+        description: "Transfer from Matthew Miller - XXXXXX8745",
         status: "Success",
-        amount_usd: 1000000.0
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "August 7, 2019",
+        description: "VAT Fee - XXXXXX3478",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "July 20, 2019",
+        description: "Transfer from Sarah Johnson - XXXXXX1234",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "July 15, 2019",
+        description: "VAT Fee - XXXXXX3479",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "June 18, 2019",
+        description: "Transfer from James Brown - XXXXXX5678",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "June 10, 2019",
+        description: "VAT Fee - XXXXXX3480",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "May 5, 2019",
+        description: "Transfer from Linda Smith - XXXXXX9101",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "October 25, 2017",
+        description: "Transfer from Becky Bells donations - XXXXXX8324",
+        status: "Success",
+        amount_usd: 500.0
       },
       {
         dateTime: "October 18, 2017",
-        description: "Transfer from Becky bells donations - XXXXXX8324",
+        description: "VAT Fee - XXXXXX3482",
         status: "Success",
-        amount_usd: 1000000.0
+        amount_usd: -80.0
       },
       {
-        dateTime: "July 8, 2016",
+        dateTime: "September 27, 2017",
+        description: "Transfer from Michael Green - XXXXXX2345",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "September 20, 2017",
+        description: "VAT Fee - XXXXXX3483",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "August 21, 2017",
+        description: "Transfer from Olivia Davis - XXXXXX6789",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "August 14, 2017",
+        description: "VAT Fee - XXXXXX3484",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "July 9, 2017",
+        description: "Transfer from John Carter - XXXXXX1122",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "December 19, 2016",
         description: "Transfer from Emily Wagner - XXXXXX3467",
         status: "Success",
-        amount_usd: 1000000.0
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "December 12, 2016",
+        description: "VAT Fee - XXXXXX3486",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "November 15, 2016",
+        description: "Transfer from Robert Wilson - XXXXXX5566",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "November 8, 2016",
+        description: "VAT Fee - XXXXXX3487",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "October 25, 2016",
+        description: "Transfer from Patricia Moore - XXXXXX7788",
+        status: "Success",
+        amount_usd: 500.0
+      },
+      {
+        dateTime: "October 1, 2016",
+        description: "VAT Fee - XXXXXX3488",
+        status: "Success",
+        amount_usd: -80.0
+      },
+      {
+        dateTime: "September 3, 2016",
+        description: "Transfer from David Lee - XXXXXX9900",
+        status: "Success",
+        amount_usd: 500.0
       },
     ]
   }

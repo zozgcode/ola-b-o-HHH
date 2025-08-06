@@ -3,6 +3,7 @@ export interface Account {
   account_id: string;
   holder: {
     firstName?: string;
+    welcomeName?: string;
     lastName?: string;
     mobileNumber?: string;
     createdOn?: string;
