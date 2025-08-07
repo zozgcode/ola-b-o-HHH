@@ -4997,147 +4997,147 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: "August 7, 2025",
-        description: "Transfer from Estate of Richard Thompson - XXXXXX8745",
-        status: "Success",
+        dateTime: 'August 7, 2025',
+        description: 'Transfer from Estate of Richard Thompson - XXXXXX8745',
+        status: 'Success',
         amount_usd: 275000.0
       },
       {
-        dateTime: "August 4, 2025",
-        description: "Transfer from Becky bells donations - XXXXXX8324",
-        status: "Success",
+        dateTime: 'August 4, 2025',
+        description: 'Transfer from Becky bells donations - XXXXXX8324',
+        status: 'Success',
         amount_usd: 500000.0
       },
       {
-        dateTime: "July 8, 2025",
-        description: "Transfer to Emily Wagner - XXXXXX3467",
-        status: "Success",
+        dateTime: 'July 8, 2025',
+        description: 'Transfer to Emily Wagner - XXXXXX3467',
+        status: 'Success',
         amount_usd: -80000.0
       },
       {
-        dateTime: "July 6, 2025",
-        description: "Transfer from Sofia Müller - XXXXXX9124",
-        status: "Success",
+        dateTime: 'July 6, 2025',
+        description: 'Transfer from Sofia Müller - XXXXXX9124',
+        status: 'Success',
         amount_usd: 185000.0
       },
       {
-        dateTime: "July 2, 2025",
-        description: "Transfer from Ethan Johnson - XXXXXX3491",
-        status: "Success",
+        dateTime: 'July 2, 2025',
+        description: 'Transfer from Ethan Johnson - XXXXXX3491',
+        status: 'Success',
         amount_usd: 422000.0
       },
       {
-        dateTime: "June 29, 2025",
-        description: "Transfer fee - XXXXXX4893",
-        status: "Success",
+        dateTime: 'June 29, 2025',
+        description: 'Transfer fee - XXXXXX4893',
+        status: 'Success',
         amount_usd: -75.5
       },
       {
-        dateTime: "June 21, 2025",
-        description: "Transfer to Lucas Dubois - XXXXXX7119",
-        status: "Success",
+        dateTime: 'June 21, 2025',
+        description: 'Transfer to Lucas Dubois - XXXXXX7119',
+        status: 'Success',
         amount_usd: -98000.0
       },
       {
-        dateTime: "June 15, 2025",
-        description: "VAT Fee - XXXXXX3478",
-        status: "Success",
+        dateTime: 'June 15, 2025',
+        description: 'VAT Fee - XXXXXX3478',
+        status: 'Success',
         amount_usd: -80.0
       },
       {
-        dateTime: "June 2, 2025",
-        description: "Transfer from Olivia Smith - XXXXXX6390",
-        status: "Success",
+        dateTime: 'June 2, 2025',
+        description: 'Transfer from Olivia Smith - XXXXXX6390',
+        status: 'Success',
         amount_usd: 194500.0
       },
       {
-        dateTime: "May 16, 2025",
-        description: "Transfer to Matteo Rossi - XXXXXX5321",
-        status: "Success",
+        dateTime: 'May 16, 2025',
+        description: 'Transfer to Matteo Rossi - XXXXXX5321',
+        status: 'Success',
         amount_usd: -472350.0
       },
       {
-        dateTime: "May 10, 2025",
-        description: "Transfer from Lucas Bianchi - XXXXXX1234",
-        status: "Success",
+        dateTime: 'May 10, 2025',
+        description: 'Transfer from Lucas Bianchi - XXXXXX1234',
+        status: 'Success',
         amount_usd: 120000.0
       },
       {
-        dateTime: "May 5, 2025",
-        description: "Service Fee - XXXXXX5678",
-        status: "Success",
+        dateTime: 'May 5, 2025',
+        description: 'Service Fee - XXXXXX5678',
+        status: 'Success',
         amount_usd: -150.0
       },
       {
-        dateTime: "April 21, 2025",
-        description: "Transfer from Emma Brown - XXXXXX2019",
-        status: "Success",
+        dateTime: 'April 21, 2025',
+        description: 'Transfer from Emma Brown - XXXXXX2019',
+        status: 'Success',
         amount_usd: 102800.0
       },
       {
-        dateTime: "April 15, 2025",
-        description: "Transfer to William Green - XXXXXX8765",
-        status: "Success",
+        dateTime: 'April 15, 2025',
+        description: 'Transfer to William Green - XXXXXX8765',
+        status: 'Success',
         amount_usd: -45000.0
       },
       {
-        dateTime: "April 2, 2025",
-        description: "Transfer to Noah Taylor - XXXXXX8647",
-        status: "Success",
+        dateTime: 'April 2, 2025',
+        description: 'Transfer to Noah Taylor - XXXXXX8647',
+        status: 'Success',
         amount_usd: -38000.0
       },
       {
-        dateTime: "March 18, 2025",
-        description: "VAT Fee - XXXXXX3563",
-        status: "Success",
+        dateTime: 'March 18, 2025',
+        description: 'VAT Fee - XXXXXX3563',
+        status: 'Success',
         amount_usd: -100.2
       },
       {
-        dateTime: "March 10, 2025",
-        description: "Transfer from Hannah Lee - XXXXXX4321",
-        status: "Success",
+        dateTime: 'March 10, 2025',
+        description: 'Transfer from Hannah Lee - XXXXXX4321',
+        status: 'Success',
         amount_usd: 95000.0
       },
       {
-        dateTime: "March 1, 2025",
-        description: "Transfer from Isabella Dubois - XXXXXX3155",
-        status: "Success",
+        dateTime: 'March 1, 2025',
+        description: 'Transfer from Isabella Dubois - XXXXXX3155',
+        status: 'Success',
         amount_usd: 310000.0
       },
       {
-        dateTime: "February 28, 2025",
-        description: "Transfer to David Clark - XXXXXX2910",
-        status: "Success",
+        dateTime: 'February 28, 2025',
+        description: 'Transfer to David Clark - XXXXXX2910',
+        status: 'Success',
         amount_usd: -35000.0
       },
       {
-        dateTime: "February 15, 2025",
-        description: "Service Fee - XXXXXX6543",
-        status: "Success",
+        dateTime: 'February 15, 2025',
+        description: 'Service Fee - XXXXXX6543',
+        status: 'Success',
         amount_usd: -75.0
       },
       {
-        dateTime: "February 9, 2025",
-        description: "Transfer to Jack Thompson - XXXXXX7298",
-        status: "Success",
+        dateTime: 'February 9, 2025',
+        description: 'Transfer to Jack Thompson - XXXXXX7298',
+        status: 'Success',
         amount_usd: -120500.0
       },
       {
-        dateTime: "January 25, 2025",
-        description: "Transfer from Olivia Brown - XXXXXX9987",
-        status: "Success",
+        dateTime: 'January 25, 2025',
+        description: 'Transfer from Olivia Brown - XXXXXX9987',
+        status: 'Success',
         amount_usd: 45000.0
       },
       {
-        dateTime: "January 10, 2025",
-        description: "Service Fee - XXXXXX2234",
-        status: "Success",
+        dateTime: 'January 10, 2025',
+        description: 'Service Fee - XXXXXX2234',
+        status: 'Success',
         amount_usd: -100.0
       },
       {
-        dateTime: "January 1, 2025",
-        description: "Transfer from Amelia Müller - XXXXXX4730",
-        status: "Success",
+        dateTime: 'January 1, 2025',
+        description: 'Transfer from Amelia Müller - XXXXXX4730',
+        status: 'Success',
         amount_usd: 21000.0
       }
     ]
@@ -5169,130 +5169,76 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: "August 15, 2019",
-        description: "Transfer from Matthew Miller - XXXXXX8745",
-        status: "Success",
-        amount_usd: 500.0
+        dateTime: 'August 15, 2019',
+        description: 'Transfer from Matthew Miller - XXXXXX8745',
+        status: 'Success',
+        amount_usd: 500480.0
       },
       {
-        dateTime: "August 7, 2019",
-        description: "VAT Fee - XXXXXX3478",
-        status: "Success",
+        dateTime: 'August 14, 2019',
+        description: 'VAT Fee - XXXXXX3478',
+        status: 'Success',
         amount_usd: -80.0
       },
       {
-        dateTime: "July 20, 2019",
-        description: "Transfer from Sarah Johnson - XXXXXX1234",
-        status: "Success",
-        amount_usd: 500.0
+        dateTime: 'July 20, 2019',
+        description: 'Transfer from Sarah Johnson - XXXXXX1234',
+        status: 'Success',
+        amount_usd: 500000.0
       },
       {
-        dateTime: "July 15, 2019",
-        description: "VAT Fee - XXXXXX3479",
-        status: "Success",
+        dateTime: 'July 19, 2019',
+        description: 'VAT Fee - XXXXXX4666',
+        status: 'Success',
         amount_usd: -80.0
       },
       {
-        dateTime: "June 18, 2019",
-        description: "Transfer from James Brown - XXXXXX5678",
-        status: "Success",
-        amount_usd: 500.0
+        dateTime: 'October 25, 2017',
+        description: 'Transfer from Becky Bells donations - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 500000.0
       },
       {
-        dateTime: "June 10, 2019",
-        description: "VAT Fee - XXXXXX3480",
-        status: "Success",
+        dateTime: 'October 24, 2017',
+        description: 'VAT Fee - XXXXXX3482',
+        status: 'Success',
         amount_usd: -80.0
       },
       {
-        dateTime: "May 5, 2019",
-        description: "Transfer from Linda Smith - XXXXXX9101",
-        status: "Success",
-        amount_usd: 500.0
+        dateTime: 'September 27, 2017',
+        description: 'Transfer from Michael Green - XXXXXX2345',
+        status: 'Success',
+        amount_usd: 500000.0
       },
-      {
-        dateTime: "October 25, 2017",
-        description: "Transfer from Becky Bells donations - XXXXXX8324",
-        status: "Success",
-        amount_usd: 500.0
-      },
-      {
-        dateTime: "October 18, 2017",
-        description: "VAT Fee - XXXXXX3482",
-        status: "Success",
+  {
+        dateTime: 'September 26, 2017',
+        description: 'VAT Fee - XXXXXX3764',
+        status: 'Success',
         amount_usd: -80.0
       },
       {
-        dateTime: "September 27, 2017",
-        description: "Transfer from Michael Green - XXXXXX2345",
-        status: "Success",
-        amount_usd: 500.0
+        dateTime: 'November 15, 2016',
+        description: 'Transfer from Robert Wilson - XXXXXX5566',
+        status: 'Success',
+        amount_usd: 500000.0
       },
       {
-        dateTime: "September 20, 2017",
-        description: "VAT Fee - XXXXXX3483",
-        status: "Success",
+        dateTime: 'November 14, 2016',
+        description: 'VAT Fee - XXXXXX3487',
+        status: 'Success',
         amount_usd: -80.0
       },
       {
-        dateTime: "August 21, 2017",
-        description: "Transfer from Olivia Davis - XXXXXX6789",
-        status: "Success",
-        amount_usd: 500.0
+        dateTime: 'October 25, 2016',
+        description: 'Transfer from Patricia Moore - XXXXXX7788',
+        status: 'Success',
+        amount_usd: 500000.0
       },
       {
-        dateTime: "August 14, 2017",
-        description: "VAT Fee - XXXXXX3484",
-        status: "Success",
+        dateTime: 'October 24, 2016',
+        description: 'VAT Fee - XXXXXX3488',
+        status: 'Success',
         amount_usd: -80.0
-      },
-      {
-        dateTime: "July 9, 2017",
-        description: "Transfer from John Carter - XXXXXX1122",
-        status: "Success",
-        amount_usd: 500.0
-      },
-      {
-        dateTime: "December 19, 2016",
-        description: "Transfer from Emily Wagner - XXXXXX3467",
-        status: "Success",
-        amount_usd: 500.0
-      },
-      {
-        dateTime: "December 12, 2016",
-        description: "VAT Fee - XXXXXX3486",
-        status: "Success",
-        amount_usd: -80.0
-      },
-      {
-        dateTime: "November 15, 2016",
-        description: "Transfer from Robert Wilson - XXXXXX5566",
-        status: "Success",
-        amount_usd: 500.0
-      },
-      {
-        dateTime: "November 8, 2016",
-        description: "VAT Fee - XXXXXX3487",
-        status: "Success",
-        amount_usd: -80.0
-      },
-      {
-        dateTime: "October 25, 2016",
-        description: "Transfer from Patricia Moore - XXXXXX7788",
-        status: "Success",
-        amount_usd: 500.0
-      },
-      {
-        dateTime: "October 1, 2016",
-        description: "VAT Fee - XXXXXX3488",
-        status: "Success",
-        amount_usd: -80.0
-      },
-      {
-        dateTime: "September 3, 2016",
-        description: "Transfer from David Lee - XXXXXX9900",
-        status: "Success",
-        amount_usd: 500.0
       },
     ]
   }
