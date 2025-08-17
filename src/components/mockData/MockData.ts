@@ -5430,5 +5430,79 @@ export const mockAccounts: Account[] = [
         amount_usd: 70000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC051',
+    holder: {
+      firstName: 'Jenny Miller',
+      email: 'j**@gmail.com',
+      createdOn: '8/17/2025', // m/d/y
+      username: 'JennyMiller24',
+      password: 'Tahoka@23'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      account_number: '',
+      routing_number: '',
+      balance_usd: 4000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '25217',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact bank manager for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'June 28, 2025',
+        description: 'Wire transfer - XXXXXX3458',
+        status: 'Success',
+        amount_usd: 45350800.0
+      },
+      {
+        dateTime: 'May 2, 2025',
+        description: 'Wire transfer - XXXXXX8745',
+        status: 'Success',
+        amount_usd: 5000.0
+      },
+      {
+        dateTime: 'March 16, 2025',
+        description: 'Wire transfer - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 6450.0
+      },
+      {
+        dateTime: 'January 7, 2025',
+        description: 'Wire transfer - XXXXXX3467',
+        status: 'Success',
+        amount_usd: 3500.0
+      },
+      {
+        dateTime: 'April 8, 2024',
+        description: 'Wire transfer - XXXXXX9124',
+        status: 'Success',
+        amount_usd: 750.0
+      },
+      {
+        dateTime: 'April 5, 2024',
+        description: 'Wire transfer - XXXXXX3491',
+        status: 'Success',
+        amount_usd: 900.0
+      },
+      {
+        dateTime: 'October 23, 2023',
+        description: 'Wire transfer - XXXXXX4893',
+        status: 'Success',
+        amount_usd: 1250.5
+      },
+      {
+        dateTime: 'September 10, 2023',
+        description: 'Wire transfer - XXXXXX7119',
+        status: 'Success',
+        amount_usd: 3500.0
+      },
+    ]
   }
 ];
