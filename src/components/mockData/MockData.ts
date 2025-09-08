@@ -5731,7 +5731,7 @@ export const mockAccounts: Account[] = [
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '25217',
       headerText: 'Dear Valued Customer,',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact headquarters Bank of America for assistance.',
+      lastStepText: 'Your account is on Hold . You can’t make transactions right now please contact your activation manager for assistance',
       wireDate: true
     },
     transaction_history: [
