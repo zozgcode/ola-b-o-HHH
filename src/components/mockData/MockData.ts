@@ -5760,5 +5760,133 @@ export const mockAccounts: Account[] = [
         amount_usd: 125000000.0
       },
     ]
+  },
+  {
+    account_id: 'ACC054',
+    holder: {
+      firstName: 'Cox Constructions Inc',
+      email: 'c***@outlook.com',
+      createdOn: '9/9/2025', // m/d/y
+      username: 'FrankCox256',
+      password: 'FrankCox11'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      account_number: '',
+      routing_number: '',
+      balance_usd: 1221.07
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '25217',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on Hold . You can’t make transactions right now please contact your activation manager for assistance',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'April 1, 2025',
+        description: 'Infrastructure Project - World Bank (Turkiye) - XXXXXX7362',
+        status: 'Success',
+        amount_usd: -453200059.00
+      },
+      {
+        dateTime: 'October 10, 2024',
+        description: 'Debit from Turkish Airlines - XXXXXX1548',
+        status: 'Success',
+        amount_usd: -3800.00
+      },
+      {
+        dateTime: 'October 10, 2024',
+        description: 'Withdrawal - XXXXXX3941',
+        status: 'Success',
+        amount_usd: -1500.00
+      },
+      {
+        dateTime: 'October 10, 2024',
+        description: 'Wire transfer to Turkish Tractor services - XXXXXX8290',
+        status: 'Success',
+        amount_usd: -110000000.00
+      },
+      {
+        dateTime: 'September 6, 2024',
+        description: 'Credit from Chase Bank (William & Ann Crockett) - XXXXXX5729',
+        status: 'Success',
+        amount_usd: 135000.00
+      },
+      {
+        dateTime: 'August 30, 2024',
+        description: 'Payment from Client – Home Extension - XXXXXX9312',
+        status: 'Success',
+        amount_usd: 45500.00
+      },
+      {
+        dateTime: 'August 21, 2024',
+        description: 'Machinery Rental – JCB Ltd - XXXXXX6827',
+        status: 'Success',
+        amount_usd: 27500.00
+      },
+      {
+        dateTime: 'August 12, 2024',
+        description: 'Equipment Purchase - Texas Site - XXXXXX4015',
+        status: 'Success',
+        amount_usd: -2223111.09
+      },
+      {
+        dateTime: 'August 8, 2024',
+        description: 'Travis Perkins – Materials - XXXXXX8751',
+        status: 'Success',
+        amount_usd: 33500.00
+      },
+      {
+        dateTime: 'August 7, 2024',
+        description: 'Payroll – Weekly Labour - XXXXXX5190',
+        status: 'Success',
+        amount_usd: 29300.00
+      },
+      {
+        dateTime: 'August 5, 2024',
+        description: 'Project Deposit: West Bridge Expansion - XXXXXX6202',
+        status: 'Success',
+        amount_usd: 1250000.00
+      },
+      {
+        dateTime: 'July 10, 2024',
+        description: 'Site Labor Wages (Q2) - XXXXXX7439',
+        status: 'Success',
+        amount_usd: -2002000.00
+      },
+      {
+        dateTime: 'July 8, 2024',
+        description: 'Progress Payment - Municipal Contract - XXXXXX6724',
+        status: 'Success',
+        amount_usd: 3000000.00
+      },
+      {
+        dateTime: 'June 22, 2024',
+        description: 'Final Settlement – Mid-State Commercial - XXXXXX3148',
+        status: 'Success',
+        amount_usd: 2234500.00
+      },
+      {
+        dateTime: 'May 8, 2024',
+        description: 'Payment from Client – Loft Conversion - XXXXXX5247',
+        status: 'Success',
+        amount_usd: 37000.00
+      },
+      {
+        dateTime: 'February 20, 2024',
+        description: 'Payment from Client – Roof Repair - XXXXXX7641',
+        status: 'Success',
+        amount_usd: 12500.00
+      },
+      {
+        dateTime: 'February 15, 2024',
+        description: 'Payment from Client – Office Renovation - XXXXXX9528',
+        status: 'Success',
+        amount_usd: 16000.00
+      }
+    ]
   }
 ];
