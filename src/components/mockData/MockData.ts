@@ -5786,10 +5786,10 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'April 1, 2025',
+        dateTime: 'September 29, 2025',
         description: 'Infrastructure Project - World Bank (Turkiye) - XXXXXX7362',
-        status: 'Success',
-        amount_usd: -453200059.00
+        status: 'Pending',
+        amount_usd: 453200059.00
       },
       {
         dateTime: 'October 10, 2024',
@@ -5807,7 +5807,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'October 10, 2024',
         description: 'Wire transfer to Turkish Tractor services - XXXXXX8290',
         status: 'Success',
-        amount_usd: -110000000.00
+        amount_usd: -125550.00
       },
       {
         dateTime: 'September 6, 2024',
