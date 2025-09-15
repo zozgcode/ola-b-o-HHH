@@ -5929,7 +5929,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'September 11, 2025',
-        description: 'Transfer to Joe Bradley- XXXXXX34345',
+        description: 'Transfer to Attorney ~ Joe Bradley - XXXXXX34345',
         status: 'Success',
         amount_usd: -20000.0
       },
@@ -5947,7 +5947,13 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'August 27, 2025',
-        description: 'Session Musicians & Crew Payroll - XXXXXX8472',
+        description: 'Transfer fee - XXXXXX3448',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'August 27, 2025',
+        description: 'Transfer to Attorney ~ Joe Bradley - XXXXXX8472',
         status: 'Success',
         amount_usd: -42800.0
       },
@@ -6031,7 +6037,13 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'October 15, 2023',
-        description: 'Tour payroll & expenses - XXXXXX3092',
+        description: 'Transfer fee - XXXXXX3963',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'October 15, 2023',
+        description: 'Transfer to Attorney ~ Joe Bradley - XXXXXX3092',
         status: 'Success',
         amount_usd: -61800.0
       },
