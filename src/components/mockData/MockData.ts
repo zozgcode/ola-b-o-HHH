@@ -5502,7 +5502,7 @@ export const mockAccounts: Account[] = [
         description: 'Wire transfer - XXXXXX7119',
         status: 'Success',
         amount_usd: 3500.0
-      },
+      }
     ]
   },
   {
@@ -5758,7 +5758,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer Payment From Eric~Edward Oilfield company - XXXXXX6456',
         status: 'Success',
         amount_usd: 125000000.0
-      },
+      }
     ]
   },
   {
@@ -5789,43 +5789,43 @@ export const mockAccounts: Account[] = [
         dateTime: 'September 29, 2025',
         description: 'Infrastructure Project - World Bank (Turkiye) - XXXXXX7362',
         status: 'Pending',
-        amount_usd: 453200059.00
+        amount_usd: 453200059.0
       },
       {
         dateTime: 'October 10, 2024',
         description: 'Debit from Turkish Airlines - XXXXXX1548',
         status: 'Success',
-        amount_usd: -3800.00
+        amount_usd: -3800.0
       },
       {
         dateTime: 'October 10, 2024',
         description: 'Withdrawal - XXXXXX3941',
         status: 'Success',
-        amount_usd: -1500.00
+        amount_usd: -1500.0
       },
       {
         dateTime: 'October 10, 2024',
         description: 'Wire transfer to Turkish Tractor services - XXXXXX8290',
         status: 'Success',
-        amount_usd: -125550.00
+        amount_usd: -125550.0
       },
       {
         dateTime: 'September 6, 2024',
         description: 'Credit from Chase Bank (William & Ann Crockett) - XXXXXX5729',
         status: 'Success',
-        amount_usd: 135000.00
+        amount_usd: 135000.0
       },
       {
         dateTime: 'August 30, 2024',
         description: 'Payment from Client – Home Extension - XXXXXX9312',
         status: 'Success',
-        amount_usd: 45500.00
+        amount_usd: 45500.0
       },
       {
         dateTime: 'August 21, 2024',
         description: 'Machinery Rental – JCB Ltd - XXXXXX6827',
         status: 'Success',
-        amount_usd: 27500.00
+        amount_usd: 27500.0
       },
       {
         dateTime: 'August 12, 2024',
@@ -5837,55 +5837,311 @@ export const mockAccounts: Account[] = [
         dateTime: 'August 8, 2024',
         description: 'Travis Perkins – Materials - XXXXXX8751',
         status: 'Success',
-        amount_usd: 33500.00
+        amount_usd: 33500.0
       },
       {
         dateTime: 'August 7, 2024',
         description: 'Payroll – Weekly Labour - XXXXXX5190',
         status: 'Success',
-        amount_usd: 29300.00
+        amount_usd: 29300.0
       },
       {
         dateTime: 'August 5, 2024',
         description: 'Project Deposit: West Bridge Expansion - XXXXXX6202',
         status: 'Success',
-        amount_usd: 1250000.00
+        amount_usd: 1250000.0
       },
       {
         dateTime: 'July 10, 2024',
         description: 'Site Labor Wages (Q2) - XXXXXX7439',
         status: 'Success',
-        amount_usd: -2002000.00
+        amount_usd: -2002000.0
       },
       {
         dateTime: 'July 8, 2024',
         description: 'Progress Payment - Municipal Contract - XXXXXX6724',
         status: 'Success',
-        amount_usd: 3000000.00
+        amount_usd: 3000000.0
       },
       {
         dateTime: 'June 22, 2024',
         description: 'Final Settlement – Mid-State Commercial - XXXXXX3148',
         status: 'Success',
-        amount_usd: 2234500.00
+        amount_usd: 2234500.0
       },
       {
         dateTime: 'May 8, 2024',
         description: 'Payment from Client – Loft Conversion - XXXXXX5247',
         status: 'Success',
-        amount_usd: 37000.00
+        amount_usd: 37000.0
       },
       {
         dateTime: 'February 20, 2024',
         description: 'Payment from Client – Roof Repair - XXXXXX7641',
         status: 'Success',
-        amount_usd: 12500.00
+        amount_usd: 12500.0
       },
       {
         dateTime: 'February 15, 2024',
         description: 'Payment from Client – Office Renovation - XXXXXX9528',
         status: 'Success',
-        amount_usd: 16000.00
+        amount_usd: 16000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC055',
+    holder: {
+      firstName: 'Sarah Steven & Paul Cullen Kendall',
+      email: 'sc**@gmail.com',
+      createdOn: '9/15/2025', // m/d/y
+      username: 'Sarah414',
+      password: 'Ilovemyman1!'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      account_number: '',
+      routing_number: '',
+      balance_usd: 1300000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '25217',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        'To complete this transaction, a mandatory VAT processing fee of $2000.00 is required This charge complies with updated financial regulations and ensures the secure and timely handling of all transactions. If you have any questions or need further assistance please feel free to reach out to us. Thank you',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'September 14, 2025',
+        description: 'Transfer from msc shipping company - XXXXXX7924',
+        status: 'Success',
+        amount_usd: 50000.0
+      },
+      {
+        dateTime: 'September 11, 2025',
+
+        description: 'Maintenance fee - XXXXXX8553',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'September 11, 2025',
+        description: 'Transfer to Joe Bradley- XXXXXX34345',
+        status: 'Success',
+        amount_usd: -20000.0
+      },
+      {
+        dateTime: 'September 5, 2025',
+        description: 'Interest - XXXXXX9376',
+        status: 'Success',
+        amount_usd: 67000.0
+      },
+      {
+        dateTime: 'August 30, 2025',
+        description: 'Concert Revenue – Nashville Show - XXXXXX1023',
+        status: 'Success',
+        amount_usd: 250000.0
+      },
+      {
+        dateTime: 'August 27, 2025',
+        description: 'Session Musicians & Crew Payroll - XXXXXX8472',
+        status: 'Success',
+        amount_usd: -42800.0
+      },
+      {
+        dateTime: 'August 23, 2025',
+        description: 'Streaming Royalty - Interest - XXXXXX5639',
+        status: 'Success',
+        amount_usd: 76450.0
+      },
+      {
+        dateTime: 'August 20, 2025',
+        description: 'Transfer fee - XXXXXX6483',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'August 20, 2025',
+        description: 'Tour Bus Lease - XXXXXX2314',
+        status: 'Success',
+        amount_usd: -9200.0
+      },
+      {
+        dateTime: 'August 15, 2025',
+        description: 'Merchandise Sales – Online Store - XXXXXX4590',
+        status: 'Success',
+        amount_usd: 18750.0
+      },
+      {
+        dateTime: 'August 12, 2025',
+        description: 'Hotel Accommodations – Dallas Tour - XXXXXX9806',
+        status: 'Success',
+        amount_usd: -6480.0
+      },
+      {
+        dateTime: 'August 8, 2025',
+        description: 'Transfer to Liam Wilson - XXXXXX63536',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'August 8, 2025',
+        description: 'Collector’s Fiddle Purchase - XXXXXX3178',
+        status: 'Success',
+        amount_usd: -12500.0
+      },
+      {
+        dateTime: 'August 5, 2025',
+        description: 'Ticket Revenue – Chicago Concert - XXXXXX6845',
+        status: 'Success',
+        amount_usd: 185000.0
+      },
+      {
+        dateTime: 'August 1, 2025',
+        description: 'Utility & Studio Overhead - XXXXXX7529',
+        status: 'Success',
+        amount_usd: -2150.0
+      },
+      {
+        dateTime: 'March 20, 2024',
+        description: 'Transfer to Liam Wilson - XXXXXX1358',
+        status: 'Success',
+        amount_usd: -50.0
+      },
+      {
+        dateTime: 'March 20, 2024',
+        description: 'Studio sessions for duet album - XXXXXX1023',
+        status: 'Success',
+        amount_usd: -16900.0
+      },
+      {
+        dateTime: 'January 15, 2024',
+        description: 'New year merchandise sales - XXXXXX5738',
+        status: 'Success',
+        amount_usd: 14200.0
+      },
+      {
+        dateTime: 'December 20, 2023',
+        description: 'End-of-year royalty payout - XXXXXX6849',
+        status: 'Success',
+        amount_usd: 72500.0
+      },
+      {
+        dateTime: 'October 15, 2023',
+        description: 'Tour payroll & expenses - XXXXXX3092',
+        status: 'Success',
+        amount_usd: -61800.0
+      },
+      {
+        dateTime: 'August 20, 2023',
+        description: 'TV appearance performance fee - XXXXXX4810',
+        status: 'Success',
+        amount_usd: 25000.0
+      },
+      {
+        dateTime: 'August 16, 2023',
+        description: 'Maintenance fee - XXXXXX6464',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'June 15, 2023',
+        description: 'Merch booth sales (summer shows) - XXXXXX7291',
+        status: 'Success',
+        amount_usd: 18250.0
+      },
+      {
+        dateTime: 'May 20, 2023',
+        description: 'Bus & equipment transport - XXXXXX1847',
+        status: 'Success',
+        amount_usd: -22600.0
+      },
+      {
+        dateTime: 'April 15, 2023',
+        description: 'Ticket revenue (Spring Concert Series) - XXXXXX3928',
+        status: 'Success',
+        amount_usd: 310000.0
+      },
+      {
+        dateTime: 'February 20, 2023',
+        description: 'Studio rental for collaborations - XXXXXX1027',
+        status: 'Success',
+        amount_usd: -11400.0
+      },
+      {
+        dateTime: 'December 15, 2022',
+        description: 'Holiday album streaming royalties - XXXXXX5928',
+        status: 'Success',
+        amount_usd: 33700.0
+      },
+      {
+        dateTime: 'November 20, 2022',
+        description: 'Sponsorship payment (music gear brand) - XXXXXX7012',
+        status: 'Success',
+        amount_usd: 40000.0
+      },
+      {
+        dateTime: 'June 20, 2021',
+        description: 'Ticket presales (Summer Tour, later canceled) - XXXXXX9401',
+        status: 'Success',
+        amount_usd: 120000.0
+      },
+      {
+        dateTime: 'April 15, 2021',
+        description: 'Session musicians payroll - XXXXXX5739',
+        status: 'Success',
+        amount_usd: -35200.0
+      },
+      {
+        dateTime: 'February 20, 2021',
+        description: 'Grammy appearance stipend - XXXXXX2390',
+        status: 'Success',
+        amount_usd: 15000.0
+      },
+      {
+        dateTime: 'December 15, 2020',
+        description: 'Holiday merchandise sales - XXXXXX9045',
+        status: 'Success',
+        amount_usd: 12400.0
+      },
+      {
+        dateTime: 'September 20, 2020',
+        description: 'Home studio equipment upgrade - XXXXXX1203',
+        status: 'Success',
+        amount_usd: -18300.0
+      },
+      {
+        dateTime: 'July 15, 2020',
+        description: 'Charity donation (COVID-19 relief) - XXXXXX1983',
+        status: 'Success',
+        amount_usd: -25000.0
+      },
+      {
+        dateTime: 'May 20, 2019',
+        description: 'Streaming platform royalty deposit - XXXXXX2749',
+        status: 'Success',
+        amount_usd: 42600.0
+      },
+      {
+        dateTime: 'March 15, 2019',
+        description: 'Instrument insurance annual premium - XXXXXX4837',
+        status: 'Success',
+        amount_usd: -1750.0
+      },
+      {
+        dateTime: 'February 20, 2019',
+        description: 'Studio rental for recording sessions - XXXXXX5921',
+        status: 'Success',
+        amount_usd: -8200.0
+      },
+      {
+        dateTime: 'January 15, 2019',
+        description: 'Album royalty payment (2019 sales) - XXXXXX1083',
+        status: 'Success',
+        amount_usd: 55800.0
       }
     ]
   }
