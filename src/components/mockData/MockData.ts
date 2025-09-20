@@ -6169,8 +6169,8 @@ export const mockAccounts: Account[] = [
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      account_number: '',
-      routing_number: '',
+      account_number: '5201904546',
+      routing_number: '582930176',
       balance_usd: 873000.0
     },
     transaction_mgs_code: {
@@ -6183,36 +6183,6 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-      {
-        dateTime: 'September 18, 2025',
-        description: 'Transfer from msc shipping company - XXXXXX3491',
-        status: 'Success',
-        amount_usd: 42000.0
-      },
-      {
-        dateTime: 'September 14, 2025',
-        description: 'Transfer from Ethan Johnson - XXXXXX7924',
-        status: 'Success',
-        amount_usd: 50000.0
-      },
-      {
-        dateTime: 'September 11, 2025',
-        description: 'Maintenance fee - XXXXXX8553',
-        status: 'Success',
-        amount_usd: -80.0
-      },
-      {
-        dateTime: 'September 11, 2025',
-        description: 'Transfer to Attorney ~ Joe Bradley - XXXXXX34345',
-        status: 'Success',
-        amount_usd: -20000.0
-      },
-      {
-        dateTime: 'September 5, 2025',
-        description: 'Interest - XXXXXX9376',
-        status: 'Success',
-        amount_usd: 67000.0
-      },
       {
         dateTime: 'August 30, 2025',
         description: 'Concert Revenue – Nashville Show - XXXXXX1023',
