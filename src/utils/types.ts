@@ -31,6 +31,7 @@ export interface Account {
     transaction_code?: string;
     headerText?: string;
     lastStepText?: string;
+    thankYouText?: string;
     wireDate: boolean;
   };
   transaction_history: Transaction[];
